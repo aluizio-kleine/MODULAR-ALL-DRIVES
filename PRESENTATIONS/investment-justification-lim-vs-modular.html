@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modular All Drives vs LIM — Investment Justification | Manager Briefing</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface2: #21262d;
+    --border: #30363d;
+    --txt: #e6edf3;
+    --muted: #8b949e;
+    --accent: #2f81f7;
+    --accent-dim: #1f4d8f;
+    --green: #3fb950;
+    --green-dim: #1a4a21;
+    --amber: #d29922;
+    --amber-dim: #4d3800;
+    --red: #f85149;
+    --red-dim: #4d1515;
+    --purple: #a371f7;
+    --purple-dim: #3d1f6e;
+    --cyan: #39d3f2;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--txt);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* NAV */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(13,17,23,.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px;
+    display: flex; align-items: center; gap: 24px; height: 56px;
+  }
+  .nav-logo { font-weight: 700; font-size: 14px; color: var(--accent); letter-spacing: .03em; white-space: nowrap; }
+  .nav-links { display: flex; gap: 4px; flex-wrap: wrap; }
+  .nav-links a {
+    color: var(--muted); text-decoration: none; font-size: 12px;
+    padding: 5px 10px; border-radius: 6px; white-space: nowrap;
+    transition: background .15s, color .15s;
+  }
+  .nav-links a:hover { background: var(--surface2); color: var(--txt); }
+  .nav-date { margin-left: auto; font-size: 11px; color: var(--muted); white-space: nowrap; }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0d1117 0%, #0d1f3c 50%, #0d1117 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 80px 32px 64px;
+    text-align: center;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: rgba(47,129,247,.12); border: 1px solid rgba(47,129,247,.3);
+    color: var(--accent); font-size: 11px; font-weight: 600;
+    letter-spacing: .08em; text-transform: uppercase;
+    padding: 4px 14px; border-radius: 20px; margin-bottom: 20px;
+  }
+  .hero h1 { font-size: clamp(28px, 4vw, 48px); font-weight: 800; line-height: 1.2; margin-bottom: 16px; }
+  .hero h1 span { color: var(--accent); }
+  .hero-sub { font-size: 16px; color: var(--muted); max-width: 680px; margin: 0 auto 32px; }
+  .hero-chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+  .chip {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 14px; font-size: 12px; color: var(--muted);
+  }
+  .chip b { color: var(--txt); }
+
+  /* SECTIONS */
+  .section { max-width: 1080px; margin: 0 auto; padding: 64px 32px; }
+  .section + .section { border-top: 1px solid var(--border); }
+  .sec-label {
+    font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 8px;
+  }
+  h2 { font-size: clamp(20px, 3vw, 30px); font-weight: 700; margin-bottom: 12px; }
+  h3 { font-size: 17px; font-weight: 650; margin-bottom: 8px; }
+  .lead { font-size: 15px; color: var(--muted); max-width: 740px; margin-bottom: 32px; }
+
+  /* GRID + CARDS */
+  .grid { display: grid; gap: 16px; }
+  .grid-2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .grid-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px; }
+  .card-icon { font-size: 28px; margin-bottom: 12px; }
+  .card h3 { margin-bottom: 6px; }
+  .card p { font-size: 13.5px; color: var(--muted); margin-top: 6px; }
+
+  /* KPI ROW */
+  .kpi-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 40px; }
+  .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px 24px; flex: 1; min-width: 150px; }
+  .kpi-val { font-size: 30px; font-weight: 800; color: var(--accent); }
+  .kpi-val.green { color: var(--green); }
+  .kpi-val.amber { color: var(--amber); }
+  .kpi-lbl { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  /* TABLE */
+  .tbl-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead tr { background: var(--surface2); }
+  th { padding: 12px 14px; text-align: left; font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; }
+  td { padding: 11px 14px; border-top: 1px solid var(--border); vertical-align: middle; }
+  tr:hover td { background: var(--surface); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  th.num { text-align: right; }
+  tr.highlight td { background: rgba(47,129,247,.08); }
+  tr.highlight:hover td { background: rgba(47,129,247,.12); }
+  .badge { display: inline-block; font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+  .b-green { background: var(--green-dim); color: var(--green); border: 1px solid rgba(63,185,80,.25); }
+  .b-red { background: var(--red-dim); color: var(--red); border: 1px solid rgba(248,81,73,.25); }
+  .b-amber { background: var(--amber-dim); color: var(--amber); border: 1px solid rgba(210,153,34,.25); }
+  .b-blue { background: rgba(47,129,247,.12); color: var(--accent); border: 1px solid rgba(47,129,247,.3); }
+
+  /* CALLOUT */
+  .callout { border-left: 3px solid var(--accent); background: rgba(47,129,247,.07); border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 24px 0; font-size: 14px; }
+  .callout.green { border-color: var(--green); background: rgba(63,185,80,.07); }
+  .callout.amber { border-color: var(--amber); background: rgba(210,153,34,.07); }
+  .callout.red { border-color: var(--red); background: rgba(248,81,73,.07); }
+  .callout b { color: var(--txt); }
+
+  /* CAPACITY LADDER BARS */
+  .ladder { display: flex; flex-direction: column; gap: 10px; margin: 8px 0; }
+  .ladder-row { display: flex; align-items: center; gap: 12px; }
+  .ladder-lbl { font-size: 12px; width: 150px; flex-shrink: 0; color: var(--muted); }
+  .ladder-lbl b { color: var(--txt); }
+  .ladder-bar-bg { flex: 1; height: 22px; border-radius: 5px; background: var(--surface2); overflow: hidden; min-width: 120px; }
+  .ladder-bar { height: 100%; border-radius: 5px; background: linear-gradient(90deg, var(--accent-dim), var(--accent)); }
+  .ladder-bar.target { background: linear-gradient(90deg, var(--green-dim), var(--green)); }
+  .ladder-val { font-size: 12px; font-weight: 700; min-width: 96px; text-align: right; white-space: nowrap; }
+
+  /* BENEFITS */
+  .benefit-list { display: flex; flex-direction: column; gap: 14px; }
+  .benefit-item { display: flex; gap: 16px; align-items: flex-start; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; }
+  .benefit-icon { font-size: 22px; flex-shrink: 0; margin-top: 1px; }
+  .benefit-title { font-size: 14px; font-weight: 650; margin-bottom: 3px; }
+  .benefit-desc { font-size: 13px; color: var(--muted); }
+
+  /* FOOTER */
+  footer { text-align: center; padding: 40px 32px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; }
+  .disclaimer { font-size: 11px; color: var(--muted); max-width: 760px; margin: 16px auto 0; }
+
+  @media (max-width: 640px) {
+    .ladder-lbl { width: 110px; }
+    .nav-links { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">WEG · MODULAR ALL DRIVES</div>
+  <div class="nav-links">
+    <a href="#summary">Summary</a>
+    <a href="#decision">Why Not LIM</a>
+    <a href="#comparison">Comparison</a>
+    <a href="#scaling">Scaling to 900/day</a>
+    <a href="#economics">Economics</a>
+    <a href="#qualitative">Operational Gains</a>
+    <a href="#recommendation">Recommendation</a>
+  </div>
+  <div class="nav-date">Investment Justification · Jun 2026</div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-eyebrow">Capital Investment · Manager Briefing</div>
+  <h1>Why <span>Modular All Drives</span> — not LIM —<br>for the ORION test line</h1>
+  <p class="hero-sub">
+    LIM is cheaper per unit, but it physically cannot test the ORION product portfolio,
+    cannot reach the required current, and cannot scale to the forecast volume.
+    Modular All Drives is the only architecture that meets the Year-5 demand of ~900 products/day.
+  </p>
+  <div class="hero-chips">
+    <span class="chip">LIM base cost <b>R$1.2M</b></span>
+    <span class="chip">MAD base cost <b>~R$6M</b></span>
+    <span class="chip">Year-5 demand <b>~900/day</b></span>
+    <span class="chip">Load module <b>+137/day · R$1.65M</b></span>
+  </div>
+</header>
+
+<!-- EXECUTIVE SUMMARY -->
+<section class="section" id="summary">
+  <div class="sec-label">Executive Summary</div>
+  <h2>The decision in one screen</h2>
+  <p class="lead">
+    On sticker price, LIM wins. But the comparison that matters is "which system can actually
+    test ORION at the volume we have forecast." Only one can.
+  </p>
+
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-val">CFW900/11/500</div>
+      <div class="kpi-lbl">Product families LIM CANNOT test — MAD can</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val amber">39A → 60A</div>
+      <div class="kpi-lbl">Current capacity: LIM under-spec'd, MAD covers higher-power drives</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val green">959/day</div>
+      <div class="kpi-lbl">MAD capacity at full scale (7 load modules) vs LIM fixed at 288</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-val">R$12,044</div>
+      <div class="kpi-lbl">Marginal cost per product/day of an added load module — ~½ the base rate</div>
+    </div>
+  </div>
+
+  <div class="callout red">
+    <b>Bottom line:</b> To reach 900 products/day you would need 4 LIM systems (R$4.8M) — and they
+    <b>still could not test a single CFW900, CFW11 or CFW500.</b> So the real choice at target volume is
+    <b>Modular All Drives (works) vs LIM (impossible at any price).</b>
+  </div>
+</section>
+
+<!-- WHY NOT LIM -->
+<section class="section" id="decision">
+  <div class="sec-label">The Disqualifier</div>
+  <h2>Why LIM is not a real option</h2>
+  <p class="lead">
+    Three of LIM's limits are not about throughput or price — they are hard technical ceilings that
+    rule it out for the ORION program entirely.
+  </p>
+
+  <div class="grid grid-3">
+    <div class="card">
+      <div class="card-icon">🚫</div>
+      <h3>No portfolio coverage</h3>
+      <p>LIM cannot test CFW900, CFW11 or CFW500 — the core drives of the ORION program. No quantity of
+      LIM units changes this.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">⚡</div>
+      <h3>Under-rated current</h3>
+      <p>LIM tops out at ~39 A. The ORION-class drives require up to 60 A under load — beyond LIM's
+      electrical capability.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🧱</div>
+      <h3>Fixed, non-modular</h3>
+      <p>LIM is locked at 288/day with all three tests in one combined module. It cannot grow with
+      demand and the combined module is a single point of failure.</p>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="section" id="comparison">
+  <div class="sec-label">Side by Side</div>
+  <h2>LIM vs Modular All Drives</h2>
+  <p class="lead">Capability and architecture first; price last — because price only matters once both
+  systems can do the job.</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Criterion</th>
+          <th>LIM (existing)</th>
+          <th>Modular All Drives (new)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CFW900 / CFW11 / CFW500</td>
+          <td><span class="badge b-red">Not supported</span></td>
+          <td><span class="badge b-green">Supported</span></td>
+        </tr>
+        <tr>
+          <td>Current capacity</td>
+          <td><span class="badge b-amber">~39 A</span></td>
+          <td><span class="badge b-green">60 A</span></td>
+        </tr>
+        <tr>
+          <td>Fixture / product connection</td>
+          <td><span class="badge b-amber">Manual</span></td>
+          <td><span class="badge b-green">Automated electrical connection</span></td>
+        </tr>
+        <tr>
+          <td>Architecture</td>
+          <td>3 tests (hipot + functional + load) in 1 combined module</td>
+          <td>Separate modules: 1 hipot · 1 functional · 2 load (base)</td>
+        </tr>
+        <tr>
+          <td>Scalability</td>
+          <td><span class="badge b-red">Fixed</span> — 288/day, buy whole new systems</td>
+          <td><span class="badge b-green">Modular</span> — +137/day per load module</td>
+        </tr>
+        <tr>
+          <td class="num">Base throughput</td>
+          <td class="num">288 / day</td>
+          <td class="num">274 / day</td>
+        </tr>
+        <tr>
+          <td class="num">Max throughput</td>
+          <td class="num">288 / day (capped)</td>
+          <td class="num">959+ / day (7 load modules)</td>
+        </tr>
+        <tr>
+          <td class="num">Base cost</td>
+          <td class="num">R$1.20M</td>
+          <td class="num">~R$6.00M</td>
+        </tr>
+        <tr class="highlight">
+          <td class="num">Fit for ORION @ 900/day</td>
+          <td><span class="badge b-red">No — cannot test products</span></td>
+          <td><span class="badge b-green">Yes — scales to demand</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout amber">
+    <b>Anticipating the pushback:</b> "MAD is 5× the price and tests 14 fewer/day (274 vs 288)."
+    That holds only for the <b>base configuration</b> and only for products LIM can't run. MAD scales
+    to 959+/day; LIM is capped at 288 for the wrong product mix.
+  </div>
+</section>
+
+<!-- SCALING -->
+<section class="section" id="scaling">
+  <div class="sec-label">Capacity Planning</div>
+  <h2>Scaling to the Year-5 demand of ~900/day</h2>
+  <p class="lead">
+    Each load module adds <b>137 products/day</b> for <b>R$1.65M</b>. The base config's 274/day is
+    exactly 2 load modules (2 × 137). Capacity grows as a predictable ladder — you add modules only as
+    demand arrives.
+  </p>
+
+  <div class="ladder">
+    <div class="ladder-row">
+      <div class="ladder-lbl"><b>2 load</b> (base)</div>
+      <div class="ladder-bar-bg"><div class="ladder-bar" style="width:28.6%"></div></div>
+      <div class="ladder-val">274/day · R$6.00M</div>
+    </div>
+    <div class="ladder-row">
+      <div class="ladder-lbl"><b>3 load</b></div>
+      <div class="ladder-bar-bg"><div class="ladder-bar" style="width:42.9%"></div></div>
+      <div class="ladder-val">411/day · R$7.65M</div>
+    </div>
+    <div class="ladder-row">
+      <div class="ladder-lbl"><b>4 load</b></div>
+      <div class="ladder-bar-bg"><div class="ladder-bar" style="width:57.1%"></div></div>
+      <div class="ladder-val">548/day · R$9.30M</div>
+    </div>
+    <div class="ladder-row">
+      <div class="ladder-lbl"><b>5 load</b></div>
+      <div class="ladder-bar-bg"><div class="ladder-bar" style="width:71.4%"></div></div>
+      <div class="ladder-val">685/day · R$10.95M</div>
+    </div>
+    <div class="ladder-row">
+      <div class="ladder-lbl"><b>6 load</b></div>
+      <div class="ladder-bar-bg"><div class="ladder-bar" style="width:85.7%"></div></div>
+      <div class="ladder-val">822/day · R$12.60M</div>
+    </div>
+    <div class="ladder-row">
+      <div class="ladder-lbl"><b>7 load</b> (target)</div>
+      <div class="ladder-bar-bg"><div class="ladder-bar target" style="width:100%"></div></div>
+      <div class="ladder-val">959/day · R$14.25M</div>
+    </div>
+  </div>
+
+  <div class="callout green">
+    <b>~900/day requires 7 load modules → 959/day capacity (≈7% headroom) at R$14.25M total.</b>
+    With LIM you would buy 4 separate systems (R$4.8M) for 1,152/day — yet not one of them can test the
+    ORION drives. Modularity converts capital from a single up-front gamble into demand-paced steps.
+  </div>
+</section>
+
+<!-- ECONOMICS -->
+<section class="section" id="economics">
+  <div class="sec-label">The Economics</div>
+  <h2>Two financial advantages of modularity</h2>
+  <p class="lead">The headline price is higher, but the cost <em>structure</em> is materially better.</p>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <div class="card-icon">📉</div>
+      <h3>The marginal cost collapses</h3>
+      <p>Base system: R$6.0M ÷ 274 = <b>R$21,898</b> per product/day. An added load module: R$1.65M ÷ 137
+      = <b>R$12,044</b> per product/day — roughly <b>half</b>. The more you scale, the cheaper each unit
+      of capacity becomes. At full 959/day the blended rate is ~R$14,859 per product/day.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🗓️</div>
+      <h3>Capex follows demand</h3>
+      <p>Spend ~R$6M at launch, then add R$1.65M modules only as ORION volume ramps Y1→Y5. Capital stays
+      aligned with revenue instead of committing R$14.25M up front for capacity that sits idle for years.</p>
+    </div>
+  </div>
+
+  <div class="tbl-wrap" style="margin-top:24px">
+    <table>
+      <thead>
+        <tr>
+          <th>Cost-per-capacity metric</th>
+          <th class="num">LIM</th>
+          <th class="num">MAD base</th>
+          <th class="num">MAD added module</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Throughput added</td>
+          <td class="num">288/day</td>
+          <td class="num">274/day</td>
+          <td class="num">137/day</td>
+        </tr>
+        <tr>
+          <td>Cost</td>
+          <td class="num">R$1.20M</td>
+          <td class="num">R$6.00M</td>
+          <td class="num">R$1.65M</td>
+        </tr>
+        <tr class="highlight">
+          <td>Cost per product/day</td>
+          <td class="num">R$4,167*</td>
+          <td class="num">R$21,898</td>
+          <td class="num">R$12,044</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="disclaimer">* LIM's apparently low cost-per-capacity is for products it cannot actually test
+  (no CFW900/11/500, max 39 A), so it is not a usable capacity for the ORION program.</p>
+</section>
+
+<!-- QUALITATIVE -->
+<section class="section" id="qualitative">
+  <div class="sec-label">Beyond the Numbers</div>
+  <h2>Operational &amp; strategic gains</h2>
+
+  <div class="benefit-list">
+    <div class="benefit-item">
+      <div class="benefit-icon">🤖</div>
+      <div>
+        <div class="benefit-title">Automated electrical connection</div>
+        <div class="benefit-desc">Replaces LIM's manual fixture connection — improving cycle-time
+        repeatability, eliminating operator wiring errors, reducing labor cost, and removing manual
+        handling of energized fixtures (safety + ergonomics).</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">🧩</div>
+      <div>
+        <div class="benefit-title">Resilience through separate modules</div>
+        <div class="benefit-desc">If one load module is down for maintenance, the line keeps producing on
+        the others. LIM's combined hipot+functional+load module is a single point of failure — a fault
+        stops all testing.</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">🔮</div>
+      <div>
+        <div class="benefit-title">Future-proof for the portfolio</div>
+        <div class="benefit-desc">60 A capacity and CFW900/CFW11/CFW500 coverage mean the line supports
+        the current and next generation of drives — protecting the investment well beyond ORION.</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">📊</div>
+      <div>
+        <div class="benefit-title">No stranded capital</div>
+        <div class="benefit-desc">Capacity is purchased in R$1.65M increments matched to demand, avoiding
+        both over-investment (idle LIM units) and the under-capacity risk of a fixed system.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RECOMMENDATION -->
+<section class="section" id="recommendation">
+  <div class="sec-label">Recommendation</div>
+  <h2>Approve Modular All Drives</h2>
+  <div class="callout green">
+    <b>Recommendation:</b> Approve the Modular All Drives base system (~R$6M) for ORION launch, with a
+    pre-approved roadmap to add load modules (R$1.65M / +137 per day each) up to 7 modules
+    (959/day, R$14.25M) tracking the demand ramp to ~900/day by Year 5. LIM cannot test the ORION
+    portfolio at any quantity and is therefore excluded on technical grounds, independent of price.
+  </div>
+  <div class="grid grid-3" style="margin-top:8px">
+    <div class="card">
+      <div class="card-icon">①</div>
+      <h3>Launch</h3>
+      <p>Commission MAD base (1 hipot · 1 functional · 2 load) → 274/day, covering initial ORION volume.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">②</div>
+      <h3>Ramp (Y2–Y4)</h3>
+      <p>Add load modules incrementally as demand grows — each step +137/day for R$1.65M.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">③</div>
+      <h3>Year 5</h3>
+      <p>Reach 7 load modules → 959/day, fully covering the ~900/day forecast with headroom.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  WEG · Modular All Drives Program — Investment Justification (LIM vs Modular All Drives)<br>
+  Prepared June 2026 · Figures are planning estimates for internal decision support.
+</footer>
+
+</body>
+</html>
