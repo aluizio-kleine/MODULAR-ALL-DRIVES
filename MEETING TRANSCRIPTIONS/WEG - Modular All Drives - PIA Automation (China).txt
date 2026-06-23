@@ -1,0 +1,765 @@
+WEG - Modular All Drives - PIA Automation (China)-20260618_080214-Gravação de Reunião
+18 de junho de 2026, 11:02AM
+25m 36s
+
+Aluizio Augusto Kleine Kirschner começou a transcrição
+
+Aluizio Augusto Kleine Kirschner   0:04
+I was thinking about you guys, if you have any presentation from PL automation or something to show us before we start the meeting, just to introduce more about the PL automation work and what you can do.
+Thinking about automation, do you have any presentation? Just, just a briefing.
+
+Wang Abel Xiang   0:30
+Ohh.
+No, we just say we didn't do a PDF about PBT about the maybe next time, next meeting. The first time you can introduce some information, we have some question. Then next time we will do more information about the how to test and how to select the.
+Electrical, mechanical design about this next time, maybe.
+
+Aluizio Augusto Kleine Kirschner   1:01
+Okay, just a question before, do you guys work with automated assembly lines too, like robotics to assembly frequency inverters?
+
+Wang Abel Xiang   1:12
+Yes.
+Yes.
+We have a lot of experience about this, the automation.
+
+Aluizio Augusto Kleine Kirschner   1:17
+Okay.
+Okay.
+So, I'm gonna share my screen to talk about the test system, and then whenever you have a question, you can you can just question, OK?
+
+Wang Abel Xiang   1:36
+Okay, okay, thank you.
+
+Aluizio Augusto Kleine Kirschner   1:42
+So, can you see my screen?
+
+Wang Abel Xiang   1:44
+Yeah, yes.
+
+Aluizio Augusto Kleine Kirschner   1:47
+Okay, so me and my colleagues here, we work at the industrial engineer section here in WEG. So we develop test systems and assembly lines for the new products that are developed. So anytime that
+
+Wang Abel Xiang   1:54
+Mmh.
+
+Aluizio Augusto Kleine Kirschner   2:07
+The sales section demands new products. We prepare the factory to produce these new products.
+K.
+
+Wang Abel Xiang   2:17
+Okay.
+
+Aluizio Augusto Kleine Kirschner   2:19
+So here at WEG we have a lot of test systems, but none of them are fully automated. We have some manual test systems, some of them are kind of automated, but none of them have has automated electrical connections or
+conveyors moving the products through the factory. So this is a new concept for us and the importance of this project is because...
+Probably this concept will be applied worldwide. So we are going to implement this test system in China, in Italy, in Mexico, but the first one will be here in Brazil.
+
+Wang Abel Xiang   3:10
+Mhm.
+Okay.
+
+Aluizio Augusto Kleine Kirschner   3:12
+The concept is a modular test module, so whenever you need to to increase the the the increase the production, you just buy another module and then you plug in.
+On the other, on in the other module modules, and then you can increase your production just by new modules.
+
+Wang Abel Xiang   3:38
+Yes, understood.
+
+Aluizio Augusto Kleine Kirschner   3:39
+Oh.
+And this kind of test module is able to test a lot of types of projects, a lot of families of projects. So the concept here is to just customize the fixture or the palette.
+that the product is attached and the other parts of the module are standard. So they are all common.
+The unique difference is in the fixtures, OK?
+So, let's, let's...
+
+Wang Abel Xiang   4:17
+Okay.
+
+Aluizio Augusto Kleine Kirschner   4:19
+Let's think how this line works.
+In the first moment, you will have an assembly line where operators, or if we automate the line, will be automated. But let's think about manual assembly. So you will have operators assembling the projects here, and then...
+When the product is assembled, you just will attach the product to the fixture mechanically.
+And then...
+
+Wang Abel Xiang   4:55
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   4:57
+Our concept considers automated electrical connections between the project and the fixture. So that's why we will have in the beginning five types of fixtures, each one made for a specific project.
+And then the electrical connections between the the power connection and the and the...
+Control connections and the fixture will be automated, so we need to automatically connect the fixture to the product.
+
+Wang Abel Xiang   5:31
+Yes.
+
+Aluizio Augusto Kleine Kirschner   5:35
+Since this is done, the product will move into the test module. So here we will have like a door or a window or something that will open. And then when it opens, the product moves into the test module by the conveyor.
+
+Wang Abel Xiang   5:40
+Yeah, the question.
+
+Aluizio Augusto Kleine Kirschner   5:56
+And the concept here says that we will need.
+a conveyor for each test module. So the test module will have his own conveyor.
+
+Wang Abel Xiang   6:03
+Yeah.
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   6:11
+And then when the product is inside the test module, we need the conveyor to be free to other products flow through the test module to another test module. And this product under test will move backwards or upwards or depending
+It's open to you guys to decide it, but we were thinking about the product moving backward, and then when the product moves backward, it automatically connects to the test module.
+So...
+Every fixture will have a standard interface connection to connect with the test modules.
+OK, so the the the.
+
+Wang Abel Xiang   6:55
+Yes, I understand.
+
+Aluizio Augusto Kleine Kirschner   6:58
+Yeah, the connection between the fixture and the test module will always be the same, always the same pattern, always the same interface.
+
+Wang Abel Xiang   7:06
+Yes, yeah.
+
+Aluizio Augusto Kleine Kirschner   7:09
+So when the product moves backwards and it's under test, the conveyor is free. If another product is in the line, it can move through the module and pass through the other test modules.
+K.
+
+Wang Abel Xiang   7:28
+Okay, problem.
+
+Aluizio Augusto Kleine Kirschner   7:34
+Any questions here?
+
+Wang Abel Xiang   7:36
+No.
+This is a convey is a very common.
+
+Aluizio Augusto Kleine Kirschner   7:38
+Okay.
+
+Wang Abel Xiang   7:41
+Okay.
+
+Aluizio Augusto Kleine Kirschner   7:43
+Okay.
+So...
+Um...
+The modules that we we will.
+We are looking for the high pot test module, the functional test module, and the low test module. For the high pot test module, we are going to test the insulation between the power connections and the ground of the product, so it's just a high pot.
+
+Wang Abel Xiang   7:57
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   8:10
+Um...
+Power source that we will need it in on this in this in this test module, and the test time for this one is about 3 seconds to 60 seconds, so it's very fast.
+
+Wang Abel Xiang   8:30
+OK, yeah, we have a question: How many, how many groups, because you you see our and the grant, how many groups appears to connect? Yeah.
+Connected to the part to the product.
+
+Aluizio Augusto Kleine Kirschner   8:49
+How many, how many pads? How many?
+
+Wang Abel Xiang   8:52
+Miss, just uh, because when mechanic design will have um to use a to.
+To to raise the the pin to the pin the part product.
+
+Aluizio Augusto Kleine Kirschner   9:07
+Yeah, yeah, I got it.
+
+Wang Abel Xiang   9:11
+So...
+
+Aluizio Augusto Kleine Kirschner   9:11
+Let me show you.
+
+Wang Abel Xiang   9:15
+Yeah, we'll have to decide how many groups and use how many sign-in to.
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   9:24
+You are talking about it?
+
+Wang Abel Xiang   9:25
+Yeah, yeah, yeah, OK.
+
+Aluizio Augusto Kleine Kirschner   9:27
+Okay, so this is just an example of a product that will be tested on these test modules. So this is the power connections. These are the control connections. And here we have the upper side view from the power connections and the control connections here.
+
+Wang Abel Xiang   10:03
+Yeah, yes, it will.
+
+Aluizio Augusto Kleine Kirschner   10:04
+I can send you later these images to the quotation.
+Okay.
+
+Wang Abel Xiang   10:13
+Yeah, yes, yeah, I just want to know the details about it here.
+
+Aluizio Augusto Kleine Kirschner   10:17
+Okay.
+
+Wang Abel Xiang   10:18
+Every PS2 to high pot test.
+
+Aluizio Augusto Kleine Kirschner   10:22
+Yeah, for the hypothesis, you don't need to connect the control, the control connections, you just need to connect the power connections.
+
+Wang Abel Xiang   10:32
+Okay, okay, I understand.
+
+Aluizio Augusto Kleine Kirschner   10:33
+But for the for the functional test, you need to to connect the control part.
+
+Wang Abel Xiang   10:35
+You say?
+
+Aluizio Augusto Kleine Kirschner   10:40
+Okay.
+
+Wang Abel Xiang   10:41
+Okay.
+
+Aluizio Augusto Kleine Kirschner   10:45
+So.
+
+Wang Abel Xiang   10:45
+But what about the high voltage?
+
+Aluizio Augusto Kleine Kirschner   10:50
+Uh...
+How many do you are you talking about the the voltage?
+
+Wang Abel Xiang   10:55
+A voltage, yes.
+
+Aluizio Augusto Kleine Kirschner   10:59
+Yeah.
+
+Wang Abel Xiang   10:59
+Massage.
+
+Aluizio Augusto Kleine Kirschner   11:02
+It is on the test specification, but I will open it here.
+
+Wang Abel Xiang   11:02
+Ohh, so...
+Yeah, I see the 4K, yeah, yes, the maximum 4K.
+
+Aluizio Augusto Kleine Kirschner   11:12
+Four kilovolts.
+Yeah, this is the volish.
+
+Wang Abel Xiang   11:20
+Okay, okay, okay, I know I know how to just select the high voltage.
+
+Aluizio Augusto Kleine Kirschner   11:24
+The.
+Yeah.
+So, about the functional test module.
+This module will test all the functions of the product and measurements that needs to be done, like voltage measurement, current measurement, energization.
+
+Raphael Franklim Oliveira Ferreira   11:35
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   11:50
+The test of the IOs, so all the functions on of the product will be tested on this module.
+In this module.
+
+Wang Abel Xiang   11:58
+Mm.
+They opened.
+
+Aluizio Augusto Kleine Kirschner   12:02
+That.
+
+Wang Abel Xiang   12:04
+Okay.
+
+Aluizio Augusto Kleine Kirschner   12:04
+The test time here is about 1 1/2 minutes to 7 minutes. So it depends of the product, but it's kind of fast too.
+And then the low test module, this is the slowest module compared to the two other ones. And it takes about 6 minutes to 20 minutes to make a full test. So one hype.
+and one functional test modules can support 3, 4, 5 load test modules. That's why we need the conveyor free to the products flow through and then do some parallel tests in the end of the line. Or if we need to increase the line and we need another functional test module.
+The conveyor will not be a problem to us because when a product is under test, the conveyor will be free to the products flow through.
+Okay.
+
+Wang Abel Xiang   13:09
+Okay, yeah. I have some question about the function tester. Can we open the PDF like the test sequence?
+
+Aluizio Augusto Kleine Kirschner   13:20
+Okay.
+
+Wang Abel Xiang   13:20
+Yeah, yeah, yeah, yeah, yeah.
+Yeah, the first of all, we need a variance system to monitor the HMI.
+
+Aluizio Augusto Kleine Kirschner   13:31
+I didn't understand. Can you repeat, please?
+
+Wang Abel Xiang   13:35
+Okay.
+Uhh.
+The first one is the external estimate of the control validation measurement of the operation of the HMI.
+
+Aluizio Augusto Kleine Kirschner   13:46
+Here, yeah.
+
+Wang Abel Xiang   13:47
+Yeah, yeah, here we, we use the Wagger PLC to control the control the the model.
+To say the say the HMI the some some screen give.
+
+Julio Cesar Pedroso   13:57
+Yeah.
+Mm.
+No, no, no, it's not necessary to control the HMI. The PLC has full possibility to control the product by RS485 communication protocol using Modibus protocol. You can use the PLC
+
+Aluizio Augusto Kleine Kirschner   14:02
+Yeah, you.
+
+Julio Cesar Pedroso   14:20
+to communicate with the product and control the product. The HMI is not necessary to check or validate the HMI. HMI is not considered for this testing procedure, right, Mr. Luiz?
+Or consider something any test for HMI? No, no, no test for HMI. Just the PLC can control the products and the other system. You can use the PLC to control the products.
+
+Aluizio Augusto Kleine Kirschner   14:35
+Right.
+No, no.
+
+Wang Abel Xiang   14:39
+No, OK.
+
+Aluizio Augusto Kleine Kirschner   14:46
+Yeah.
+
+Wang Abel Xiang   14:47
+SPLC to control the product. OK, once clear.
+
+Aluizio Augusto Kleine Kirschner   14:50
+Yeah, and this PLC don't need to be the WAC PLC. We suggest it because we prefer it, but if you don't work with WAC PLC, it's okay for us to be open for other.
+other brands.
+
+Wang Abel Xiang   15:08
+OK, OK, maybe we just normally we use the same as you see.
+
+Aluizio Augusto Kleine Kirschner   15:14
+Okay, just make it clear on the quotation.
+
+Julio Cesar Pedroso   15:14
+See you.
+
+Wang Abel Xiang   15:20
+Okay, another thing is about a test like the
+A series of 485 communication is OK, and what about the USB port? How do we test and I as not a port? How do we test?
+
+Aluizio Augusto Kleine Kirschner   15:38
+It's kind of the same way you test the RS485 communication because you are going to send a command to the drive under test and then you will receive a response. So
+
+Julio Cesar Pedroso   15:57
+But maybe this is necessary to use a computer for testing this portion, Mister.
+
+Wang Abel Xiang   15:59
+Okay.
+
+Aluizio Augusto Kleine Kirschner   16:02
+Yeah.
+
+Julio Cesar Pedroso   16:03
+because a USB port needs a host and the computer will be the host. I don't know, maybe you have to consider a computer for testing this USB port. Maybe we can discuss a little later and if is it really necessary to test this port.
+
+Wang Abel Xiang   16:20
+Okay.
+Okay, maybe later you will.
+
+Julio Cesar Pedroso   16:25
+In details, we in the in the details will be defined later, not not spark, right? Just from checking the idea, the main idea of our testing.
+
+Wang Abel Xiang   16:34
+Okay, I understand.
+
+Aluizio Augusto Kleine Kirschner   16:36
+Yeah, it's important to make it clear. We are just looking for a target budget now. So we are talking to a lot of suppliers. And then we are just looking for the target price now. We don't need some
+
+Wang Abel Xiang   16:46
+Okay, okay.
+
+Aluizio Augusto Kleine Kirschner   16:54
+detailing now because it takes time. So just an estimation of the budget we need. And that's why you don't need to be to enter in some details now in this quotation. Later, if we move on with the project with you guys, then we can detail it.
+
+Wang Abel Xiang   16:56
+Okay, I understand.
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   17:14
+And then we can share all the knowledge about the test sequence, because we know that it is so specific, and we need to collaborate to make it work.
+
+Wang Abel Xiang   17:18
+Yeah.
+Okay, okay, no problem.
+
+Aluizio Augusto Kleine Kirschner   17:30
+Okay.
+
+Wang Abel Xiang   17:32
+OK.
+
+Aluizio Augusto Kleine Kirschner   17:33
+More questions?
+
+Wang Abel Xiang   17:35
+Hmm, and no.
+I know.
+
+Aluizio Augusto Kleine Kirschner   17:39
+David, do you have any questions?
+
+Wang Abel Xiang   17:40
+Yeah.
+
+Cui David Qingjun   17:44
+No.
+Not yet.
+Total child.
+
+Aluizio Augusto Kleine Kirschner   17:50
+Okay.
+So...
+
+Wang Abel Xiang   17:51
+No.
+
+Aluizio Augusto Kleine Kirschner   17:55
+My friend here, Franklin, and...
+
+Wang Abel Xiang   17:57
+Oh, yeah, oh, oh, oh, so excuse me. Another question is about the...
+The load tester.
+
+Aluizio Augusto Kleine Kirschner   18:08
+Okay.
+
+Wang Abel Xiang   18:08
+But we heated the temperature about 50 temperature, 50 temperature.
+Yeah, yeah.
+
+Aluizio Augusto Kleine Kirschner   18:15
+Yeah, 50 degrees.
+
+Wang Abel Xiang   18:20
+So, it is the maximum temperature.
+
+Raphael Franklim Oliveira Ferreira   18:20
+Fixed, fixed, right?
+
+Aluizio Augusto Kleine Kirschner   18:23
+Is the maximum right?
+
+Wang Abel Xiang   18:24
+That is, yeah, OK, OK, because we have we have to select the the the the temperature around to control the control the temperature.
+To the next year, OK.
+
+Aluizio Augusto Kleine Kirschner   18:38
+Yeah, yeah.
+
+Julio Cesar Pedroso   18:38
+Okay, I got it.
+
+Wang Abel Xiang   18:44
+Yeah, no problem.
+
+Aluizio Augusto Kleine Kirschner   18:47
+That's it.
+
+Wang Abel Xiang   18:49
+Yes, okay, I understand.
+
+Aluizio Augusto Kleine Kirschner   18:54
+Any other question, Abel?
+
+Wang Abel Xiang   18:57
+No, maybe that's enough for the to do the budget.
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   19:02
+Okay.
+
+Aluizio Augusto Kleine Kirschner   19:04
+Okay.
+So my friend here, Franklin, he is doing the project of the assembly line automated with Alison. Alison is not in the meeting, but Franklin can talk about it. So we were looking for three.
+Quotations now, so he will send you later the scope of the specification of the assembly line, but in the beginning here we are talking just the test system, but we will want the quotation of the test system, the quotation of the assembly line, and a quotation of the...
+full line with the assembly and the testing system together. So it will be 3 quotations.
+and they are going to send you later the specification of the assembly line. Do you ever work with PCB assembly?
+
+Wang Abel Xiang   20:09
+Yes.
+
+Aluizio Augusto Kleine Kirschner   20:09
+Like assembling a PCB into a product.
+
+Raphael Franklim Oliveira Ferreira   20:13
+Hello, hello guys. Good evening for you. Sorry I have been late for this meeting, but I got some conversation. For the product, we have one demand that is we want to...
+
+Wang Abel Xiang   20:13
+Yes.
+The.
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   20:33
+automate our process. So we have a lot of steps to assemble. You know, some drives, how to assemble it. We have the PCB, the mechanical part, the plastic part, the head sink to assembly, the head sink to apply the...
+Thermal paste, so all these these steps we would like to create a code to check if it's possible to automate the whole process, you know, so as soon as possible, Mister Allison will send you.
+the scope with some details of the drive and the size, something like that, okay?
+
+Wang Abel Xiang   21:20
+Okay.
+
+Cui David Qingjun   21:23
+Okay.
+
+Wang Abel Xiang   21:24
+Okay, I understand.
+
+Raphael Franklim Oliveira Ferreira   21:26
+For the drives assembling, do you have any example to us or any similar process that you applied?
+And if it's possible, you could share with us.
+
+Wang Abel Xiang   21:39
+I see your mom.
+Can that be a farmer?
+
+Cui David Qingjun   21:45
+Play.
+
+Wang Abel Xiang   21:46
+You will repeat that, just enough.
+
+Cui David Qingjun   21:46
+Maybe later we can share with you. Currently I don't have, maybe I have to connect later.
+
+Raphael Franklim Oliveira Ferreira   21:52
+Okay, okay, don't worry, don't worry, you can send to us by email.
+
+Cui David Qingjun   21:53
+Yeah, yeah.
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   21:58
+Perfect, okay.
+
+Aluizio Augusto Kleine Kirschner   22:03
+Okay, that's it. Do you have any questions more, Abel or David?
+
+Wang Abel Xiang   22:11
+No, maybe we will, as soon as possible, give you the quarter and then the budget, yeah.
+
+Cui David Qingjun   22:12
+No.
+
+Aluizio Augusto Kleine Kirschner   22:18
+Yeah, oh, the deadline for this project will be by the end of the next year, so by the end of 2027. And the quotation we are looking for as soon as possible. So to select the supplier and then move on the project.
+
+Cui David Qingjun   22:20
+So.
+
+Raphael Franklim Oliveira Ferreira   22:38
+To align the quotes to create more specific details about the project.
+Andaluiso, did you ask the guys about the support in Brazil, how it works?
+
+Wang Abel Xiang   22:45
+One.
+
+Aluizio Augusto Kleine Kirschner   22:50
+Yeah.
+Yeah, so for you guys, it's fine to commission the test system here in Brazil.
+
+Raphael Franklim Oliveira Ferreira   22:53
+Okay, okay.
+
+Aluizio Augusto Kleine Kirschner   23:03
+To make this startup here in Brazil.
+
+Cui David Qingjun   23:04
+Yeah, we can. Yeah, yeah, yeah.
+
+Wang Abel Xiang   23:06
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   23:08
+And about the support after the line is implemented.
+
+Raphael Franklim Oliveira Ferreira   23:08
+Good.
+
+Wang Abel Xiang   23:09
+Okay.
+
+Cui David Qingjun   23:14
+We can call that, we can call the site commissioning and the like production support, yes.
+
+Raphael Franklim Oliveira Ferreira   23:17
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   23:21
+Okay.
+
+Raphael Franklim Oliveira Ferreira   23:21
+OK, do you have guys any projects in Latin America or in?
+
+Cui David Qingjun   23:28
+Yeah, actually we had the project in Brazil, yeah.
+
+Raphael Franklim Oliveira Ferreira   23:32
+Nice.
+
+Cui David Qingjun   23:33
+Yes.
+
+Aluizio Augusto Kleine Kirschner   23:33
+Okay.
+
+Raphael Franklim Oliveira Ferreira   23:35
+It looks nice, okay.
+
+Aluizio Augusto Kleine Kirschner   23:35
+Can you share where is the location? What is the factory?
+
+Cui David Qingjun   23:40
+Uh, yeah.
+
+Raphael Franklim Oliveira Ferreira   23:40
+The solution.
+
+Cui David Qingjun   23:43
+Yeah, I think I have to find out the location. But I see in Brazil. Yeah, near the, I think near the capital. I think near the capital of the, yeah, yeah.
+
+Aluizio Augusto Kleine Kirschner   23:53
+Okay.
+
+Raphael Franklim Oliveira Ferreira   23:55
+Uh-huh.
+
+Aluizio Augusto Kleine Kirschner   23:56
+Okay.
+
+Raphael Franklim Oliveira Ferreira   23:59
+And what is the solution? It's automated solution, it's assembling solution.
+
+Cui David Qingjun   24:03
+Yeah, it's a, yeah, automatic assembly machine for the connectors.
+
+Raphael Franklim Oliveira Ferreira   24:10
+Okay, got it, got it.
+
+Aluizio Augusto Kleine Kirschner   24:12
+Connectors.
+
+Cui David Qingjun   24:12
+Yeah, fully automation, yeah.
+
+Aluizio Augusto Kleine Kirschner   24:16
+Okay.
+
+Raphael Franklim Oliveira Ferreira   24:16
+Okay, okay, looks nice.
+
+Cui David Qingjun   24:19
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   24:23
+So I appreciate your time, David and Abel. If you have any other question after this meeting to make the quotation, please feel free to ask in the email and we will wait for...
+
+Cui David Qingjun   24:32
+Mhm.
+Okay, so at this stage we only offer you the quotation, right? So you only need the battery price now.
+
+Raphael Franklim Oliveira Ferreira   24:42
+Mm.
+Yes, yes.
+
+Aluizio Augusto Kleine Kirschner   24:45
+Yeah.
+
+Cui David Qingjun   24:46
+Okay, okay, got it.
+
+Wang Abel Xiang   24:51
+Last Monday.
+
+Aluizio Augusto Kleine Kirschner   24:52
+That's it.
+
+Cui David Qingjun   24:52
+Oh.
+
+Wang Abel Xiang   24:54
+Or maybe...
+
+Cui David Qingjun   24:56
+Yeah, we'll try our best maybe next week.
+
+Wang Abel Xiang   24:56
+Okay.
+
+Raphael Franklim Oliveira Ferreira   25:00
+Okay.
+
+Wang Abel Xiang   25:00
+Yeah, nice to welcome.
+
+Aluizio Augusto Kleine Kirschner   25:00
+Okay.
+
+Cui David Qingjun   25:01
+To give you the offer, yeah.
+
+Aluizio Augusto Kleine Kirschner   25:03
+Okay.
+
+Cui David Qingjun   25:05
+Yeah, because you know we have three days holiday in the next three days, so maybe probably next week.
+
+Aluizio Augusto Kleine Kirschner   25:05
+So.
+
+Raphael Franklim Oliveira Ferreira   25:14
+Okay, don't worry.
+
+Aluizio Augusto Kleine Kirschner   25:14
+Okay, it sounds good.
+
+Cui David Qingjun   25:14
+Will start to generate the quotation, yeah, yeah.
+
+Aluizio Augusto Kleine Kirschner   25:18
+Sounds good.
+
+Cui David Qingjun   25:19
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   25:21
+So, thank you guys.
+
+Wang Abel Xiang   25:24
+Yes, thank you.
+
+Aluizio Augusto Kleine Kirschner   25:24
+See you.
+
+Cui David Qingjun   25:24
+Yeah, thank you.
+
+Raphael Franklim Oliveira Ferreira   25:25
+That's it. Cheers, guys. Bye bye.
+
+Julio Cesar Pedroso   25:26
+Thank you guys. Enjoy your weekend and the holidays. Bye bye. Alrighty. Thank you. Bye.
+
+Carlos Roberto de Andrade   25:28
+Bye, bye. Thank you.
+
+Cui David Qingjun   25:30
+Yeah, thank you, bye-bye.
+
+Aluizio Augusto Kleine Kirschner   25:31
+Right.
+
+Wang Abel Xiang parou a transcrição

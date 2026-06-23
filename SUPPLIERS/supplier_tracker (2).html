@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modular All Drives — Supplier Follow-up Tracker</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#181b22; --card2:#1f232c; --line:#2b303b;
+    --txt:#e7eaf0; --mut:#9aa3b2; --accent:#3b82f6; --accent2:#1d4ed8;
+    --green:#22c55e; --amber:#f59e0b; --red:#ef4444; --grey:#6b7280;
+    --chip:#262b35;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
+  header{padding:24px 28px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:10}
+  h1{margin:0;font-size:20px;font-weight:650}
+  .sub{color:var(--mut);font-size:13px;margin-top:4px}
+  .bar{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;align-items:center}
+  .pill{background:var(--chip);border:1px solid var(--line);border-radius:20px;padding:5px 12px;font-size:12px;color:var(--mut);cursor:pointer;user-select:none}
+  .pill.active{background:var(--accent2);border-color:var(--accent);color:#fff}
+  .counts{margin-left:auto;display:flex;gap:14px;font-size:12px;color:var(--mut)}
+  .counts b{color:var(--txt)}
+  main{padding:20px 28px 80px;max-width:1100px;margin:0 auto}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:14px;overflow:hidden}
+  .chead{display:flex;align-items:center;gap:12px;padding:14px 18px;cursor:pointer}
+  .chead:hover{background:var(--card2)}
+  .name{font-weight:650;font-size:15px}
+  .meta{color:var(--mut);font-size:12px}
+  .spacer{flex:1}
+  .status{font-size:11px;font-weight:600;padding:4px 10px;border-radius:20px;white-space:nowrap}
+  .s-wait{background:rgba(245,158,11,.15);color:var(--amber)}
+  .s-action{background:rgba(239,68,68,.15);color:var(--red)}
+  .s-done{background:rgba(34,197,94,.15);color:var(--green)}
+  .s-alisson{background:rgba(168,85,247,.18);color:#c084fc}
+  .s-sched{background:rgba(59,130,246,.18);color:#60a5fa}
+  .next{font-size:12px;color:var(--txt);background:var(--chip);border:1px solid var(--line);padding:3px 9px;border-radius:8px;max-width:340px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .arrow{color:var(--mut);transition:transform .15s;font-size:12px}
+  .card.open .arrow{transform:rotate(90deg)}
+  .body{display:none;padding:4px 18px 18px;border-top:1px solid var(--line)}
+  .card.open .body{display:block}
+  .sec{margin-top:14px}
+  .sec h4{margin:0 0 6px;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--mut)}
+  ul{margin:0;padding-left:18px}
+  li{margin:3px 0;font-size:13.5px}
+  .todo{list-style:none;padding:0}
+  .todo li{display:flex;gap:9px;align-items:flex-start;padding:6px 0;border-bottom:1px solid var(--line)}
+  .todo li:last-child{border-bottom:none}
+  .todo input{margin-top:3px;width:16px;height:16px;accent-color:var(--green);cursor:pointer;flex-shrink:0}
+  .todo label{cursor:pointer;flex:1}
+  .todo li.checked label{text-decoration:line-through;color:var(--mut)}
+  .del{background:none;border:none;color:var(--grey);cursor:pointer;font-size:15px;padding:0 4px;flex-shrink:0;line-height:1;opacity:.55}
+  .del:hover{color:var(--red);opacity:1}
+  .addrow{display:flex;gap:8px;margin-top:10px}
+  .addrow input{flex:1;background:var(--card2);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px;font-family:inherit}
+  .addbtn{background:var(--accent2);border:1px solid var(--accent);color:#fff;border-radius:8px;padding:8px 14px;font-size:13px;cursor:pointer;white-space:nowrap}
+  .addbtn:hover{background:var(--accent)}
+  .ctrls{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;align-items:center}
+  select,textarea{background:var(--card2);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px;font-family:inherit}
+  select{cursor:pointer}
+  textarea{width:100%;min-height:60px;resize:vertical;margin-top:6px}
+  .lbl{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
+  .tag{display:inline-block;font-size:11px;background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--mut);margin:2px 4px 2px 0}
+  .saveflash{font-size:11px;color:var(--green);opacity:0;transition:opacity .3s}
+  .saveflash.show{opacity:1}
+  footer{color:var(--mut);font-size:11px;text-align:center;padding:0 28px 40px}
+  a{color:#60a5fa}
+</style>
+</head>
+<body>
+<header>
+  <h1>Modular All Drives — Supplier Follow-up Tracker</h1>
+  <div class="sub">EOL test system (hipot · functional · load) for WEG VFDs · Aluizio Kleine, Industrial Engineering</div>
+  <div class="bar">
+    <span class="pill active" data-f="all">All</span>
+    <span class="pill" data-f="action">⚠ I must act</span>
+    <span class="pill" data-f="wait">⏳ Waiting on them</span>
+    <span class="pill" data-f="sched">📅 To schedule</span>
+    <span class="pill" data-f="alisson">🟣 Alissonn must act</span>
+    <span class="pill" data-f="done">✓ Done</span>
+    <div class="counts" id="counts"></div>
+  </div>
+</header>
+<main id="list"></main>
+<footer>
+  Statuses, checkboxes and notes save automatically and persist across sessions on this device.
+  <span class="saveflash" id="flash">saved ✓</span>
+</footer>
+
+<script>
+const SUPPLIERS = [
+  {
+    id:"comau", name:"Comau", meta:"Met Thu 11 Jun · Italy",
+    status:"wait",
+    next:"Wait for quotation",
+    notes:"",
+    todos:[
+      {t:"Receive quotation from Comau", d:false}
+    ],
+    context:[
+      "First meeting held Thursday 11 June.",
+      "Currently in the quotation phase — nothing pending on your side.",
+      "If no quote arrives within ~2 weeks of the meeting, send a polite follow-up."
+    ],
+    expect:["Quotation"]
+  },
+  {
+    id:"autec", name:"Autec", meta:"Met Mon 15 Jun",
+    status:"wait",
+    next:"Wait for quotation",
+    notes:"",
+    todos:[
+      {t:"Receive quotation from Autec", d:false}
+    ],
+    context:[
+      "Second meeting held Monday 15 June.",
+      "In quotation phase — nothing pending on your side.",
+      "Follow up if the quote is not received in a reasonable window."
+    ],
+    expect:["Quotation"]
+  },
+  {
+    id:"develop", name:"Develop LLC", meta:"Met Mon 15 Jun · Chicago area (Matt Moseman)",
+    status:"done",
+    next:"Process ended — disqualification email sent (Brazil constraint)",
+    notes:"",
+    todos:[
+      {t:"[DONE] Sent polite disqualification email — Brazil commissioning/support is mandatory and Develop cannot provide it", d:true},
+    ],
+    context:[
+      "Process ended 2026-06-18.",
+      "Matt sent a follow-up email after receiving the scope: 'My biggest concern is that this needs to be delivered to Brazil. How do we want to handle that process since DEVELOP does not install machines in Brazil? Do you have a US facility we could ship to can perform SAT?'",
+      "This confirmed the Brazil constraint is a hard disqualifier — WEG has no US facility for SAT.",
+      "Disqualification email sent by Aluizio: thanked Matt, explained Brazil commissioning and ongoing support are mandatory requirements, politely closed the process. Left the door open for future North America plant expansions.",
+      "Technical fit was actually very strong — pogo-pin / pneumatic clamping experience, 'drop-the-shuttle' motion concept, fire suppression knowledge. Worth revisiting if WEG expands to USA/Canada facilities.",
+      "Their 'dedicated Brazil team' alternative (all costs to WEG) was not pursued."
+    ],
+    expect:["CLOSED — no quotation requested"]
+  },
+  {
+    id:"mondragon", name:"Mondragon", meta:"Met Tue 16 Jun · Spain",
+    status:"wait",
+    next:"Wait for quotation",
+    notes:"",
+    todos:[
+      {t:"Receive quotation from Mondragon", d:false}
+    ],
+    context:[
+      "Fourth meeting held Tuesday 16 June.",
+      "In quotation phase — nothing pending on your side."
+    ],
+    expect:["Quotation"]
+  },
+  {
+    id:"masmec", name:"MASMEC", meta:"Met Tue 16 Jun · Bari, Italy (Stefano Piccinno)",
+    status:"alisson",
+    next:"Alissonn to send assembly scope · await quotation",
+    notes:"",
+    todos:[
+      {t:"ANSWER STEFANO'S EMAIL: send one test prescription per module (hipot / functional / load) so he can estimate. He needs: Hipot AC vs DC, test voltage, max allowed leakage current; functional test details; load test details", d:true},
+      {t:"Confirm in writing whether WEG supplies its own PLC (you/Raphael said WEG supplies PLCs, drives & safety HW from WEG portfolio — Stefano normally builds with Siemens)", d:true},
+      {t:"Track Stefano's open items: active load capability (R&D check), regenerative/electronic AC load capability, non-LabVIEW languages (C#/Python/Java)", d:false},
+      {t:"Alissonn & Franklim — send assembly-line scope by email", d:false},
+      {t:"Receive quotation from MASMEC", d:false}
+    ],
+    context:[
+      "Bari, Italy — 44,000 m² plant, ~300 employees, ~84% automation, all machines built in Italy (confirmed). Has Brazil/South America installs.",
+      "Once an order is placed they assign a dedicated 5-person team. Stefano is the sales engineer / your contact.",
+      "CONFIRMED CAPABLE: hipot (insulation resistance, leakage), continuity/equipotential, functional test (idle current, HV DC bus, passive & active discharge, resolver emulation via CAN, sensor/temp calibration), probe-needle contacting, manual & automatic DUT connection, Bosch TS2 conveyor with free-flow, ESD-proof handling.",
+      "OPEN (Stefano to confirm internally): active load (only passive/inductive confirmed), regenerative/electronic AC load, non-LabVIEW software languages.",
+      "PLC CONFLICT: MASMEC default is Siemens; Franklim pushed back (WEG makes its own PLCs). Resolution: WEG supplies its own PLC/drives/safety from WEG portfolio as customer-supplied components — confirm to Stefano.",
+      "Victor (Bosch) raised similar prescription request in a separate meeting — keep prescriptions consistent across suppliers.",
+      "Meeting was held 11:00–12:30 Brasília (4:00–5:30 PM CET)."
+    ],
+    expect:["Quotation","Alissonn to send assembly scope"]
+  },
+  {
+    id:"bbs", name:"BBS Automation (Suzhou)", meta:"Met Wed 17 Jun · China (Vivian / Carlson)",
+    status:"alisson",
+    next:"Alissonn to send assembly scope · await capacity feedback + quotation",
+    notes:"",
+    todos:[
+      {t:"Forward the test specification to BBS's test engineer (Carlson will route it) — expect follow-up questions before pricing", d:true},
+      {t:"Alissonn & Franklim — send assembly + packaging line scope (separate project)", d:false},
+      {t:"Await BBS feedback on: internal capacity vs your deadline (Carlson's main concern)", d:false},
+      {t:"Await BBS confirmation: WEG PLC compatibility (never used one; newest WEG PLC works with CODESYS)", d:false},
+      {t:"Await BBS confirmation: Brazil support/commissioning (few Brazil clients; will need WEG invitation letter for travel)", d:false},
+      {t:"Await BBS confirmation: software language fits WEG open-source / C# / Java / Python requirement (not closed LabVIEW)", d:false},
+      {t:"Receive quotation from BBS", d:false}
+    ],
+    context:[
+      "Sixth meeting held Wednesday 17 June.",
+      "Quote structure requested: (1) testing line, (2) assembly+packaging, (3) full combined line — first round single target price, no breakdown/layout.",
+      "Quote on basis of BBS supplying all electrical components; WEG-portfolio components (contactors, PLC, relays) discussed later for possible discount.",
+      "Software: BBS to develop the test software; WEG provides drive-test know-how — explicit collaboration.",
+      "Capacity vs timeline is Carlson's main open concern — they must check before committing."
+    ],
+    expect:["Quotation","Alissonn to send assembly scope","Awaiting capacity feedback"]
+  },
+  {
+    id:"dmc", name:"DMC", meta:"Met Wed 17 Jun · (Brent)",
+    status:"action",
+    next:"Send inverter IO connection points (flat drawing or 3D model) — highest-risk item for them",
+    notes:"",
+    todos:[
+      {t:"ANSWER BRENT'S EMAIL: send all IO connection points of the inverter — a flat drawing or a 3D model — so DMC can concept how to automatically hit the test points reliably. This is their highest technical risk if not using a manual wire harness", d:false},
+      {t:"Confirm whether automatic contacting or manual wire-harness attachment is intended (drives DMC's concept & cost)", d:false},
+      {t:"Receive rough concept + order-of-magnitude cost/timing estimate from DMC", d:false}
+    ],
+    context:[
+      "Seventh meeting held Wednesday 17 June. Brent thanked you and attached the slide deck DMC reviewed.",
+      "BRENT'S REQUEST (email): to give a rough concept and order-of-magnitude cost/timing, DMC needs the inverter IO connection points — every one of them — as a flat drawing or 3D model.",
+      "Their stated highest technical concern: automatically hitting those test points reliably IF you are not doing manual wire-harness attachment.",
+      "Action is on your side — they are blocked until you send the IO/connection geometry."
+    ],
+    expect:["Concept + ROM cost/timing","You owe: IO connection points (drawing/3D)"]
+  },
+  {
+    id:"bosch", name:"Bosch (Campinas/Curitiba)", meta:"Met Wed 17 Jun · Brazil (Marcelo Laranjeira / Victor Souza)",
+    status:"alisson",
+    next:"Alissonn to send assembly scope · await cost estimate",
+    notes:"",
+    todos:[
+      {t:"Send ONE test prescription per module (Victor's request) — hipot (incl. AC/DC, test voltage, max leakage), functional, load — for an overview so he can size the PLC and respond to questions", d:true},
+      {t:"Send dimensions & weight table for ALL product families (Marcelo needs it for the Bosch/Rexroth transport line & pallet/setup design) — not just the largest product", d:true},
+      {t:"Provide power & control terminal drawings so Bosch can engineer the fixture automation", d:true},
+      {t:"Wait for Bosch's email listing exactly what they need for the RFQ, then prepare/send those documents", d:true},
+      {t:"Alissonn to send assembly-line scope", d:false},
+      {t:"Receive cost estimate from Bosch (Marcelo opens internal RFQ once docs arrive; Victor pulls the team)", d:false}
+    ],
+    context:[
+      "Eighth meeting held Wednesday 17 June. Marcelo shared his presentation afterward.",
+      "Bosch MFI (Manufacturing Innovation) division, 60+ yrs; builds special machines. Existing WEG relationship — first WEG line in 2014 (Linhares), currently finishing a line for WEG Manaus, ~5 solutions with WEG drives.",
+      "Has a WEG Automação exclusive supply contract (>1M WEG products/yr) → competitive pricing on WEG components, and reciprocity counts in WEG's selection.",
+      "Confirmed capability: functional test (incl. electronics/ECU validation), hipot, dynamic load (have bought dynamic loads, e.g. starter-motor benches), supervisory software (their own standardized C# platform with RFID route control), electronics/PCB assembly line (a 23-station line in progress).",
+      "Victor: supervisory will be developed by the chosen supplier (not a WEG system) — full turnkey, WEG collaborates on test know-how only.",
+      "Bosch transport (Rexroth) is imported — larger combined volume = better price; they want the assembly-line demand too.",
+      "Quote structure: 3 quotes (test system / assembly+packaging / full package). Components: supplier quotes everything; WEG-portfolio components discussed later.",
+      "They invited you to visit their Campinas engineering/plant.",
+      "Selection ~July–August; PO end-2026; commissioning (FAT in their plant + SAT/startup in Brazil) by end-2027."
+    ],
+    expect:["Cost estimate","Alissonn to send assembly scope"]
+  },
+  {
+    id:"fft", name:"FFT Produktionssysteme (Germany)", meta:"Inbound 22 Jun · Fulda, Germany (Edgar Vöhringer)",
+    status:"action",
+    next:"Route NDA for signature · Review QA Excel · Schedule meeting Mon 29 or Tue 30 Jun (midday German time = 07:00 Brazil)",
+    notes:"",
+    todos:[
+      {t:"Review QA questions they sent (20260619_WEG_Drives_Controls_Modular_All_Drives_Test_System_QA_FFT.xlsx) and prepare answers or flag items for the meeting", d:false},
+      {t:"Route NDA (NDA_WEG_Drives_Controls_20260619.pdf) for signature — confirm who signs at WEG and process", d:false},
+      {t:"Reply to Edgar Vöhringer confirming meeting availability: Monday 29 Jun or Tuesday 30 Jun at 12:00 German time (07:00 Brasília)", d:false},
+      {t:"Send signed NDA back to Edgar before or at the meeting", d:false},
+      {t:"Schedule internal prep meeting to review the QA questions before the call with FFT", d:false}
+    ],
+    context:[
+      "FFT Produktionssysteme GmbH & Co. KG — Schleyerstr. 1, D-36041 Fulda, Germany. Tel: +49 661 2926-0. Homepage: www.fft.de.",
+      "Contact: Edgar Vöhringer (Account Manager, Sales Technology & Products - T). Mobil: +49 160 8984558. edgar.voehringer@fft.de.",
+      "CC'd: Martin Kraft, Lucas Schwierczinski, Christopher Görls, Michael Jakob.",
+      "FFT reviewed the WEG specifications and prepared a Q&A Excel file (20260619_WEG_Drives_Controls_Modular_All_Drives_Test_System_QA_FFT.xlsx) with questions — not yet reviewed.",
+      "FFT attached an NDA (NDA_WEG_Drives_Controls_20260619.pdf, 218 KB) — WEG must sign and return so the discussion can go deeper.",
+      "FFT is requesting a meeting on Monday or Tuesday at midday German time (CEST = UTC+2). Likely: Mon 29 Jun or Tue 30 Jun → 07:00 Brasília time.",
+      "This is an INBOUND contact — FFT proactively reached out after reviewing WEG specs. No prior meeting. WEG has not yet presented the scope to them formally.",
+      "Status: NDA not signed; Q&A not reviewed; meeting not yet confirmed. All actions are on WEG side.",
+      "Pugh score: Not yet evaluated — first contact not yet completed."
+    ],
+    expect:["NDA to sign & return","Review Q&A Excel","Meeting to schedule","Future: quotation"]
+  },
+  {
+    id:"pia", name:"PIA Automation (China)", meta:"Met Thu 18 Jun · China (Abel Wang / David Cui)",
+    status:"alisson",
+    next:"Alissonn to send assembly scope · await quotation next week",
+    notes:"",
+    todos:[
+      {t:"Send the product images (power connections + control connections, upper/side views) you showed on screen — you committed to send these for the quotation", d:true},
+      {t:"Send the test specification (hipot voltage already confirmed: max 4 kV) so they can size the high-voltage source and contacting pins", d:true},
+      {t:"Confirm number of contact groups/pins needed for hipot power-connection contacting (Abel asked — drives the mechanical pin-raising design)", d:true},
+      {t:"Alissonn/Franklin to send assembly-line scope (drive size, assembly steps: PCB, plastic, heatsink, thermal paste) — separate project", d:false},
+      {t:"Await PIA example/reference of a drive-assembly or similar process (David to send by email)", d:false},
+      {t:"Receive 3 quotations (test system / assembly line / full line) — David said likely next week after their 3-day holiday", d:false}
+    ],
+    context:[
+      "Ninth meeting held Thursday 18 June. PIA had no presentation this time; offered to show electrical/mechanical design and test approach next meeting.",
+      "Confirmed: PIA has extensive automation experience including automated assembly lines / robotics for inverters, and PCB assembly.",
+      "Brazil support CONFIRMED: they can commission/startup in Brazil and provide site commissioning + production support. They already have a project in Brazil (automatic assembly machine for connectors, fully automated, near a capital city).",
+      "Hipot: only power connections need contacting (not control). Test voltage confirmed max 4 kV. Test time 3–60 s.",
+      "Functional test: PLC controls the product via RS485 / Modbus — HMI testing is NOT required (Julio clarified). Test time 1.5–7 min.",
+      "USB port testing: would need a host computer — deferred, to be decided later whether it's actually necessary.",
+      "PLC: WEG PLC preferred but not mandatory; PIA may use what they normally use — must state clearly in the quotation.",
+      "Load test: cabin heated, max 50 °C (fixed maximum). Test time 6–20 min; one hipot + one functional can feed 3–5 load modules.",
+      "Quote structure: 3 quotations (test / assembly+packaging / full line). First round = target budget only, no deep detail; details collaborated later if project advances.",
+      "Deadline end of 2027; quotation as soon as possible."
+    ],
+    expect:["3 Quotations","Alissonn to send assembly scope","Brazil commissioning: confirmed"]
+  }
+];
+
+const STATUS_META = {
+  action:{cls:"s-action", label:"⚠ Action needed from you"},
+  alisson:{cls:"s-alisson", label:"🟣 Alissonn must act"},
+  wait:{cls:"s-wait", label:"⏳ Waiting on supplier"},
+  sched:{cls:"s-sched", label:"📅 To schedule"},
+  done:{cls:"s-done", label:"✓ Done"}
+};
+
+let state = {};
+const STORAGE_KEY = "weg_supplier_tracker_v1";
+function loadState(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(raw) state = JSON.parse(raw);
+  }catch(e){ state = {}; }
+}
+let _saveTimer=null;
+function saveState(){
+  try{
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    const f = document.getElementById("flash");
+    if(f){ f.classList.add("show"); clearTimeout(_saveTimer); _saveTimer=setTimeout(()=>f.classList.remove("show"),900); }
+  }catch(e){
+    const f = document.getElementById("flash");
+    if(f){ f.textContent="⚠ could not save (storage blocked)"; f.style.color="var(--amber)"; f.classList.add("show"); }
+  }
+}
+function sState(id){ if(!state[id]) state[id]={}; return state[id]; }
+
+// Returns the live to-do list for a supplier as [{id, t, d}].
+// Seeds once from the supplier defaults, then lives entirely in state
+// so items can be added and deleted.
+function getTodos(s){
+  const st = sState(s.id);
+  if(!st.todoList){
+    st.todoList = (s.todos||[]).map((t,i)=>({ id:"d"+i, t:t.t, d:t.d }));
+  }
+  return st.todoList;
+}
+
+let filter="all";
+
+function render(){
+  const list=document.getElementById("list");
+  list.innerHTML="";
+  let c={action:0,alisson:0,wait:0,sched:0,done:0};
+  SUPPLIERS.forEach(s=>{
+    const st = sState(s.id);
+    const curStatus = st.status || s.status;
+    c[curStatus]++;
+    if(filter!=="all" && filter!==curStatus) return;
+
+    const card=document.createElement("div");
+    card.className="card"+(st.open?" open":"");
+    const sm=STATUS_META[curStatus];
+
+    const todos = getTodos(s);
+    const todoDone = todos.filter(t=>t.d).length;
+    const todoTotal = todos.length;
+
+    card.innerHTML = `
+      <div class="chead">
+        <span class="arrow">▶</span>
+        <div>
+          <div class="name">${s.name}</div>
+          <div class="meta">${s.meta}</div>
+        </div>
+        <div class="spacer"></div>
+        <div class="next" title="${escapeHtml(st.next||s.next)}">▸ ${escapeHtml(st.next||s.next)}</div>
+        <span class="status ${sm.cls}">${sm.label}</span>
+      </div>
+      <div class="body">
+        ${(s.expect||[]).map(e=>`<span class="tag">${escapeHtml(e)}</span>`).join("")}
+        <div class="sec">
+          <h4>To-do (${todoDone}/${todoTotal})</h4>
+          <ul class="todo">
+            ${todos.map(t=>{
+              return `<li class="${t.d?'checked':''}">
+                <input type="checkbox" ${t.d?'checked':''} data-todo="${s.id}|${t.id}">
+                <label>${escapeHtml(t.t)}</label>
+                <button class="del" title="Delete this to-do" data-del="${s.id}|${t.id}">&times;</button></li>`;
+            }).join("")}
+          </ul>
+          <div class="addrow">
+            <input type="text" placeholder="Add a new to-do…" data-addinput="${s.id}">
+            <button class="addbtn" data-add="${s.id}">+ Add</button>
+          </div>
+        </div>
+        <div class="sec">
+          <h4>Context & notes from meeting</h4>
+          <ul>${(s.context||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join("")}</ul>
+        </div>
+        <div class="ctrls">
+          <div>
+            <div class="lbl">Status</div>
+            <select data-status="${s.id}">
+              ${Object.keys(STATUS_META).map(k=>`<option value="${k}" ${k===curStatus?'selected':''}>${STATUS_META[k].label}</option>`).join("")}
+            </select>
+          </div>
+          <div style="flex:1;min-width:240px">
+            <div class="lbl">Next step (editable)</div>
+            <input style="width:100%;background:var(--card2);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px" data-next="${s.id}" value="${escapeHtml(st.next||s.next)}">
+          </div>
+        </div>
+        <div class="sec">
+          <div class="lbl">My private notes</div>
+          <textarea data-notes="${s.id}" placeholder="Add notes, dates, contact replies...">${escapeHtml(st.notes||"")}</textarea>
+        </div>
+      </div>`;
+    list.appendChild(card);
+
+    card.querySelector(".chead").addEventListener("click",e=>{
+      if(e.target.closest("input,select,textarea,label")) return;
+      st.open=!st.open; saveState(); card.classList.toggle("open");
+    });
+  });
+
+  document.getElementById("counts").innerHTML =
+    `<span><b>${c.action}</b> to act</span><span><b>${c.alisson}</b> Alissonn</span><span><b>${c.wait}</b> waiting</span><span><b>${c.sched}</b> to schedule</span><span><b>${c.done}</b> done</span>`;
+
+  // bind controls
+  list.querySelectorAll("[data-todo]").forEach(cb=>{
+    cb.addEventListener("change",()=>{
+      const [id,tid]=cb.dataset.todo.split("|");
+      const list2=getTodos(SUPPLIERS.find(x=>x.id===id));
+      const item=list2.find(t=>t.id===tid);
+      if(item) item.d=cb.checked;
+      saveState(); render();
+    });
+  });
+  list.querySelectorAll("[data-del]").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      const [id,tid]=btn.dataset.del.split("|");
+      const st=sState(id);
+      st.todoList=getTodos(SUPPLIERS.find(x=>x.id===id)).filter(t=>t.id!==tid);
+      saveState(); render();
+    });
+  });
+  function addTodo(id){
+    const inp=list.querySelector(`[data-addinput="${id}"]`);
+    const txt=(inp.value||"").trim();
+    if(!txt) return;
+    const s=SUPPLIERS.find(x=>x.id===id);
+    getTodos(s).push({ id:"u"+Date.now(), t:txt, d:false });
+    saveState(); render();
+  }
+  list.querySelectorAll("[data-add]").forEach(btn=>{
+    btn.addEventListener("click",()=>addTodo(btn.dataset.add));
+  });
+  list.querySelectorAll("[data-addinput]").forEach(inp=>{
+    inp.addEventListener("keydown",e=>{ if(e.key==="Enter") addTodo(inp.dataset.addinput); });
+  });
+  list.querySelectorAll("[data-status]").forEach(sel=>{
+    sel.addEventListener("change",()=>{ sState(sel.dataset.status).status=sel.value; saveState(); render(); });
+  });
+  list.querySelectorAll("[data-next]").forEach(inp=>{
+    inp.addEventListener("input",()=>{ sState(inp.dataset.next).next=inp.value; saveState(); });
+  });
+  list.querySelectorAll("[data-notes]").forEach(ta=>{
+    ta.addEventListener("input",()=>{ sState(ta.dataset.notes).notes=ta.value; saveState(); });
+  });
+}
+
+function escapeHtml(s){return (s||"").replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
+
+document.querySelectorAll(".pill").forEach(p=>{
+  p.addEventListener("click",()=>{
+    document.querySelectorAll(".pill").forEach(x=>x.classList.remove("active"));
+    p.classList.add("active"); filter=p.dataset.f; render();
+  });
+});
+
+loadState(); render();
+</script>
+</body>
+</html>

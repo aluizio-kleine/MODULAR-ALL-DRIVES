@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ORION — Supplier Status Report | June 18, 2026</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f6f9; color: #1a1a2e; }
+  .container { max-width: 960px; margin: 32px auto; padding: 0 24px 48px; }
+
+  .header { background: linear-gradient(135deg, #00509e, #003f7f); color: white; border-radius: 10px 10px 0 0; padding: 28px 32px; }
+  .header h1 { font-size: 22px; font-weight: 700; letter-spacing: 0.5px; }
+  .header .subtitle { font-size: 13px; margin-top: 6px; opacity: 0.85; }
+  .header .date { font-size: 13px; margin-top: 4px; opacity: 0.7; }
+
+  .card { background: white; border-radius: 0 0 10px 10px; padding: 28px 32px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+  .card + .card { border-radius: 10px; margin-top: 0; }
+  .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #00509e; border-bottom: 2px solid #e8edf4; padding-bottom: 8px; margin-bottom: 16px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f0f4fa; color: #003f7f; font-weight: 700; text-align: left; padding: 10px 12px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { padding: 10px 12px; border-bottom: 1px solid #f0f3f8; vertical-align: middle; }
+  tr:last-child td { border-bottom: none; }
+  tr.out td { opacity: 0.5; text-decoration: line-through; }
+  tr.out td .badge { text-decoration: none; }
+
+  .badge { display: inline-block; padding: 3px 9px; border-radius: 20px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+  .badge-waiting { background: #fff3cd; color: #856404; }
+  .badge-soon { background: #d1e7dd; color: #0a5c35; }
+  .badge-out { background: #f8d7da; color: #842029; }
+
+  .person-block { margin-bottom: 22px; }
+  .person-name { font-size: 14px; font-weight: 700; color: #003f7f; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+  .person-name .avatar { width: 28px; height: 28px; border-radius: 50%; background: #00509e; color: white; font-size: 11px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }
+  .action-list { list-style: none; }
+  .action-list li { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid #f0f3f8; font-size: 13px; }
+  .action-list li:last-child { border-bottom: none; }
+  .checkbox { width: 16px; height: 16px; border: 2px solid #c0cfe0; border-radius: 3px; flex-shrink: 0; margin-top: 1px; }
+  .action-text strong { color: #1a1a2e; }
+  .supplier-tag { display: inline-block; background: #e8edf4; color: #003f7f; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 600; margin-left: 4px; }
+  .urgent { color: #dc3545; font-size: 11px; font-weight: 700; margin-left: 6px; }
+
+  .timeline { display: flex; gap: 0; }
+  .tl-item { flex: 1; text-align: center; position: relative; }
+  .tl-item::before { content: ''; display: block; height: 3px; background: #d0dcea; position: absolute; top: 14px; left: 50%; right: -50%; z-index: 0; }
+  .tl-item:last-child::before { display: none; }
+  .tl-dot { width: 28px; height: 28px; border-radius: 50%; background: #00509e; color: white; font-size: 11px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; position: relative; z-index: 1; }
+  .tl-dot.done { background: #198754; }
+  .tl-dot.upcoming { background: #f0a500; }
+  .tl-label { font-size: 11px; font-weight: 700; color: #003f7f; margin-top: 8px; }
+  .tl-date { font-size: 11px; color: #6c757d; margin-top: 2px; }
+
+  .footer { text-align: center; font-size: 12px; color: #8899aa; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>ORION — Modular All Drives Test System</h1>
+    <div class="subtitle">Supplier Meeting Summary &amp; Action Items</div>
+    <div class="date">Prepared by Aluizio Kleine &nbsp;|&nbsp; June 18, 2026 &nbsp;|&nbsp; WEG Drives &amp; Controls — Drives Production Department</div>
+  </div>
+
+  <!-- Supplier Status -->
+  <div class="card">
+    <div class="section-title">Supplier Status</div>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Supplier</th>
+          <th>Country</th>
+          <th>Meeting</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><strong>BBS Automation</strong></td>
+          <td>Germany / China</td>
+          <td>Jun 17</td>
+          <td><span class="badge badge-waiting">Awaiting quotation</span></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><strong>Comau</strong></td>
+          <td>Italy / Brazil</td>
+          <td>Jun 11</td>
+          <td><span class="badge badge-waiting">Awaiting quotation</span></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><strong>Bosch Manufacturing Innovation</strong></td>
+          <td>Brazil</td>
+          <td>Jun 17</td>
+          <td><span class="badge badge-waiting">Awaiting quotation</span></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><strong>Mondragon Assembly</strong></td>
+          <td>Spain / Brazil</td>
+          <td>Jun 16</td>
+          <td><span class="badge badge-waiting">Awaiting quotation</span></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><strong>MASMEC</strong></td>
+          <td>Italy</td>
+          <td>Jun 16</td>
+          <td><span class="badge badge-waiting">Awaiting quotation</span></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><strong>Autec</strong></td>
+          <td>Brazil (Joinville)</td>
+          <td>Jun 15</td>
+          <td><span class="badge badge-waiting">Awaiting quotation</span></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><strong>PIA Automation</strong></td>
+          <td>China</td>
+          <td>Jun 18</td>
+          <td><span class="badge badge-soon">Quotation expected next week</span></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td><strong>DMC</strong></td>
+          <td>USA (Chicago)</td>
+          <td>Jun 17</td>
+          <td><span class="badge badge-soon">Quotation expected after Jul 4</span></td>
+        </tr>
+        <tr class="out">
+          <td>—</td>
+          <td><strong>JR Automation</strong></td>
+          <td>USA</td>
+          <td>—</td>
+          <td><span class="badge badge-out">Declined — not quoting</span></td>
+        </tr>
+        <tr class="out">
+          <td>—</td>
+          <td><strong>Develop LLC</strong></td>
+          <td>USA (Wisconsin)</td>
+          <td>Jun 18</td>
+          <td><span class="badge badge-out">Disqualified — no Brazil support</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Action Items -->
+  <div class="card" style="border-radius:10px; margin-top:20px;">
+    <div class="section-title">Action Items</div>
+
+    <div class="person-block">
+      <div class="person-name">
+        <span class="avatar">AF</span>
+        Alissonn / Franklim &nbsp;<span style="font-weight:400;color:#6c757d;font-size:13px;">Assembly Project</span>
+      </div>
+      <ul class="action-list">
+        <li>
+          <div class="checkbox"></div>
+          <div class="action-text">
+            Send <strong>assembly scope</strong> to all active suppliers:
+            <span class="supplier-tag">BBS Automation</span>
+            <span class="supplier-tag">Comau</span>
+            <span class="supplier-tag">Bosch</span>
+            <span class="supplier-tag">Mondragon</span>
+            <span class="supplier-tag">MASMEC</span>
+            <span class="supplier-tag">Autec</span>
+            <span class="supplier-tag">PIA Automation</span>
+            <span class="supplier-tag">DMC</span>
+            <br><span style="color:#6c757d;font-size:12px;">Each supplier was asked to quote three options: testing line only / assembly line only / full integrated line.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="person-block">
+      <div class="person-name">
+        <span class="avatar">JU</span>
+        Julio &nbsp;<span style="font-weight:400;color:#6c757d;font-size:13px;">Technical</span>
+      </div>
+      <ul class="action-list">
+        <li>
+          <div class="checkbox"></div>
+          <div class="action-text">
+            <strong>Decide: USB test — in scope or out?</strong> <span class="urgent">DECISION NEEDED</span>
+            <br><span style="color:#6c757d;font-size:12px;">Requires a computer as host. Not yet defined — affects fixture design and all supplier quotations.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Project Timeline -->
+  <div class="card" style="border-radius:10px; margin-top:20px;">
+    <div class="section-title">Project Timeline</div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div><span class="tl-dot done">&#10003;</span></div>
+        <div class="tl-label">Supplier Meetings</div>
+        <div class="tl-date">Jun 11–18, 2026</div>
+      </div>
+      <div class="tl-item">
+        <div><span class="tl-dot upcoming">~</span></div>
+        <div class="tl-label">First Quotations</div>
+        <div class="tl-date">Jul–Aug 2026</div>
+      </div>
+      <div class="tl-item">
+        <div><span class="tl-dot"></span></div>
+        <div class="tl-label">Down-select</div>
+        <div class="tl-date">Jul–Aug 2026</div>
+      </div>
+      <div class="tl-item">
+        <div><span class="tl-dot"></span></div>
+        <div class="tl-label">Purchase Order</div>
+        <div class="tl-date">End of 2026</div>
+      </div>
+      <div class="tl-item">
+        <div><span class="tl-dot"></span></div>
+        <div class="tl-label">Commissioning BR</div>
+        <div class="tl-date">End of 2027</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Modular All Drives Test System — ORION Project &nbsp;|&nbsp; WEG Drives &amp; Controls — Automation Ltd. &nbsp;|&nbsp; Jaraguá do Sul, SC, Brazil
+  </div>
+
+</div>
+</body>
+</html>

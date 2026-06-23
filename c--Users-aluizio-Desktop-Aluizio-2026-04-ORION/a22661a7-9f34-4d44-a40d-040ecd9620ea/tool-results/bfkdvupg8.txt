@@ -1,0 +1,758 @@
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:8 caractere:19
++ function H1($t) { $sel.Style = $doc.Styles['Heading 1']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:16 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:20 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:33 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:36 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:40 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:50 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:55 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:61 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:65 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:72 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:77 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:82 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:87 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:92 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:97 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:102 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:106 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:112 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:119 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:126 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:132 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Set-ItemProperty : Nao ‚ poss¡vel processar o comando porque um ou mais parƒmetros obrigat¢rios estao ausentes:  Path 
+Name Value.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:138 caractere:1
++ SP
++ ~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ItemProperty], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.SetItemPropertyCommand
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:9 caractere:19
++ function H2($t) { $sel.Style = $doc.Styles['Heading 2']; $sel.TypeTex ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+O membro solicitado da cole‡ao nao existe.
+No C:\Users\aluizio\Desktop\Aluizio\2026-04-ORION\TEST SPECIFICATION\build_docx.ps1:11 caractere:19
++ function B($t)  { $sel.Style = $doc.Styles['List Bullet']; $sel.TypeT ...
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Done.

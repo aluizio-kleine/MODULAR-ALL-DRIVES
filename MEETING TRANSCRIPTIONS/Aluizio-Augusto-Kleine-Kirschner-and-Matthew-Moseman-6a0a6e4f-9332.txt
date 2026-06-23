@@ -1,0 +1,709 @@
+
+00:10
+Raphael Franklim Oliveira Ferreira
+Hello Matt. 
+00:11
+Matt Moseman
+Hello. 
+00:13
+Aluizio Augusto Kleine Kirschner
+Hello Matt. 
+00:14
+Matt Moseman
+Thanks for setting today's meeting up. Is this the core of the group that's coming in? Yes, there's several others invited but I think there's only three that accepted. 
+00:33
+Raphael Franklim Oliveira Ferreira
+Just wait a few moments. I think our boss are coming to the meeting. 
+00:41
+Matt Moseman
+Okay. 
+00:43
+Matt Moseman
+So yeah, there's one other person. 
+00:46
+Matt Moseman
+There we go. There's four. Perfect. 
+01:59
+Alissonn Felippe Bebber
+Hello. 
+02:00
+Raphael Franklim Oliveira Ferreira
+Okay Matt, everyone is here. 
+02:03
+Matt Moseman
+Awesome. This is quite the crew for a first call. So I can sense the level of commitment to solving whatever automation you're looking to do. 
+02:15
+Matt Moseman
+Yes. 
+02:15
+Aluizio Augusto Kleine Kirschner
+Yeah. Have you read the scope that we sent to you, Matt? 
+02:21
+Matt Moseman
+I have the couple paragraph breakdown that I got. Basically my understanding is you're looking for some testing automation equipment. 
+02:31
+Aluizio Augusto Kleine Kirschner
+Yeah. So you didn't receive the. 
+02:35
+Matt Moseman
+I didn't get a quote. Ours filtering might have filtered out. You probably send it to me right after this. 
+02:43
+Aluizio Augusto Kleine Kirschner
+Okay. 
+02:44
+Matt Moseman
+It's. 
+02:45
+Matt Moseman
+It's pretty common for our sales process to be to have an initial call before they'll open a lot of PDFs like this because there's a lot of phishing right now where we'll get like hey, have a meeting. This is who you're meeting with. Here's the documents. Open them and review them. And we've had some really good strategic phishing attempts that now our process is make sure that there's a human on the other side. 
+03:06
+Aluizio Augusto Kleine Kirschner
+Okay. 
+03:07
+Raphael Franklim Oliveira Ferreira
+Okay. 
+03:11
+Aluizio Augusto Kleine Kirschner
+Okay. So I'm going to show you our concept and talk a little bit about it. So let me share my screen. 
+03:22
+Matt Moseman
+Sounds good. 
+03:29
+Aluizio Augusto Kleine Kirschner
+Can you see? 
+03:31
+Matt Moseman
+I can see this, yes. 
+03:33
+Aluizio Augusto Kleine Kirschner
+Okay, so we are talking about test systems for frequency inverters, driver drives. 
+03:43
+Matt Moseman
+Okay. 
+03:46
+Matt Moseman
+What size of frequency inverters are you talking. What kind of kws are we dealing with? 
+03:53
+Aluizio Augusto Kleine Kirschner
+I guess the dimensions are talking about dimensions and power. Okay, power it's about 220 volts up to 575 volts. 
+04:11
+Matt Moseman
+Okay. 
+04:12
+Aluizio Augusto Kleine Kirschner
+And current about 60amperes. So. 
+04:19
+Matt Moseman
+Okay. So nothing crazy. 
+04:21
+Aluizio Augusto Kleine Kirschner
+Yeah, it depends about the drive we are talking about. So the dimensions are a little. It's not so big. It's like. I don't know if you are. If you know about centimeters. 
+04:39
+Matt Moseman
+Yeah, yeah. 
+04:40
+Matt Moseman
+We can say we work in metric over in our facility. So it's kind of weird. 
+04:46
+Matt Moseman
+Okay. 
+04:47
+Aluizio Augusto Kleine Kirschner
+For us the biggest is about 50 centimeters. 
+04:54
+Matt Moseman
+Okay. 
+04:55
+Aluizio Augusto Kleine Kirschner
+Per 30 centimeters. 
+04:58
+Matt Moseman
+Okay. 
+04:59
+Matt Moseman
+So a little bit. Yeah, a little bit over in u. S. That'd be 2ft roughly. 
+05:03
+Matt Moseman
+So. 
+05:04
+Alissonn Felippe Bebber
+Yeah. 
+05:05
+Aluizio Augusto Kleine Kirschner
+And 30 kilograms. 
+05:07
+Matt Moseman
+Okay. 
+05:08
+Aluizio Augusto Kleine Kirschner
+It's the weight. 
+05:09
+Matt Moseman
+Yeah, some good weight. 
+05:10
+Matt Moseman
+A lot of copper in them. 
+05:11
+Matt Moseman
+Yeah. 
+05:13
+Aluizio Augusto Kleine Kirschner
+So the. Here in WEG in Brazil we have some tests benches that work manually and other ones work automatically, but neither of them have automated electrical contacts. So we are looking for something that can automatically connect with the drive in test and move the drive forward the line automatically too. So here is some concept that we have about the moving of the drive along the. Along the line. And the concept is the product is here and it's fixed on a fixture. It's like a place that you put the drive and automatically connect the power connections with the fixture. 
+06:22
+Matt Moseman
+Understood. 
+06:23
+Aluizio Augusto Kleine Kirschner
+And this fixture will be standard for all drives. Talking about the connection between the fixture and the module. 
+06:33
+Matt Moseman
+So you probably have like a separate sub plate in that fixture for each module. And then we just. Are you having humans load each one of these in or are you having upstream assembly happening in that fixture? 
+06:46
+Aluizio Augusto Kleine Kirschner
+Like initially we have humans putting the drive in the fixture, but we are working on automated assembly line too. 
+06:59
+Matt Moseman
+Okay. 
+07:00
+Aluizio Augusto Kleine Kirschner
+So in the beginning we are talking about humans loading the drive in the fixture. 
+07:06
+Matt Moseman
+Okay. 
+07:07
+Raphael Franklim Oliveira Ferreira
+Actually on your industry, you use humans to do these connections. 
+07:17
+Aluizio Augusto Kleine Kirschner
+This concept is about the fixture automatically connect with the drive. But if your company cannot do it, we can work with manually connection between the power connections and the fixture. You know, yeah, I'd have to see. 
+07:36
+Matt Moseman
+Access points for the drive. We've done things like large pogo pins or pneumatic clamping to engage your contact points. But it really comes down to what the accessibility is. And if this was kind of designed for automation, we can also work with your team to. If there is opportunity to change the product, to adjust it for more automation. Or we can evaluated just for human connection. Those are things we can help you scope of what the. What the best path is based on the options and variables that we can adjust. 
+08:10
+Matt Moseman
+Okay. 
+08:12
+Aluizio Augusto Kleine Kirschner
+So the connection between the fixture and the module will be standard. So this is the main point here. Like we can use a lot of families of drives with the fixture and the connection with. Of the fixture with the module will be the same always. So then you don't need to have a lot of patterns of connections between the module and the fixture will be always the same. So the fixture will move from outside of the module to inside. And in this part, we will have a door or window or something that will open and then the drive will move into the module. And since the drive is here inside the module, it will move backwards, I guess backwards. Will move to automatically connect the fixture with the module and let the conveyor free to another drive move. Move through the module. 
+09:24
+Raphael Franklim Oliveira Ferreira
+So. 
+09:27
+Aluizio Augusto Kleine Kirschner
+The connection will be. We were thinking about place the Connection in the back of the module. But if you have another idea, you can tell us and a lot of. 
+09:45
+Matt Moseman
+Times what we'll do for simplicity on mechanisms. We'll have that shuttle going across on an upper limit. We'll actually drop the shuttle slightly instead of pushing it back. It's just typically an easier motion. And then you just pneumatically lift it back up and then let it continue. But we have had to push them into back positions like what you're seeing here. So it'll come down to proper engineering evaluation and figuring out what the best path is. 
+10:13
+Matt Moseman
+So both could work. 
+10:15
+Aluizio Augusto Kleine Kirschner
+Okay. And the conveyor will be free in all the options that you told. 
+10:22
+Matt Moseman
+Okay,. 
+10:24
+Aluizio Augusto Kleine Kirschner
+These are an example of HIPOT module. And we will have a HIPOT module, functional test module and a load test module. All of them will have approximately the same size but they have completely different functions. So the first one is to test the insulation between the power connections and the ground of the drive. Another one, the functional test. We will test all the functional, all the functions of the drive like I OS power operating a motor. We'll test the driving nominal current and with heated cabin. 
+11:29
+Matt Moseman
+Okay. 
+11:30
+Aluizio Augusto Kleine Kirschner
+Okay. 
+11:31
+Matt Moseman
+Are you within all these? I'm assuming you want fire suppression and some form of. So when these things fail, they fail. From my understanding, it's quite dramatically. Let's call it. 
+11:43
+Aluizio Augusto Kleine Kirschner
+Yeah, we didn't think about it before, but talking to some suppliers, they told us about it. So it will be interesting to have some fire. I forget the word but fire extinguisher. I don't know how to say that in English, but the fire. 
+12:04
+Matt Moseman
+Yeah, Fire extinguisher would be a portion of it. There's. I would recommend something like you do in like titanium machining where it's a canister style fires. It sucks the oxygen right out of the cabinet is what it does. 
+12:20
+Matt Moseman
+Okay. 
+12:22
+Aluizio Augusto Kleine Kirschner
+So I will show you another picture that is an example of how the line will work. So here is the assembly line. Just a picture is not the real life. But here we have manual assembly. Then the operator, the human will put the drive in the fixture and it will move between the modules. And in the end of the line we will have a packing packaging. 
+12:58
+Matt Moseman
+Are you going to want the case pack and palletized automated as well? 
+13:04
+Aluizio Augusto Kleine Kirschner
+Yeah, this is another project and my friend Alison and Franklin will talk to you about it. Okay. After. But in the beginning we are talking just about the test system and the codes will be different. You need to make a code for the test system and a code for the assembly and packaging line separated, you know. 
+13:31
+Matt Moseman
+Okay. 
+13:33
+Aluizio Augusto Kleine Kirschner
+Here we have big conveyors that we don't need because we need to. I forget the word but like. Let me, let me show you what I want. We need to free up. 
+14:10
+Matt Moseman
+Oh, compact footprint. 
+14:12
+Aluizio Augusto Kleine Kirschner
+Yeah. 
+14:12
+Matt Moseman
+Basically what I'm seeing is you remove the conveyors, put them all together. This is the way I would actually like to see this machine built. Is one system and all of those testing done inside of it. 
+14:24
+Aluizio Augusto Kleine Kirschner
+Yeah. 
+14:24
+Matt Moseman
+So we would build that as one. One module you could pick up and take if that would be acceptable. Or we can build them as separate if needed. It will just be more expensive to. 
+14:32
+Matt Moseman
+Do them all separate. 
+14:34
+Aluizio Augusto Kleine Kirschner
+We need to do it separate because if we need to buy another load test module, we can do it to attend our sales demand. So if the production increases, we just buy another module and keep going. 
+14:53
+Matt Moseman
+Won't you need all three though, if production increases? 
+14:58
+Aluizio Augusto Kleine Kirschner
+These are just independent modules for the beginning of the launch of this new project. But if the production increases, you need to buy more modules, you know. 
+15:15
+Matt Moseman
+But you need to buy all three, wouldn't you? Not just one of them. 
+15:19
+Aluizio Augusto Kleine Kirschner
+So the beginning, in the beginning, yes. But we are looking for expand this production for other countries and then so it needs to be separated because every. 
+15:35
+Julio Cesar Pedroso
+Future maybe you're going to buy individual module like load test, another one node test or only functional test only to increasing the capacity from the other company. Right. Maybe the high pot test model is not necessary to buy another one. But functional and low test in the future maybe you can have to buy another ones to increase our production capacity. Only one can select which one is must is most important by that moment. 
+16:02
+Matt Moseman
+Okay. Right. 
+16:02
+Matt Moseman
+So based on that moment and tack time of that line, you might need one of them is the way you're looking. Okay, I see your perspective. 
+16:11
+Matt Moseman
+Okay. 
+16:12
+Aluizio Augusto Kleine Kirschner
+Also because the time test of the HIPOD module is just about 3 seconds to 1 minute depending of the project. The functional module test will be about one and a half minutes to seven minutes. But the load test, it takes time. It takes about six to 20 minutes. 
+16:32
+Matt Moseman
+So I see the challenge. I see. 
+16:35
+Matt Moseman
+Okay, 100. 
+16:36
+Matt Moseman
+I was assuming they were all closer in time. 
+16:39
+Aluizio Augusto Kleine Kirschner
+Okay. The HIPOD module and the functional module can support like 3, 4, 5 load test modules, you know. 
+16:49
+Matt Moseman
+Understood. Yeah. 
+16:50
+Matt Moseman
+So we just stack the load test modules and then feed them in and stagger them through. 
+16:54
+Matt Moseman
+Okay. 
+16:55
+Aluizio Augusto Kleine Kirschner
+Yeah. That's why we need the conveyor free to more to drives pass through and go to another load test and like doesn't stop the line. 
+17:06
+Matt Moseman
+You know. 
+17:07
+Matt Moseman
+Understood. 
+17:11
+Aluizio Augusto Kleine Kirschner
+I guess that's it. Do you have any questions? 
+17:17
+Matt Moseman
+Where is this machine going? 
+17:21
+Aluizio Augusto Kleine Kirschner
+Brazil. 
+17:22
+Matt Moseman
+It will be Brazil. 
+17:23
+Matt Moseman
+Okay. 
+17:24
+Matt Moseman
+Will you commission it stateside in any fashion? Because that might be one of our challenges here. 
+17:30
+Matt Moseman
+We. 
+17:31
+Matt Moseman
+We supply to the upper 48. We would build this machine for sure but we would need to site acceptance in the US. 
+17:42
+Aluizio Augusto Kleine Kirschner
+I didn't understand what you said, Matt. Can you repeat this? 
+17:49
+Matt Moseman
+Develop supports North America with machine building. We would build a machine that goes to Brazil but we would want to do what's called site acceptance testing either here. We could create it up and send it to you for your team's responsibility to commission it in Brazil or. 
+18:11
+Matt Moseman
+We. 
+18:12
+Matt Moseman
+Commission it somewhere stateside. 
+18:16
+Aluizio Augusto Kleine Kirschner
+We were looking for support and commissioning here in Brazil by your team. 
+18:22
+Matt Moseman
+Okay. 
+18:24
+Alissonn Felippe Bebber
+So. 
+18:28
+Aluizio Augusto Kleine Kirschner
+I look for some pet and set. Do you know what does it mean? 
+18:34
+Matt Moseman
+Factor acceptance, insight acceptance testing. 
+18:37
+Matt Moseman
+Yes. 
+18:39
+Aluizio Augusto Kleine Kirschner
+So your team can. Can support this. Can buy this. 
+18:46
+Matt Moseman
+We won't support you Brazil. 
+18:47
+Matt Moseman
+No. 
+18:49
+Aluizio Augusto Kleine Kirschner
+Okay. So you can develop and build but you cannot commission it here. 
+18:56
+Matt Moseman
+Correct. 
+18:58
+Raphael Franklim Oliveira Ferreira
+Okay. 
+19:01
+Matt Moseman
+Yeah. 
+19:01
+Matt Moseman
+I have no. Like this is perfectly aligned project for us. I have no concerns about building this for you right in our wheelhouse. 
+19:09
+Matt Moseman
+The. 
+19:09
+Matt Moseman
+The challenge is the companies made the stance that we're serving North America. 
+19:15
+Matt Moseman
+Or the 48 states. 
+19:20
+Raphael Franklim Oliveira Ferreira
+Got it. Okay. 
+19:22
+Aluizio Augusto Kleine Kirschner
+Any other question? 
+19:29
+Matt Moseman
+Not. 
+19:29
+Matt Moseman
+I mean that's. 
+19:30
+Matt Moseman
+That's the main focus. I mean I have a lot of very technical questions, but I don't think that now is the time to dig into that. I think the big ones are timeline that you're looking for on this project. If you have a capex plan for it would probably be my main two. 
+19:48
+Aluizio Augusto Kleine Kirschner
+Yeah. The timeline is we need this test system here by the end of 2027. So by the end of the next year. And the kickoff of the project can be early as possible. So we will wait for your poll to understand the price and see if our payback will be acceptable. Franklin and Alison, do you want to talk to Matt about the assembly line? 
+20:26
+Raphael Franklim Oliveira Ferreira
+I have just one question, Matt. Do you have any supplier that can support us here in Brazil or any partner? 
+20:39
+Matt Moseman
+Not as of now. That's been the big challenge is there's most machine builders in the states are very limited for Brazil support. A lot of other machine builders that are outside the country are. I guess there's just some different landscapes that are happening. What I would be open to doing is we have our. We have a model for building dedicated teams. We could discuss managing a dedicated team in Brazil for you. But all those Costs get passed on. 
+21:09
+Matt Moseman
+To WEG if that's of interest. Okay. 
+21:13
+Raphael Franklim Oliveira Ferreira
+Okay. 
+21:13
+Matt Moseman
+We're doing that for other customers right now where they have similar challenges. Can't find somebody to do it. We'll manage developing the team for you since we have the processes for it. We could put a team in Brazil, hire the people there, probably send one of our existing team members from the states down there to manage it where we could have them support you guys locally. We build the machines in the States and then we would have them help you do the site acceptance testing. Because the way that our model is these machines need regional support and downtime is lost revenue. That's very strategic. 
+21:55
+Matt Moseman
+It's. 
+21:56
+Matt Moseman
+It has a huge impact for our customers. So the mean times to repair is a metric that we track really closely. And that's the reason that we've been very strict on the stance of having technical support close to our machines. 
+22:11
+Raphael Franklim Oliveira Ferreira
+Got it. Okay. Thank you. 
+22:15
+Aluizio Augusto Kleine Kirschner
+Also, do you want to talk about the assembly line? 
+22:20
+Matt Moseman
+More than happy to, yes. 
+22:22
+Alissonn Felippe Bebber
+I want you to know if you. Do you have any experience about assembling lines? 
+22:29
+Matt Moseman
+Yes. 
+22:30
+Alissonn Felippe Bebber
+Can you show anything to us about any assembly line that you have made in the past? 
+22:41
+Matt Moseman
+I could. There's a couple of case studies that I can share on our website. Those don't have the assembly lines. Most of our assembly lines are under tight. 
+22:49
+Matt Moseman
+NDA is the fun part. 
+22:54
+Matt Moseman
+I mean I could talk about general. A lot of it's been like the lighting industry is a good one. So screwing and gluing of PCB is adhesive dispensing and then product assembly in basically high precision plastic componentry and electronics. 
+23:18
+Alissonn Felippe Bebber
+Okay. I will send the scope about the project and we can talk via email. 
+23:26
+Matt Moseman
+Okay, sounds good. 
+23:28
+Matt Moseman
+I can send a follow up email for getting those scopes. 
+23:34
+Aluizio Augusto Kleine Kirschner
+Okay, so that's it. If anyone else want to make a question, the time is now. 
+23:47
+Raphael Franklim Oliveira Ferreira
+I think to me it's clear the explanation about the process and the kind of solution that we have to show to Matt. It's clear. 
+24:01
+Matt Moseman
+Yeah. 
+24:02
+Matt Moseman
+This is great. I really appreciate the legwork that you put into designing this. This is awesome. I usually don't get the visuals like this of your expectations. So my team will really like this. So if we can get this as well, that would be awesome. The timeline that you're looking at aligns really well. We're booking for projects to start Q1 of 27, but building this by end of 2017. Even if say we start January 1st, I don't see a problem. 
+24:33
+Raphael Franklim Oliveira Ferreira
+Okay. 
+24:34
+Matt Moseman
+Okay. 
+24:35
+Aluizio Augusto Kleine Kirschner
+I will send you this Document that talk about the modules, technical specifications. So all you need will be in this document. 
+24:49
+Matt Moseman
+Perfect. 
+24:50
+Aluizio Augusto Kleine Kirschner
+The size, the power, everything is here. The pictures too. So I can send you in your email. Alison will send you the assembly line scope too. And that's it. 
+25:10
+Matt Moseman
+Sounds good. When are you looking to make a decision for procurement? 
+25:16
+Raphael Franklim Oliveira Ferreira
+In the end of this year probably. 
+25:18
+Matt Moseman
+Okay. 
+25:19
+Aluizio Augusto Kleine Kirschner
+Yeah. 
+25:20
+Matt Moseman
+Do you have a capex budget where it's a go no go on this project? 
+25:25
+Raphael Franklim Oliveira Ferreira
+Yes. 
+25:25
+Matt Moseman
+Or a range? 
+25:28
+Aluizio Augusto Kleine Kirschner
+Yeah. It's about the payback. 
+25:30
+Raphael Franklim Oliveira Ferreira
+Yes, according to the payback. 
+25:34
+Matt Moseman
+Okay. 
+25:34
+Aluizio Augusto Kleine Kirschner
+The payback sounds good to us. Then we can buy it. 
+25:41
+Matt Moseman
+Okay. 
+25:42
+Aluizio Augusto Kleine Kirschner
+Okay. 
+25:42
+Matt Moseman
+Makes sense. Perfect. 
+25:45
+Matt Moseman
+Any other questions for me that I can help with today? 
+25:49
+Raphael Franklim Oliveira Ferreira
+No, that's clear. 
+25:50
+Aluizio Augusto Kleine Kirschner
+That's it. 
+25:52
+Matt Moseman
+Oh, well, I. Since we got five minutes. I always like to learn a little bit about who we're potentially working with and what everybody likes to do outside of work. So anything hobby wise that everybody enjoys here? 
+26:09
+Aluizio Augusto Kleine Kirschner
+Did you say hobbies? 
+26:11
+Matt Moseman
+I guess just outside of work. What like, what do you enjoy doing? I like. I like getting to know the people that we work with. 
+26:19
+Aluizio Augusto Kleine Kirschner
+Okay. I like go surfing here in Brazil. It's pretty popular. Me and Carlos, we go surfing. 
+26:26
+Matt Moseman
+That sounds every weekend. 
+26:30
+Matt Moseman
+Yeah. Oh my gosh. 
+26:32
+Matt Moseman
+Okay. I like that. 
+26:35
+Raphael Franklim Oliveira Ferreira
+I like to fishing and also we are in the World cup time so like football, you know? 
+26:46
+Matt Moseman
+Yeah. 
+26:47
+Aluizio Augusto Kleine Kirschner
+Soccer. 
+26:49
+Matt Moseman
+Okay. 
+26:49
+Aluizio Augusto Kleine Kirschner
+And what about you, Matt? 
+26:52
+Matt Moseman
+I grew up on a family farm so I spent a lot of time there with my dad still. But interesting enough I really enjoy kiteboarding when I get down to the coast. So I don't surf but I really enjoy kite boarding. 
+27:06
+Raphael Franklim Oliveira Ferreira
+Oh nice. Nice, nice. 
+27:10
+Aluizio Augusto Kleine Kirschner
+Really nice. So undeveloped is near to Chicago. 
+27:14
+Matt Moseman
+We are just north of Chicago by about two and a half hours depending upon traffic. 
+27:20
+Matt Moseman
+Yeah. 
+27:21
+Aluizio Augusto Kleine Kirschner
+I have been in Chicago the last year. 
+27:25
+Matt Moseman
+Okay. 
+27:26
+Aluizio Augusto Kleine Kirschner
+It's really cold here. There. It's really cold there. 
+27:29
+Matt Moseman
+It is cold. 
+27:30
+Matt Moseman
+Yeah. 
+27:31
+Matt Moseman
+I am not a huge fan of our climate in Wisconsin. I would much rather be closer to the equator. 
+27:40
+Aluizio Augusto Kleine Kirschner
+Yeah. So we will wait for your code and if you have any answer, any question to make during this analysis, you can talk to us and I appreciate your time to talk about this concept. 
+28:01
+Matt Moseman
+Yeah, likewise. I really like this project. It's right in our wheelhouse. So I will keep an eye out for the documentation you showed us and I will share with engineering to see how we want to handle putting a proposal together. 
+28:15
+Matt Moseman
+Okay. 
+28:15
+Raphael Franklim Oliveira Ferreira
+Okay. This project is very important to us because we are talking about a new product to us and also for a new concept for assembly lines and testing lines. 
+28:31
+Matt Moseman
+Really okay. 
+28:32
+Raphael Franklim Oliveira Ferreira
+Yes. So this is why this project is so important to us. Okay. 
+28:38
+Matt Moseman
+Okay. 
+28:39
+Matt Moseman
+Is that the next problem? 
+28:40
+Matt Moseman
+Oh, go ahead. 
+28:41
+Aluizio Augusto Kleine Kirschner
+And probably this project will be using worldwide. So we will create lines in China, Italy, Mexico, maybe USA too. So this is why this project is so important to us. 
+29:02
+Matt Moseman
+Okay,. 
+29:06
+Matt Moseman
+What is like when you're selecting the integrator? Is there anything specific you're looking for? 
+29:15
+Raphael Franklim Oliveira Ferreira
+No, no, totally. But it's important to us that our supplier uses some WEG products, like the sensors, some PLCs, the frequency inverters. 
+29:32
+Matt Moseman
+I know. We use your inverters on machines. I've seen several of those in cabinets. 
+29:40
+Raphael Franklim Oliveira Ferreira
+Yes, exactly. 
+29:41
+Matt Moseman
+Cool. 
+29:41
+Raphael Franklim Oliveira Ferreira
+So this is, I think, the main idea to when we are searching for any supplier. 
+29:50
+Matt Moseman
+Okay, understood. 
+29:51
+Raphael Franklim Oliveira Ferreira
+Okay,. 
+29:54
+Matt Moseman
+Perfect. 
+29:55
+Matt Moseman
+Well, thank you very much for everybody's time today. I look forward to continuing the conversations and getting a proposal put together for you. 
+30:02
+Raphael Franklim Oliveira Ferreira
+Okay. Okay. Thank you so much. 
+30:04
+Aluizio Augusto Kleine Kirschner
+Thank you much. 
+30:06
+Matt Moseman
+Thank you. Talk soon. 
+30:07
+Alissonn Felippe Bebber
+Thank you, Matt. 
+30:08
+Raphael Franklim Oliveira Ferreira
+Thank you. Bye bye. 
+30:09
+Matt Moseman
+Bye, bye.   Transcribed by https://fireflies.ai/

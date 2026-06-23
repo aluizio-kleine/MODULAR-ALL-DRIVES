@@ -1,0 +1,1012 @@
+WEG - Modular All Drives - DMC (USA)-20260617_110145-Gravação de Reunião
+17 de junho de 2026, 02:01PM
+52m 24s
+
+Neal Walters   0:18
+Brent, I've got Alex coming in here too, assuming he got the invite.
+
+Brent Hoerman   0:29
+Good, the more the merrier.
+
+Neal Walters   0:45
+We need to turn some lights on in here.
+See how white I am? It's just overcast outside.
+Yeah, it's...
+
+Aleks Konstantinovic   1:02
+Hello, good morning.
+
+Aluizio Augusto Kleine Kirschner   1:03
+There's more people coming.
+
+Brent Hoerman   1:07
+I believe this is it.
+
+Neal Walters   1:09
+That'll be it from DMC, so.
+
+Aluizio Augusto Kleine Kirschner   1:12
+Okay.
+Oh, let's start the meeting. I was thinking about you guys make a small presentation about DMC and what you do.
+To show us.
+That's fine.
+
+Brent Hoerman   1:31
+Yeah, that would be okay. Give me a minute to pull that up and maybe we could do introductions first while I do that.
+
+Aluizio Augusto Kleine Kirschner   1:41
+K.
+
+Brent Hoerman   1:45
+Would the WG team like to go first?
+
+Aluizio Augusto Kleine Kirschner   1:52
+So, the objective of this meeting is to try to see if we can collaborate and do a project of a testing test system line for frequency inverters, and also if do you guys of...
+DMC have the knowledge and the know-how of automation. We can work on assembly lines, fully automated too. That is a project from Franklim and Alissonn. They will talk to you later about it, but the main point here is about the...
+
+Neal Walters   2:14
+The.
+
+Aluizio Augusto Kleine Kirschner   2:32
+Test system for frequency inverters - it's a new concept for us, and...
+
+Raphael Franklim Oliveira Ferreira   2:34
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   2:40
+Do you want me to show the concept first, or I believe it will be better to see what DMC can do, and then later we can we can show the concept?
+
+Brent Hoerman   2:53
+Yeah, that'd be great. Do you want to introduce the rest of your team as well in addition to the project?
+
+Raphael Franklim Oliveira Ferreira   2:56
+Yes, yes. Good morning everyone. Just to introduce myself and our team. We actually work in the industrial engineering team and we are responsible to repair our facilities to produce
+our new WAG products, okay? So any new demand that we have for a new product, we want to prepare our factory to stay ready to produce this product, okay? So this is the one of the reasons.
+of our meeting today because we have a new product to develop and implement in our industry.
+
+Brent Hoerman   3:48
+Okay, great. So I have the slides pulled up, I guess, to introduce DMC, but first, why don't we do personal introduction? So I'm Brent Herman. I'm a senior engineering manager at DMC. I've been with DMC on and off for 10 years. It turns out my career was five years at DMC while we were
+a 20 person company headquartered in Chicago, where we're still headquartered today. And that was from 2006 to 2011. I then worked with Eaton Corporation, who also makes industrial drives, industrial components, a lot of electronics, but I was on their vehicle systems integration team for 10 years. And then after getting tired of vehicles and the whole automotive industry, I circled back to DMC, which had grown to be a much larger company around
+250, getting closer to 300 every day type of company. I've been back for five years. I work on our test and measurement services team. So these, initially we were talking about test stands. Yes, they may have automation and PLCs, but overall the goal is to test a product in production. We also do, you know, test systems for folks in R&D laboratories or doing validation verification testing or out in the.
+field. We also do high volume manufacturing, in which case we pull on some other service areas, which would be our automation services team, which doesn't build the assembly line by themselves. They program it, add robotics, and generally handle the hardest stuff to be done on the line. And that's the team that Alex is with. And then our hardware.
+Engineering team, which is headed by Neil Walters, actually supports both of our teams depending on what kind of stuff we need to move where. I guess for lack of a better term, Neil, you can give it a better spin if you want to by going next, actually. So, Neil.
+
+Neal Walters   5:31
+Yeah, my name is Neil Walters. I am technically a member of the automation group, but yeah, I work with all of the service areas at DMC. I am the lead mechanical, or leading, what is it? Mechanical engineering lead is my technical role.
+
+Aluizio Augusto Kleine Kirschner   5:42
+Next stop.
+
+Neal Walters   5:49
+So I head up any design and support the build efforts for machines that we design and develop internally at DMC, along with other members of the team. I've only been with DMC for seven months now, but I've been in the automation industry for over a decade.
+before my time here at DMC. So got some good background in.
+in manufacturing and robotic automation, vision, and all kinds of fun things. Pass it off to Alex.
+
+Aluizio Augusto Kleine Kirschner   6:29
+So.
+
+Aleks Konstantinovic   6:30
+Cool. Yeah. I'm Alex. I'm here in our Chicago office with Neil. I'm on the automation team. So as Brent introduced, we handle a lot of like the PLC, HMI, SCADA, software development, and then integration into hardware after the fact. So I've been with DMC for five years now as a project engineer. And
+My time here, yeah, I've done several various projects centered around like product conveyance, robotics, vision integrations, things of that nature. So yeah, happy to hear what we have at hand here.
+
+Raphael Franklim Oliveira Ferreira   7:07
+The.
+
+Aluizio Augusto Kleine Kirschner   7:08
+K.
+
+Brent Hoerman   7:08
+Okay, so can everyone see the slide deck?
+
+Aluizio Augusto Kleine Kirschner   7:11
+Yes.
+
+Brent Hoerman   7:12
+Okay, perfect. Well, I'm just going to roll through this. Feel free to ask any questions. Maybe some of the personal introduction, the backgrounds will make more sense after you learn about DMC. So this slide presenting specifically test and measurement capabilities. We have other decks for our other service areas, which I'll get to in a second. So we'll go through company highlights. I'll explain our service areas, our manufacturing,
+
+Raphael Franklim Oliveira Ferreira   7:30
+And.
+
+Brent Hoerman   7:35
+design and build center, different engagement approaches, and overall test management capabilities. The deck will probably become less interesting because it's less specific to your opportunity as we go. So we'll probably stick to just these first slides and then breeze through the end. So DMC has been around since 1996. Like I said, I personally started with them when we were 20 people in 2006.
+We are headquartered in Chicago, Illinois, but do have 14, soon to be 15, 16 regional offices throughout the United States. These offices are not just sales centers with a single office. They are multi-engineer sites, so we can support local customers without charging them.
+with, you know, honors travel from Chicago or one side of the country to the other. We do not have offices outside the United States officially. We do have some engineering support centers outside the United States, but our teams do frequently travel around the globe to support deployments all over the place. We have a complete
+
+Raphael Franklim Oliveira Ferreira   8:20
+Yeah.
+
+Brent Hoerman   8:36
+forget how many people are on the team, but are rd warriors, not a separate department with people that explicitly just travel as part of their job. So while the projects are developed by a core engineering team staff with, you know, one of the folks you're seeing here and head of development, those rd warriors will be on the team as we deploy to FAT, SAT, and then they will be responsible for doing the ******** travel.
+
+Raphael Franklim Oliveira Ferreira   8:45
+M.
+Mhm.
+
+Brent Hoerman   8:59
+because they like it around not just the United States, but the globe. Okay, so we do have a 25,000 square foot manufacturing center, which is located in Chicago. And we try to do the majority of our builds so we can control schedule, quality, timing, that kind of thing out of Chicago. But we will occasionally partner with regional development partners if we have high volume to be run.
+close to one state or another for some reason.
+All right, so we have, as you can see, like thousands of customers, 10s of thousands of projects in 42 different countries, speaking of kind of global presence. A lot in Asia and a lot in Europe, of course. So test measurement automation is the team that I'm on, but that doesn't mean.
+is by far the biggest. It'll be the focus of this presentation where, like I said, we do R&D to validation, production, field returns, warranty centers, all kinds of different use cases and span all kinds of industries. From energy is getting bigger every day. Automotive used to be a big thing, automotive and commercial vehicle, battery, electrification, grid.
+solar, you name it. We do all kinds of fields. I have the specific expertise in high voltage electrification and anything to do with our United States government and armed forces procurement, so specifically in aerospace and defense. But by far our largest service area, which Alex and Neil are probably more heavily associated with than test and measurement, is called manufacturing automation intelligence.
+So that's anything dealing with the PLC, HMI, SCADA, MES, robotics, you know, conveyor servo systems. So what you're talking about in your request is actually a merge between test and measurement and our manufacturing service, which we do all the time. It's just that, you know, we have to, we're large enough, we have to have some stove pipes internally to organize all these people.
+And this is the way we've broken it down. But we are used to working it together quite frequently. We will also pull in embedded development programming wherever needed between these two service areas. So if we need custom circuit boards done or custom, you know, for a higher volume system, let's say you were going to have a high run and you want to get away from some of the off-the-shelf components that we would use in this test stand and you wanted to bring costs down.
+you could pull that service area. And they also do, I guess, initial prototype and product design occasionally get pulled in as a separate service area where they're asked to design A robot controller or a battery control board, something like that. And then of course, we have a cloud workspace services team, which actually does any of the other software that's out there in the world.
+that the other three groups don't cover.
+Our manufacturing center, like I said, is up to 25,000 square feet, started very small just a few years ago. It has grown really quickly to do either standard NEMA panels, you know, like you'd see on automation factory floor or test racks like you'd see in a laboratory or sometimes blends of the two. We do a lot of PCB functional test and
+you know, depending on the product shape, some kind of blend of these different form factors are usually come into play in test and measurement. We are you all certified for projects here in the United States, and also ISO, of course. Project engagement, so DMC is at its core an engineering consulting firm.
+We have the majority of those employees out of the 250, 260 where we're up to employees, the majority, over 90% of them are engineers. So our management team is all engineers that work their way up through the rank. Our owner, believe it or not, was an engineer, degree, I think master's degree in mechanical, and picked up PLCs and
+and things were transitioning in the United States from all mechanical systems to PLC and computer driven. So Owens runs the company still today, founded in 1996, and we will work however it makes sense to execute projects with our customers. So whether it's on a time and expenses basis, we're acting just as purely consultants, let's say a battery test or something else.
+have a lot of experience on that specific thing that we're testing and the specific tests that we're doing. We'll sometimes do projects like that or if they're high risk, then we have to go in and try to salvage like an old test system that has lost its source code or hardware no longer available. Sometimes we'll own projects like that where it makes sense. Also do fixed bid, so where your requirements are really nice and packaged and the scope is clear.
+We have no problem doing fixed bid. Sometimes people want to do things that they consider either they or we consider to be high risk, in which case we'll break the project up into different phases and then determine whether time and expenses or fixed bid makes sense for each particular phase as we go along. Generally, it's higher risk in the beginning where we do some proof of concept or some initial studies.
+to try to reduce the technical risk, we will sometimes revert time and expenses projects for those, and then we'll transition into a fixed bid. So if your project, let's say, had a lot more risk involved in it than what we see, we might consider some kind of blend phase approach.
+Okay, so a bunch of certifications that, you know, you have to get as your company matures. Not sure that a lot of these apply, but like Control System Integrators Association, of course, applies to most of the things we do. And then the different ISO standards and CMMC.
+All right, so getting a test measurement, you know what we do, we do turnkey automated test solutions. So generally, like I said, these are some kind of phased approach or fixed bid. We will do just a software program, if that makes sense, if you were building it yourself and you didn't have the right people to do the software. One thing that we won't do, because it's a precious resource, is take something that
+you're going to program and then have us purely just do the mechanical design or whatever. Neil's team is too small and too busy and too critical to our other service areas to flip that around. Okay, and sometimes we'll do staff augmentation. We have some giant customers that have to move quickly. They need smart people that'll come up to speed in a hurry. And so they'll just say, I need
+5 heads to put onto my product development team or to develop this test system with my internal team to get it up to speed faster.
+So service offerings, like I said, this from here is going to be less probably relevant to the ask that you have, but we've done all kinds of test systems for a variety of different dos. Our software is modern. We used to be, I guess, heavily dependent on LabVIEW as the core software.
+for our test engineering projects that we run. But I would say, especially over the last 10 years, the mix has become probably 50-50 LabVIEW. People call us because it's hard to find people that are experts in LabVIEW, but those that need it, that's what they have to do. Increasingly, projects are becoming a blend of automation and test engineering. We're using some of the PLC platform as a front end, and it doesn't matter what the software is in the back end.
+For that, we'll pick whatever text-based programming tool makes sense. Of course, if the customer has a preference for this particular type of programming language, let's say you're an Agilent type of or a key site type of house and you want to stick with their sequencer and their programming, we can do that as well.
+Let's see, so partnerships. So we have a lot of partnerships in the test measurement world. These would be different than the slide deck that's let's say Alex would show you if this was an automation heavy project where you take all the big name PLC and automation providers and you know, we're in their partner ecosystem and have lots of trained experts. On the test measurement side, our primary partners, National Instruments, that used to go along with the lab view as the majority of our programming.
+But increasingly, we're spreading out our partner base to include Amatek, UEI, and their hardware-based system. Pickering has always been a favorite when it comes to electronic switching. We're increasing our partnerships with Tektronix and Beckhoff. We're seeing a lot more demand for their products just naturally in the customer base, and we're seeing their products start to grow in importance and what they can do.
+So I was just thinking, we don't have a lot of good examples, I guess, of factory automation in this slide deck. So I'm going to say like, what you've asked for is probably what we should focus on now and then how DMC's different circuit series is going to come to play to make that concept come to fruition. So are there any questions on any of the material I've presented so far?
+
+Raphael Franklim Oliveira Ferreira   17:06
+No.
+
+Aluizio Augusto Kleine Kirschner   17:06
+I have a question. So do you design and build PCB testing benches?
+
+Brent Hoerman   17:13
+Yeah, we will.
+
+Aluizio Augusto Kleine Kirschner   17:14
+For the for functional tests.
+
+Brent Hoerman   17:17
+Yeah, we'll do a functional test. I'll say in full transparency, there are a lot of off-the-shelf systems, flying probe or functional test. If you can find an off-the-shelf system, you're going to be better. We are, you know, we've done a lot. We're not starting with nothing. We have existing designs and boilerplate frameworks that we can take and come into play.
+Where we see the most success is when your PCB has some kind of nuance that you cannot use an off the shelf. You have fiber optic connections, you have high speed RF, or you have high power handling. If you need to get 1000 amps on and off your circuit board at five different points, that's us. You will not find someone that will put a standard like better nails fixture together.
+at least cheaply to do that. And that's where we partner with Dylan and the hardware engineering team to figure out how are we going to get the current on and off that board, dissipate the heat, and becomes an engineering study that's a one-off based on your device. We have done some of that stuff before. So again, even though it'd be a one-off test system with unique design for your PCB particularly, we wouldn't be starting from nothing.
+
+Raphael Franklim Oliveira Ferreira   17:56
+Mhm.
+
+Brent Hoerman   18:16
+We've done it before.
+
+Aluizio Augusto Kleine Kirschner   18:18
+Okay.
+
+Brent Hoerman   18:20
+Yep, but happy to talk about that more separate discussion if you want to have one. I can show you a slide deck that's more tailored to that.
+
+Aluizio Augusto Kleine Kirschner   18:29
+And what about automated assembly lines for PCB, like for assembly full inverter? Do you?
+
+Brent Hoerman   18:39
+I.
+
+Aluizio Augusto Kleine Kirschner   18:40
+Have any project like this before?
+
+Brent Hoerman   18:42
+Do not think when it comes to component placing, like pick and place, again, no.
+
+Raphael Franklim Oliveira Ferreira   18:45
+No, no.
+No, the PCB into the mechanical parts, like assembling the product.
+
+Brent Hoerman   18:53
+Yeah, so you're talking about using a cobot or some other kind of like robotic system to pick apart from a bin, insert it into assembly, move the assembly down the line. I don't know if we have any good examples of that. Neil's probably the best one to speak to it, or maybe Alex has some experience. I do not know for sure if DMC has done anything, but we definitely have the skill set that we could attack that if it made sense.
+
+Raphael Franklim Oliveira Ferreira   18:56
+Yes.
+Exactly, exactly.
+Okay.
+
+Neal Walters   19:17
+Yeah, I would support, I guess, what Brent said. We've done some, we've done things similar to this. I've done some projects in this sort of world, but personally, but yeah, I'd say we have the skill sets to tackle those sorts of problems.
+
+Aluizio Augusto Kleine Kirschner   19:34
+Okay.
+
+Raphael Franklim Oliveira Ferreira   19:35
+Mhm.
+
+Aleks Konstantinovic   19:38
+And yeah, just piggybacking off that, I mean, we have tons and tons of like robot experience from anything from like, you know, painting to pick and place. So just echoing what Neil and Brent have said that we do have the skill set. I can't think of a project off the top of my head right now, but I'm sure we could dig something up of something similar we've done in the past. So I'll take that as a note.
+
+Raphael Franklim Oliveira Ferreira   20:00
+Okay.
+
+Aluizio Augusto Kleine Kirschner   20:00
+Okay.
+
+Brent Hoerman   20:00
+Yeah, robotics, robotic systems in particular. So if you're like, there's a particular robotics challenge or automation mechanical movement challenge, we're partnered with a lot of the big automation companies that produce those robots. And so we work with them to find out who's got the, you know, best mix of technical requirements, cost, and then like fitting into the overall system.
+to make performance and cost trade-offs the best. And then we would come in and partner with that robotics company to build the assembly line and program it.
+
+Raphael Franklim Oliveira Ferreira   20:23
+Student learners.
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   20:26
+Okay.
+So it's clear for me, do you guys have any other question about DMC?
+
+Raphael Franklim Oliveira Ferreira   20:35
+No, no, it's clear we can start the discussion about the testing solutions.
+
+Aluizio Augusto Kleine Kirschner   20:42
+Okay, so I'm going to share my screen.
+Can you see my screen?
+
+Brent Hoerman   20:51
+I can. And maybe before we get into the technical content, so I'm going to start with, this is great. I feel like maybe AI was involved and I'm okay with that because truth be told, sometimes on my proposals I will use AI to help illustrate a concept or so.
+
+Aluizio Augusto Kleine Kirschner   20:52
+Okay.
+
+Raphael Franklim Oliveira Ferreira   20:58
+Yeah.
+Aha.
+
+Brent Hoerman   21:10
+Achieving this level of detail out of AI involves good thoughts put into the machine and a lot of coaxing to get this kind of thing. So I totally appreciate the effort that went into illustrating the concept to make sure that we're on the right track and understanding what you're asking for up front. So that be said,
+
+Raphael Franklim Oliveira Ferreira   21:15
+Mm-hmm.
+Yeah.
+
+Brent Hoerman   21:29
+Before we launch into this, I have a couple of questions that you have brought up about the program as a new project, right? So new product that you're developing. I had some questions just to go off of that. So it's a frequency inverter for driving motors, like inside of automation systems. Is that right? So like factory automation, conveyor systems, that kind of thing.
+
+Aluizio Augusto Kleine Kirschner   21:32
+I.
+Hi.
+
+Raphael Franklim Oliveira Ferreira   21:46
+Yes.
+
+Brent Hoerman   21:48
+OK, not not traction motors for like a golf cart or motorcycle or anything that rolls are OK.
+
+Raphael Franklim Oliveira Ferreira   21:49
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   21:49
+Yes.
+No, no, no, no, no. It's for industrial motors.
+
+Raphael Franklim Oliveira Ferreira   21:54
+No, no, it's not automotive drives.
+
+Brent Hoerman   21:57
+Okay, so industrial motors. All right, and this is a new project. What kind of timeline is your overall new product development on? And how do you see this program playing out over time?
+
+Aluizio Augusto Kleine Kirschner   22:04
+Our.
+Yes, our deadline for the machine, the test modules be here in Brazil is by the end of 2027, so by the end of the next year. And about the quotations, we're looking for as soon as possible because we are doing a lot of meetings with...
+
+Brent Hoerman   22:17
+Okay.
+Yep.
+OK.
+
+Aluizio Augusto Kleine Kirschner   22:29
+a lot of suppliers around the world, so as soon as possible to move on the project.
+
+Raphael Franklim Oliveira Ferreira   22:36
+Yes, we discussed it before and this first quote is just to get one target for our project. You know, we, for now on, we don't need any detailed documents or any detailed data sheet or
+or anything like that. It's just to set up our target to this project, okay?
+
+Brent Hoerman   22:56
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   23:01
+The budgets.
+
+Brent Hoerman   23:01
+Okay, so what is like a budget setting? So ideally it is, let's say to the level of effort you put into the specs, it's a little bit less than that on our end to set how long would this take us? What would a program we run like this cost? And what kind of technologies would we bring to bear? Although you were pretty prescriptive about using your own components internally.
+
+Aluizio Augusto Kleine Kirschner   23:05
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   23:05
+Exactly.
+Yeah, exactly.
+
+Brent Hoerman   23:24
+Where you need to. So actually that will be one of the things that might take us a little time is to factor in like if you're providing this or if you're providing that into your own system, which makes sense. A lot of big industrial providers do have a, you need to buy our stuff wherever possible to put in it. So we understand that.
+
+Raphael Franklim Oliveira Ferreira   23:24
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   23:25
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   23:31
+Exactly.
+Is it?
+
+Aluizio Augusto Kleine Kirschner   23:38
+Yeah, but, but...
+But for the quotation, you can considering providing all the components and then later we can discuss about providing the components for you guys to make a small discount or something like that. And also we put in on the scope.
+
+Brent Hoerman   23:50
+Oh, okay.
+Okay.
+
+Aluizio Augusto Kleine Kirschner   23:59
+talking about use WAC PLC, but I know that maybe you have familiarity with another PLCs and then we're open to know about it and discuss about it later.
+
+Brent Hoerman   24:03
+Right.
+Okay.
+Later. Okay, that's perfect. We would run the same rules quite honestly at Eaton, where we'd also make PLCs and drives and whatever. There was a formal attachment on every proposal that you shall use Eaton, especially here, right, to drive business to the other groups. But whenever I went out with the proposal, I would say, look, do whatever you're comfortable with to get to a number, and then we can have a separate meeting to say, what did you choose and could you consider what could happen?
+
+Raphael Franklim Oliveira Ferreira   24:26
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   24:30
+Mhm.
+
+Brent Hoerman   24:38
+into the price on it. Okay, that is fine. Totally understand. That will get you to an kind of order of magnitude schedule and pricing estimate much faster. So thank you for that.
+
+Raphael Franklim Oliveira Ferreira   24:40
+Okay.
+
+Aluizio Augusto Kleine Kirschner   24:40
+Okay.
+Mmh.
+
+Brent Hoerman   24:53
+Okay, and then last question, I guess, on your program and what you're intending to do. So you must have an initial launch site for placing these, and then it sounds like maybe global ambitions to take these systems if they're successful and put them around the globe. But could you share where your initial launch site would be for deploying these?
+
+Aluizio Augusto Kleine Kirschner   25:10
+The initial launch will be here in Brazil because this is here is the headquarters. So later, probably these projects will be implemented in China, Mexico, Italy, India. So
+
+Brent Hoerman   25:14
+Okay.
+Yeah.
+Okay.
+
+Aluizio Augusto Kleine Kirschner   25:29
+But the first one will be here in Brazil.
+
+Raphael Franklim Oliveira Ferreira   25:31
+This project will be totally replicable, you know. Probably we will start here in Brazil, but we will share this concept with our other plants.
+
+Brent Hoerman   25:31
+Okay.
+Okay, so you can see it globally fitting all of your different manufacturing locations, but you want to start in Brazil. Okay, that becomes important in our assessment for the initial project. And then I see why you've made some of the requirements in the specification. So it seems like global deployment was the long-term goal. Okay, thanks. So we can totally bounce back to the
+
+Raphael Franklim Oliveira Ferreira   25:50
+Yes, totally globally, yes.
+
+Aluizio Augusto Kleine Kirschner   25:52
+Yeah.
+
+Brent Hoerman   26:08
+technical requirements again.
+
+Aluizio Augusto Kleine Kirschner   26:10
+And for you guys, it's not a problem to commission the testing modules here in Brazil. And then after, do the support.
+
+Raphael Franklim Oliveira Ferreira   26:10
+Game.
+
+Brent Hoerman   26:10
+Thank you for answering those.
+No.
+Yeah, not a problem. So what we would do initially is do runoff at our place, of course, right? So you guys can see what's going on. It's easier for us to fix problems. Once you give us a green flag to ship, we'll package it up, we'll ship it down to your site. You guys unbox it, get it where you want it, and then we'll fly engineers down to do the final runoff.
+
+Aluizio Augusto Kleine Kirschner   26:40
+Okay.
+
+Raphael Franklim Oliveira Ferreira   26:40
+Perfect, okay.
+
+Aluizio Augusto Kleine Kirschner   26:41
+Okay.
+
+Brent Hoerman   26:49
+And maybe that's an excuse to have our first international office in Brazil. I would volunteer to run that office. Alex, you and I can arm wrestle.
+
+Raphael Franklim Oliveira Ferreira   26:53
+Yeah.
+We are open to it.
+
+Aluizio Augusto Kleine Kirschner   27:02
+Cool.
+
+Brent Hoerman   27:02
+That's how a lot of our regional offices in the United States started. Chicago was inconvenient. So, you know, let's open one in New York or Boston or wherever and placement engineers are support and then of course become full-blown offices of their own. So it is not within the realm of things that can't happen.
+
+Aluizio Augusto Kleine Kirschner   27:21
+Okay, so let's start talking about the test concept. Here in our factory, we actually developed some test systems for inverter frequency, frequency inverters, but none of them are fully automated.
+We have test systems, manual test systems. Some of them are like the test sequence are automated, but the electrical connections or conveyors, we don't have it. We just put the product manually in the system, attach the cables, wiring, and then the test sequence is automated.
+
+Brent Hoerman   28:00
+Let's go.
+
+Aluizio Augusto Kleine Kirschner   28:01
+You don't need the operator to do the test sequence, but all the automation about the movement and electrical connections, they are manual now. So this is why this is a new concept for us.
+So, let's start talking about it. In the first moment, we will have the assembly line, assembling the products, and then we will have like a load station where the operator will put the drive in a fixture.
+And then, in this fixture, we want automated connections between the product and the fixture.
+So the electrical connections needs to be automated here. And the connection between the fixture and the test module will be common, will be a standard. So you just change the fixture depending of the product, and then the connections between the module and the fixture will always be the same.
+
+Brent Hoerman   28:43
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   29:01
+This is our concept.
+So since the product is attached to the fixture, it can move forward, it can move into the test module. And in this part of the test module, we will have like a door or a window or something that will open, then the product move into and...
+Since the product is inside the test module, we want the product and the fixture to move away from the conveyor to let the conveyor free to other products can flow over the conveyor.
+
+Brent Hoerman   29:39
+More.
+You want flow through then. So, okay, just a couple questions on the process as far as you got. So to confirm, at the initial side where you say product entry left side, somewhere at that station or prior, a human would connect to the product to some kind of common plate on
+the jig or pallet, let's call it, right? So the pallet has some kind of like stubbly connector or whatever that's, you know, easy for machine alignment, has the right power ratings, you know, air if you needed it, whatever, right into that one common fixture on the pallet, but a human's making the hand connections to the product. Is that correct?
+
+Raphael Franklim Oliveira Ferreira   30:02
+Mhm, mhm.
+
+Aluizio Augusto Kleine Kirschner   30:18
+No, we want these connections to be automated. So the electrical connections of the fixture and the product needs to be automated.
+
+Brent Hoerman   30:29
+Are you imagining that being done? It's not shown, I guess. It wouldn't be done inside the test module, right?
+
+Aluizio Augusto Kleine Kirschner   30:36
+Won't be done inside the test model, it will be done outside.
+
+Brent Hoerman   30:40
+be done outside. Is that in the scope of this quote or is that to be done by somebody else?
+
+Aluizio Augusto Kleine Kirschner   30:45
+No, is in this scope.
+
+Brent Hoerman   30:49
+Okay, so we need a robot or some kind of thing to do you have any details on what the product connectors are and what they look like?
+
+Aluizio Augusto Kleine Kirschner   30:49
+It is in this scope.
+Yeah, I can show you something.
+These are like the power connections and the control connections. You have the screws here and this is other project.
+
+Brent Hoerman   31:04
+Okay, so they're terminal strips.
+
+Aluizio Augusto Kleine Kirschner   31:13
+other product power connections.
+
+Brent Hoerman   31:15
+Okay.
+Okay, so that's going to, that's why I'm saying like human hands may be going in there is how you're doing it now, right? But you'd look for some kind of robot and probably with two pieces, one to pull the screw or the, is the state going to be for those terminal strips that the screws are out already or can we not assume that we have to drive them out, slip in and then drive them down?
+
+Aluizio Augusto Kleine Kirschner   31:17
+But if, if you...
+Yeah.
+Yeah.
+We can, we can do a standardization of this, like, if you prefer to to put this this screw, yeah, yeah.
+
+Brent Hoerman   31:43
+One way or the other, change the state. Okay.
+
+Raphael Franklim Oliveira Ferreira   31:45
+M.
+
+Aluizio Augusto Kleine Kirschner   31:47
+Yeah, and also we are we are working on more easily designed power connections for automation, like, yeah, design for test.
+
+Brent Hoerman   31:55
+Designed for test. That would help. Because right now you got two choices. You can either have something that simulates the spade that goes into those screw terminals or you're coming down with probes. Can we get a CAD model of the launch product, at least a mockup of shell? Because those connectors are going to be important. If they're angled such that we can't get clear access,
+
+Raphael Franklim Oliveira Ferreira   31:57
+Designing for test.
+
+Aluizio Augusto Kleine Kirschner   32:01
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   32:04
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   32:08
+Yeah, yeah.
+
+Brent Hoerman   32:14
+to them, then there's no other way but designing a special fixture that slips in and acts like the spade. But if there's enough room to come from above, we can come down with probes and hit it potentially. Okay, so the drawing's a little misleading. What I've seen some people do, and that's why I asked, is they have human operators that will make those hand connections, right? It might take them a while, but once they get it,
+
+Aluizio Augusto Kleine Kirschner   32:24
+Yeah, yeah, we can we can send it to you later.
+
+Brent Hoerman   32:36
+connected, that goes down to a mass disconnect, like a stobly connector or something, and it's on the pallet. So it's physically clamped down, manually connected with a short wiring harness that's there, a pigtail harness that goes to a mass connect. And the advantage is they do that once, and then that common pallet goes to every single test station after, and they may have more or less of 1, depending on how long, you know, cycle time.
+for each machine. But the flow through is important that I got. So you'd want to be able to have, let's say, 3 identical test stations there. When it comes by, it's picked up or dropped or moved to the side or out of the way so that the next product could flow through and it's just got access to the conveyor. So it's almost like a spur station that it docks into. Okay.
+
+Aluizio Augusto Kleine Kirschner   33:10
+Yeah, yeah.
+Yeah, this is the concept, and also about about the pilot, the the fixture. If you if you say to me that you cannot do the automated connections, we can work on manual connections, but...
+It's really good for us if the connections be automated because we have a lot of problems with operators connecting the cables. So if you say to us that you cannot just let us know in the quote, but...
+
+Brent Hoerman   33:39
+Yeah.
+Yeah.
+Okay, I could, Neil and I could talk offline about strategies to do that, but yeah, I'd say there's, you know, preferred for everyone is I just take the product, I throw it in the machine and the connections happen and the test runs and then the part comes out. The next next one for complicated engagements is the manual step and then a pigtail harness. Of course, it's not just the connections and the operator you have to rebuild, but the harness itself.
+
+Aluizio Augusto Kleine Kirschner   33:47
+The.
+
+Raphael Franklim Oliveira Ferreira   33:58
+Mm.
+
+Aluizio Augusto Kleine Kirschner   33:58
+Yeah.
+
+Brent Hoerman   34:07
+the connection between the pallet and the machine, test machines can break down over time. So yeah, that makes it more complicated. How often do you consider when we build a station like this that you're never going to change a product that's running on it? So there could be, you're saying like,
+
+Aluizio Augusto Kleine Kirschner   34:14
+Yeah.
+
+Brent Hoerman   34:27
+This generic machine is common. We use it for a lot, at least this conveyor concept. But then the probing and how we connect into the product may have to change out when you order the next one if it's a different product. You're okay with some customization based on the device that you're testing.
+
+Raphael Franklim Oliveira Ferreira   34:42
+Mhm.
+
+Brent Hoerman   34:43
+Okay, all right. Because if you wanted a universal system where you can just throw the cat and tell where the connection points are and it kind of goes in, that's probably, I don't think anyone's going to be able to do that for a cost you're going to be willing to assume. Yeah.
+
+Aluizio Augusto Kleine Kirschner   34:44
+Yeah, the.
+Yeah, the fixtures will need to be customized, like depending on the product, but this test module.
+
+Brent Hoerman   35:02
+Okay.
+Okay, custom palette, custom probing, but the overall machine design, the controls, there's a lot reusable from program to program, correct? Yeah, okay.
+
+Aluizio Augusto Kleine Kirschner   35:11
+Yeah, yeah, the test module will always be the same and this concept allows us to test a lot of SKUs, like a lot of type of products like...
+
+Raphael Franklim Oliveira Ferreira   35:11
+M.
+SK.
+
+Brent Hoerman   35:22
+Okay, yeah.
+
+Aluizio Augusto Kleine Kirschner   35:27
+Different different frequency inverters in the same test module.
+
+Brent Hoerman   35:30
+Right. Okay.
+
+Aluizio Augusto Kleine Kirschner   35:33
+Sell.
+
+Brent Hoerman   35:34
+Are you okay? I guess question just on that drawing that image is, are you okay if this, like the cube, the test module is actually everything it needs to make the electrical connection? And then there's a separate test rack that's customized depending on whether it's high pot, whether it's functional test, or whether it's a load test. So this would be exactly the same.
+like system, there may be different change in the probes, like which probes are populated, which ones aren't, depending on test system, but there'd be a separate rack. So in the future, you'd say, hey, I need a test module to handle XYZ product. Here's the model. Can you change it over? What's it going to cost for the customization on it? The base price would probably be set. And then you could change the test to something completely different. We're doing a test that we've never done before. It's A durability test or it's a...
+
+Aluizio Augusto Kleine Kirschner   35:59
+Yeah, yeah.
+
+Raphael Franklim Oliveira Ferreira   36:05
+Mhm.
+
+Brent Hoerman   36:17
+temperature test or whatever, right? And we just then design and quote the test rack that goes along with it separately. So those are the major pieces you're selling. Okay, that's fine. Neil, do you have any questions up to this point?
+
+Neal Walters   36:31
+Yeah, no, I was just curious about, yeah, what those connections will be looking like. That's definitely sort of top of my mind for the higher risk portions that we've talked about so far.
+
+Brent Hoerman   36:33
+Okay.
+Yeah, yeah, I I figured it would be, so I tried to line you up with a CAD model of the product and what the connections are, so you and I can work together, figure out what might make sense there.
+
+Neal Walters   36:48
+I appreciate it. I hate to come begging at the end of the meeting.
+
+Brent Hoerman   36:52
+I know, right? Okay, so this looks good. Please continue the explanation. It was great so far.
+
+Aluizio Augusto Kleine Kirschner   36:58
+Okay, just to ask, did you say that you will need an extra rack, extra panel to the hardware or?
+
+Brent Hoerman   37:08
+It's possible. I'm just asking if that's acceptable or not. What we could do is design the system. I'm just thinking because you're, even though you're here, your AI generated, like, you know, system here is very realistic looking. We're going to, you can't be in the same position, right? So it needs to come up or drop down or to the side or something in floor space.
+
+Aluizio Augusto Kleine Kirschner   37:13
+Okay.
+
+Brent Hoerman   37:28
+You know, footprint is a big design. Then we've got to go up or down from the main conveyor level, right? So where am I going to put the test electronics? You probably don't want to stuff it all underneath because then the main assembly lines up here and nobody can see it or touch it or repair it, right? So you want it somewhere within, you know, normal human seeing and feeling and touching and fixing.
+
+Aluizio Augusto Kleine Kirschner   37:32
+Yeah.
+Yeah.
+Okay.
+
+Raphael Franklim Oliveira Ferreira   37:42
+Mm-hmm.
+
+Brent Hoerman   37:48
+if it comes to that, right? Which means then you're probably going to be dropping that down. Dropping down is either a problem because there's some support motion mechanism, right? So you're coming up already. So you're already up at like, you know, chest to eye level with this thing. Where's the test equipment going to go? Up on the ceiling? I mean, if you want to, that's fine. We will make this thing
+
+Aluizio Augusto Kleine Kirschner   37:48
+Yeah.
+
+Brent Hoerman   38:07
+you know, 14 feet high and anchored into the floor if you want. Most engineers and technicians and maintenance guys aren't going to want to pull up your version of OSHA here in the United States is not going to want people up on ladders like working on. So unfortunately for you, I know footprint's a premium. You're going to end up putting your test equipment somewhat.
+
+Raphael Franklim Oliveira Ferreira   38:19
+M.
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   38:22
+Yeah.
+
+Brent Hoerman   38:28
+somewhere around that. Not saying it can't stick to the side over here, but you also want to be able to stack machines tight this way, right? So the reality of it is the test equipment that you're already familiar with, that you already have for your automated testing, is going to have to go somewhere. I think, and Neil, correct me if I'm wrong for some reason, but I've done this enough with you to know.
+
+Aluizio Augusto Kleine Kirschner   38:29
+Yeah.
+
+Brent Hoerman   38:47
+There needs to be space for the test equipment. The majority of what you've shown is going to be part handling, especially if we have some kind of probe plates. Then you're moving the product up and then the probe plate needs, you know, some kind of dimension to come down and connect to the product. So there's so much motion going on here, not to mention vision, if we get into that, because I think you had some vision components that just physical handling and connection of the device is going to.
+You'll be lucky if it takes up the amount of space shown here. You will need somewhere to put the test equipment. Now, factory floor space is a problem and you can get mezzanine or basement or support closet and run wires. We can do that. We're happy to do that. But having a separate test rack then gives you some flexibility in moving it like to the side or you have
+you know, material movement access pathway around the thing, and you want to put it like a row over and then cable through the ceiling or trenches or something underneath. But I would consider for all this. It also gives you the flexibility of easier ordering the system, right? You order the material movement handling and connection machine, and then you can order one of four or five or some new test rack that you, you know, we haven't invented yet.
+that can easily pair with it. You know what the costs of this are, because this is your high volume thing that you're ordering all the time for your assembly lines. Whereas the test racks, maybe you only need one for this assembly line and I need 20 of them because it's a slow test for some other line, right? It decouples the testing equipment from a material handling and transporter.
+
+Aluizio Augusto Kleine Kirschner   40:10
+Yeah, yeah, for us, the factory space is really important. So this functional, these test modules needs to be compact as possible. And we were looking for the drive inside the test module move backwards.
+
+Raphael Franklim Oliveira Ferreira   40:13
+The.
+
+Brent Hoerman   40:15
+Premium, yeah.
+Yeah.
+Okay, so maybe, yeah, you move horizontal. So if it moves like a T basically shape, right? So the main line's here and then it perks to the side. Okay, and that will leave you some room below and above some extra room because then it gets wider, right? So like for something like high pot, it's 1 meter put in. That's not a problem. I'm a little bit more concerned about the load test than the functional test.
+
+Aluizio Augusto Kleine Kirschner   40:34
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   40:34
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   40:35
+Yeah, it it enters here and then move backwards, yeah.
+
+Raphael Franklim Oliveira Ferreira   40:36
+Yes.
+We can, we can think you.
+Mmh.
+
+Brent Hoerman   40:51
+But if the machine base is getting wider just for the movement of the part, then you have more space up above and underneath. So then it could be possible, in which case we'd keep the design so that there's, you know, six U of test equipment here and six U on the other side available. And if you're, you know, whatever test design needs more, then we may have to do a supplemental rack or something alongside it.
+
+Aluizio Augusto Kleine Kirschner   41:12
+Okay, okay.
+
+Raphael Franklim Oliveira Ferreira   41:13
+Mmh.
+
+Brent Hoerman   41:13
+Okay, so we can do that. I just want to talk through the space and volume constraints that you have.
+
+Aluizio Augusto Kleine Kirschner   41:17
+Yeah, yeah. So for us, this concept, consider that each module will have its own conveyor, because if you want to increase the production, you just buy another load test module, another functional test module.
+
+Brent Hoerman   41:36
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   41:36
+and plug in so.
+
+Brent Hoerman   41:39
+Like Lego blocks, right? You just snap your existing line apart, slide it down, and insert another one. And now you have two times the capacity with the flow through system that you have. Okay, yeah.
+
+Aluizio Augusto Kleine Kirschner   41:39
+This is, yeah.
+
+Raphael Franklim Oliveira Ferreira   41:47
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   41:47
+Yeah.
+This is the concept, so...
+Only the load test module need to be heated. The other ones don't need any kind of...
+Heat, I, I.
+
+Brent Hoerman   42:02
+And what was the temperature you were trying to hit, 50C, was it?
+
+Aluizio Augusto Kleine Kirschner   42:06
+50 Celsius degrees.
+
+Brent Hoerman   42:07
+I don't.
+Yeah, okay. So not nothing outrage, not nothing too outrageous.
+
+Aluizio Augusto Kleine Kirschner   42:11
+Yeah, and you don't need to control humidity, so it's just the temperature.
+
+Brent Hoerman   42:15
+Okay.
+
+Aluizio Augusto Kleine Kirschner   42:19
+Um...
+I don't think I have anything else to say. It's just this, the concept. And, oh, just one point, the hypotest module, like I said in the scope, it takes about 3 seconds until 60 seconds to test a drive, depending of the drive.
+
+Brent Hoerman   42:27
+Yeah.
+Yeah.
+
+Neal Walters   42:35
+S.
+
+Brent Hoerman   42:37
+Yes.
+
+Aluizio Augusto Kleine Kirschner   42:41
+The functional test module is about 1 1/2 minutes until 7 minutes, and the low test module takes from 6 to 20 minutes. So this is the...
+
+Brent Hoerman   42:45
+Okay.
+OK.
+
+Aluizio Augusto Kleine Kirschner   42:56
+The problem here with the testing line, like the the slowest module, so one high pot.
+
+Brent Hoerman   43:00
+Okay.
+Yeah, yeah, need more, more, more load tests, like 10, 10, two, one, something like that, right? And that's the system allows you to grow the grow the number of test positions. Yeah, this is nice. We've encountered, you know, concepts like this a few times. I don't know if we've...
+
+Raphael Franklim Oliveira Ferreira   43:06
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   43:07
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   43:10
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   43:10
+Yeah, yeah.
+
+Raphael Franklim Oliveira Ferreira   43:11
+Yes.
+
+Aluizio Augusto Kleine Kirschner   43:13
+This is the proportion. Yeah.
+
+Brent Hoerman   43:20
+I had to execute one. Typically where we see this is automotive.
+
+Aluizio Augusto Kleine Kirschner   43:25
+Mhm.
+
+Brent Hoerman   43:25
+Right. This is these are very common things that happen in automotive, at least the smaller assemblies, right? Larger assemblies, you don't have to worry about this. You have robots, you know, AVG trucks riding them around the plant, but it's similar concepts. You have multiple stations at end of line test because it's slow, whereas, you know, some systems where you're just snapping on parts or flashing software can be.
+
+Raphael Franklim Oliveira Ferreira   43:40
+Mhm.
+
+Brent Hoerman   43:44
+faster. So this is great industrial engineering math done up to this point. So I think we get it. I guess Neil is going to be working on, Neil and I will work on the concept for connection and then try to use as much off the shelf systems as we can for the conveyor and moving it apart.
+
+Aluizio Augusto Kleine Kirschner   43:51
+Yeah.
+
+Brent Hoerman   44:06
+to save costs and risk. That's where at least I think we're headed on the mechanical end, but I think we've answered all those questions. On the electrical test, I don't remember, it's been a while since I skimmed through the document. I tried to do it this morning, got sidetracked by a million other things, I admit. But were the test requirements for high pot, functional tests, and load tests,
+in the spec. Like for high pot, I'm thinking the voltage and current or resistance levels that you're trying to hit so that I can basically pick out equipment. Or if you could tell me what you're using in your development test, I mean, that is a good shortcut. I can either use that same thing or find something that we're familiar with. So I'm just wondering if the electrical test, because that'll be the part my team has to bring to bear is like.
+
+Raphael Franklim Oliveira Ferreira   44:35
+What?
+
+Brent Hoerman   44:48
+How much is this? What meter are we going to cost? What switching are we going to cost? What's it going to take?
+
+Aluizio Augusto Kleine Kirschner   44:54
+Yeah, yeah, I described the test modules, each one in the scope. I don't remember, yeah, level for, yeah, yeah, and...
+
+Brent Hoerman   44:58
+Okay.
+Oh, 4 kilovolt, okay.
+So 4 kilovolt and assume a few milliamp standard high pot test, right? Like failure points probably in the, you know, gigaohms or above. Okay.
+
+Aluizio Augusto Kleine Kirschner   45:12
+Yeah, and then I describe it the test sequence, like what you need to do, the external initialization, firmware version verification, IO's communication.
+
+Brent Hoerman   45:14
+Yeah.
+Yeah.
+Yeah.
+Yeah, yep.
+Yeah, we'll just make some realistic assumptions if you haven't stated, or I guess I can send you the question if it matters. But for the ROM, yeah, those voltage levels and the current level are probably good. Can you just go back to the larger list? I'm just like if there's anything else that might affect price. So rheostatic, you want rheostatic breaking or regenerative?
+
+Aluizio Augusto Kleine Kirschner   45:26
+Oh.
+Yeah.
+
+Brent Hoerman   45:46
+Do you care? Like is it passive like heat blow off or do you want it reach on to grid?
+
+Aluizio Augusto Kleine Kirschner   45:51
+No, no, we don't need to regen to the grid.
+
+Brent Hoerman   45:54
+Okay, well, you're worried about floor space in the future, you never know. You need a green certification to go with this, that your line is 98% efficient or something. Okay, programming values at Ester, motor RS45, no problem. IOs, I guess we will kind of back estimate from the cat model. You tell me how many connections, we'll assume so many for each one.
+
+Aluizio Augusto Kleine Kirschner   46:00
+Yeah.
+
+Brent Hoerman   46:16
+But you had a couple of Ethernet ports, which will be cleared from the model and USB. So we should be able to answer the majority of the questions that it would have on counts for this based on the CAD model. So it should be good.
+
+Aluizio Augusto Kleine Kirschner   46:28
+Okay, and for the power, you can consider this.
+
+Brent Hoerman   46:31
+Yeah, the load test you want heated.
+Yeah, it's close enough for the estimates.
+Okay.
+
+Aluizio Augusto Kleine Kirschner   46:41
+And if you have any advice or any consideration to tell us about this concept, you can share it with us and we can consider it to add this to the scope too. If you see any problem, any issues.
+
+Brent Hoerman   46:57
+Okay.
+Yeah, nothing initially, like I said, but we'll dig into the more detail and make sure we're at least aligned out of timing and selection point, you know, the kind of program level questions seem aligned and you're being reasonable about what you're asking for ASAP. We don't need to assume, you know, specific components that you want us to reuse from a company standpoint.
+like your own PLCs and that, that'll make it easier. And then just knowing that it's kind of a rough schedule and timing estimate just to see, because you probably, if you're talking to five or six other vendors, you just want to get a high level scope to see who's proposing what, about what timeline and cost, what their skill set is, and then you'll probably down select to two or three. I guess, so yeah, we're happy to contribute to that as well, so you know.
+get a good estimate on what your budget should be, you know. I think we understand that. I guess the only question I'm trying to think for Alex, as far as controls, so safety, independent safety, machine safety is important to you guys. You want that on each one. Do you prefer the testing and the main interface to be PC oriented, like we'll be running your test, or do you want that to be the PLC? Because the way I'm seeing the system, there's going to be motion control.
+
+Aluizio Augusto Kleine Kirschner   47:41
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   47:43
+Okay.
+
+Brent Hoerman   48:02
+potential vision or whatever, which would lead itself to like our automation services team, which would be like PLC based, right? But the sequencing of the tasks, the collecting of data, the reporting up, analyzing things, at least to leave room for the future, you're going to have to have some PC component to this as well, right? Do you have a preference on which one is the boss? When I'm sketching the system out, who's at the top?
+
+Aluizio Augusto Kleine Kirschner   48:16
+Yes, yes.
+No.
+
+Brent Hoerman   48:22
+right below your MES factory system or whatever, right, is if you want to be talking to the PLC and have the PLC drive the PC and say, run this test, tell me whether pass, fail, give me error codes, or prefer it to be the other way around where the PC is telling the PLC what to do.
+
+Aluizio Augusto Kleine Kirschner   48:35
+Yeah, yeah, the logic of the test will be on the PLC and then on the boss will be the PC because of the data acquisition and the supervisor system and everything else.
+
+Brent Hoerman   48:42
+Okay.
+Okay.
+Everybody has a preference and if I pick, it's usually the wrong one. We are used to doing things either way. So in this case, we'll probably have the PLC like actually as a main HMI. I think it's just better. So you'd be like execute test. We'll have a secondary HMI, which will be showing what the test PC is doing, but the test PC will be the boss. You just use the more rugged HMI.
+
+Aluizio Augusto Kleine Kirschner   48:49
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   48:59
+Okay.
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   49:04
+Yeah.
+
+Brent Hoerman   49:06
+as like operator interface to do things. But if you're an engineer, you're going to be looking at this screen over here, right, collecting the data, those kind of things. Okay, so that makes total sense to me, just as far as architecture. I don't think it drives costs more, but if I'm going to be drawing stuff out, I want to draw it your preferred way.
+
+Aluizio Augusto Kleine Kirschner   49:21
+And, and also we don't we don't work with LabView, so we prefer C#, Java, Python, OK.
+
+Brent Hoerman   49:26
+Fine, we won't use it here. It doesn't make any sense here. Like I said, we increasingly run into this where if you don't have a preference, we're not using it. It's becoming just as hard for us to find good LabVIEW engineers as everybody else on the planet. It's like rewind to 1980 or 1992,000 and ask for Pascal or Fortran or...
+
+Raphael Franklim Oliveira Ferreira   49:30
+Okay.
+
+Aluizio Augusto Kleine Kirschner   49:34
+Okay.
+
+Brent Hoerman   49:45
+assembly code. Just hard, why would you do it that way, right? Okay, so yeah, that's not a problem. And then we'll pick up whatever preferred tool for PLC drives, that kind of thing, and then we can talk about what could be switched out to your components later. Okay, so I think the ask is variable set up.
+
+Aluizio Augusto Kleine Kirschner   49:47
+So.
+Okay.
+Okay.
+
+Brent Hoerman   50:06
+I think then it's just left for us to do the work. So in a perfect world, if you had your way.
+When would you like to have an answer? And the only day I'm going to rule out is any time this week.
+
+Aluizio Augusto Kleine Kirschner   50:17
+Yeah, yeah, we we can work with then the next week or the by the end of June, July.
+
+Brent Hoerman   50:23
+Two.
+
+Aluizio Augusto Kleine Kirschner   50:27
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   50:32
+Ah.
+Haha.
+
+Brent Hoerman   50:34
+It becomes a popular vacation time and holidays and stuff in there. So that sounds like if you need it before June, that may be a problem. If we can slip into the after the 4th of July specifically, that allows us to rush into a lot of things, get it packaged together, and then hand it to you either over the holiday for your review to try. Worst case, it will come after.
+
+Raphael Franklim Oliveira Ferreira   50:34
+A
+I.
+
+Aluizio Augusto Kleine Kirschner   50:52
+Okay, okay.
+
+Brent Hoerman   50:53
+Okay, perfect. And I will talk to Neil and Alex and make sure that that's okay with them offline.
+
+Aluizio Augusto Kleine Kirschner   51:01
+Okay.
+
+Raphael Franklim Oliveira Ferreira   51:02
+Okay.
+
+Brent Hoerman   51:02
+Okay, cool. But they're nodding, so that's a good sign. They're used to this kind of rush. That's a problem.
+
+Aluizio Augusto Kleine Kirschner   51:07
+Ohh.
+
+Brent Hoerman   51:09
+Okay, so yeah, it was nice getting to talk details with you guys. I guess the rest is up to us. Any other questions, anything we didn't answer or you're left with a, you're not sure if we could do it or how we would approach things? Type questions? No.
+
+Aluizio Augusto Kleine Kirschner   51:10
+Okay.
+
+Raphael Franklim Oliveira Ferreira   51:22
+No, just for me it's clear. I saw you have the knowledge to do the test, so this is not a problem. It will be easy to develop the conversations and the quotes. It's okay.
+
+Aluizio Augusto Kleine Kirschner   51:22
+No, for me, it's clear.
+
+Brent Hoerman   51:26
+K.
+Okay. Yeah, yeah. Overall, like I said, I'm very impressed with the ask on the requirements. You'd be surprised the type of stuff that comes in the door. This was definitely on the better end. But I did want to fill in some of the business conditions behind it, like the new product launch where you're targeting, make sure that makes sense. It is competitive. Of course, you're talking, you know, you make a nice requirements document like that, you have to take it to at least six or ten other people.
+
+Raphael Franklim Oliveira Ferreira   51:49
+And.
+Uh-huh.
+
+Brent Hoerman   52:01
+to see what they think of it, right? So we understand that. So we'll gauge our amount of effort and concepts and estimate accuracy to that point. And then let you decide if you want to talk more with us or not. Okay. No, that's fine. We're just glad you asked. Yeah.
+
+Raphael Franklim Oliveira Ferreira   52:10
+Yes, exactly. That's it.
+
+Aluizio Augusto Kleine Kirschner   52:11
+OK.
+OK, appreciate your time, guys. Appreciate.
+
+Raphael Franklim Oliveira Ferreira   52:15
+Appreciate your time. Thank you so much.
+
+Neal Walters   52:18
+All right, good to meet you. Bye-bye.
+
+Aleks Konstantinovic   52:19
+Thank you, thank you guys. Alright, see you, see you.
+
+Raphael Franklim Oliveira Ferreira   52:19
+Bye bye, bye bye.
+
+Neal Walters   52:23
+Right.
+
+Raphael Franklim Oliveira Ferreira parou a transcrição

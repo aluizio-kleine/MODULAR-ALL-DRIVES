@@ -1,0 +1,1227 @@
+WEG - Modular All Drives - MASMEC (Italy)-20260616_110342-Gravação de Reunião
+16 de junho de 2026, 02:03PM
+1h 13m 45s
+
+Stefano Piccinno   0:05
+Of our of our business, so, OK, this is the milestones of our history, and after, obviously, I can share this presentation, so I go quickly in the parts that I think that does not give a really.
+Added value on this for this meeting, OK?
+
+Raphael Franklim Oliveira Ferreira   0:26
+Okay. Okay.
+
+Aluizio Augusto Kleine Kirschner   0:28
+Okay.
+
+Raphael Franklim Oliveira Ferreira   0:28
+Okay.
+
+Stefano Piccinno   0:29
+So here important thing is that we have plant here in Italy. We are in the south part of Italy, in the east side in Bari. Our plant in here you see a picture is featured by 44,000 square meters and we have this
+This plant has been built for a production capacity of 100 billion EUR.
+Here is the presence over the world. So we have a presence, you see, several places on the world. So Europe, surely, but also in China and also in America, in North America.
+
+Aluizio Augusto Kleine Kirschner   1:03
+Yeah.
+
+Stefano Piccinno   1:18
+And and also in South South America, some installations.
+
+Aluizio Augusto Kleine Kirschner   1:20
+So.
+
+Stefano Piccinno   1:25
+So, currently, our production value normally has target, real target of 50 millions, about euro, and eighty-four percent of this is for automation.
+
+Aluizio Augusto Kleine Kirschner   1:42
+Sing song.
+
+Stefano Piccinno   1:44
+So we have in our team, we are 300 employees. Okay. And let's start with the automation division. So the automation for which we take part. So we
+What we do is to design and build automated systems for component assembly and testing for automotive, automotive segment, automotive market.
+but also other markets that need this kind of solutions.
+This is just a look to our customer, main from automotive market.
+Key.
+We use in our lines technologies such as, you know, vision laser marking and we laser guidance some advanced technologies like this, and also use AI and other.
+
+Aluizio Augusto Kleine Kirschner   2:59
+Thank you.
+
+Stefano Piccinno   3:03
+Tools to sort efficiency, flexibility, and so on, so...
+
+Aluizio Augusto Kleine Kirschner   3:07
+To see you guys.
+The.
+
+Stefano Piccinno   3:12
+We are in our company, as I said, we take charge about both assembly solution and also testing solution. Here we give a look to the testing side. So what we do is to test the products
+For seller production and also for R&D purposes.
+Mm.
+We have systems for batteries, systems for fuel cells. We use a digital approach, so we try to take advantage of the digital approach. So let me say digital twins, virtual reality, augmented reality, to improve
+Our our our products since the design phase up to the installation and the and the post installation phase maintenance and so on.
+
+Raphael Franklim Oliveira Ferreira   4:12
+Hey, Stefano, which software do you use to develop this digital twin?
+
+Stefano Piccinno   4:13
+Yeah.
+Plant, uh, for the digital, uh, digital user plant simulation.
+
+Raphael Franklim Oliveira Ferreira   4:25
+Okay, okay.
+
+Stefano Piccinno   4:27
+And yeah, this is the mainly the software user and other we have other tools for virtual reality and augmented reality. And also we developed this IOT for monitoring machine performance. So I think that we have some slide after that.
+
+Raphael Franklim Oliveira Ferreira   4:36
+Mhm.
+
+Stefano Piccinno   4:49
+The talks better, maybe we look after. OK, OK, so Biomed division, we can, I think we can really quick give a look. We have to also have this other division that think about that take care about the healthcare, so.
+
+Raphael Franklim Oliveira Ferreira   4:51
+Mhm.
+Okay.
+
+Stefano Piccinno   5:09
+several systems involved, laboratory automation, and so just a quick look. About the organization, and here we come again to a topic interesting for you. This is our project management structure in the MassMech. So
+When we, so we are in a sales phase right now. So, for example, me, I'm the sales engineer. If we take an order, the mass make build up a team dedicated to the management of that job, so the sales engineer
+takes part in the team. And there are also other people that is involved in this job that are managed by a project manager that will be defined for the scope. So the job will be managed by these five
+people. So we have project manager, the sales engineer, the project engineer, the buyer, and the assembly leader. In the way that we have, let me say, control, an overall control of the job execution.
+
+Aluizio Augusto Kleine Kirschner   6:26
+Yeah.
+
+Stefano Piccinno   6:33
+See, let me see, is it like a border control with five people that manage relevant tasks?
+This is a look to our network here in Italy, so with the university cooperation and like this.
+And though we are also involved in the in our territory for the glow of our our economy in here in the territory, and also the the the the well-being of people in our.
+Territory.
+We have cooperation also with the universities for education. And okay, these are some accolades we have in the last years. So this is a brief presentation about MassMech in terms of, let me say, in terms of numbers, in terms of entity.
+I don't know if you have specific questions right now about what I show right now. Otherwise, I will go ahead and then with the next presentation.
+
+Raphael Franklim Oliveira Ferreira   7:50
+No, it's okay. We can go ahead.
+
+Aluizio Augusto Kleine Kirschner   7:52
+It's clear for me.
+
+Stefano Piccinno   7:54
+Okay, okay, I got it.
+Just OK, so.
+Yara.
+Okay, now I open a presentation. I go really quickly just to give you an overview about how, what MassMech do, generally speaking, for the automation division.
+
+Aluizio Augusto Kleine Kirschner   8:22
+Play.
+
+Stefano Piccinno   8:24
+And after we will make a focus on the inverter testing. So now I will go really quickly because I do not want to bore you with something that is not interesting or really interesting for you. So assembly and test, we develop
+
+Raphael Franklim Oliveira Ferreira   8:35
+Mhm.
+
+Stefano Piccinno   8:41
+Why is it not? Sorry, just a moment. Okay. Okay. We develop assembly lines for electric motor, for instance, assembly lines for, this is another view.
+
+Aluizio Augusto Kleine Kirschner   8:57
+Just a point, Stefano, Franklim and Alissonn, they are developing the assembly line for this project. This project is a big project involving assembly line, testing line, and a packaging line. So here we are talking about the testing.
+
+Stefano Piccinno   8:58
+Yeah, yeah, yeah.
+
+Aluizio Augusto Kleine Kirschner   9:19
+But later, Franklim and Alissonn will talk to you about the assembly line. So if you have something to show to us about automated assembly lines, it's okay, and it will be useful to us.
+
+Stefano Piccinno   9:33
+OK, OK, OK, I will give you a look to it. OK, this is is is nice because this is the presentation we so this is so electric these are this presentation talks about our experience now in assembly.
+So, so here we have, for example, a solution about electric motor assembly line. Here we see in this picture and assembly line for the axles.
+So, for, yeah, for traction, he axles with the, you know, with all process involved, so pressing functions, screwing function, testing function, leak test function, several process involved, and normally this kind of lines can be tuned from an automation point of view.
+If we can conceive a solution with high level of automation or solution with a lower level automation, I get a number of operators, obviously.
+These other automation lines.
+Diego and.
+Other example.
+Yeah, the several examples of our, this is the biggest project that we managed right now. We are talking about job featured by value higher than 15 million EUR single order.
+Uh, so this is uh, let me see our record here in must make about single job.
+We about OK, more near to the electrical solutions. We have also implemented the assembly lines for battery packs. This is an example.
+with some core process, for example, the dispensing. I think that this, surely this is a process that is also involved in the in the inverter assembly solutions, this kind of process about dispensing and so on, and leak test.
+
+Raphael Franklim Oliveira Ferreira   12:08
+Mm.
+And.
+
+Stefano Piccinno   12:13
+And these are going really near to what is the scope of today with you is examples of our testing line for inverters. This is inverters for automotive segment market, but surely there are several
+
+Raphael Franklim Oliveira Ferreira   12:31
+Mhm.
+
+Stefano Piccinno   12:36
+topics that are common also with your application, also in consideration that our experience in the automotive sector that, you know, has challenging requirements in terms of performance, in terms of quality, safety, and so on, can be, you know, good also for
+
+Aluizio Augusto Kleine Kirschner   12:38
+That stuff.
+
+Stefano Piccinno   12:58
+for testing of your products.
+So, within this inverter testing line, we implemented the IPO test station functional test station. You know, okay, this functional test station includes also inside the load test station that you are talking in your specification, programming, labbing, and parallel final check.
+Uhh...
+
+Aluizio Augusto Kleine Kirschner   13:24
+It takes 12 minutes to end the functional test.
+
+Stefano Piccinno   13:25
+Yeah.
+Sorry?
+The functional test, yeah, about how we implemented the solution implemented by our customer has several sequences that overall takes 12 minutes. That's why we delivered several copies of the
+benches that you see in this picture to achieve a second time lower than one minute. So yeah, the overall testing sequence has this kind of duration.
+
+Aluizio Augusto Kleine Kirschner   14:09
+And all the electrical connections are made by the operator.
+
+Stefano Piccinno   14:09
+But you, yeah.
+Yeah, in this for this solution, we have an operator that they care about connection, and OK, in reality, we manage it both. In some cases, we have a connection.
+of the product to the pallet. So we have the wiring that is connected by the operator to a pallet match plate. And after within the bench, this match plate is connected by the bench. Or alternatively, we have also a solution where we have a direct
+Contacting with the with the product, so considering the needs, we can adopt one or the other, or let me say a mix of both solution about contacting, and yeah.
+
+Aluizio Augusto Kleine Kirschner   15:12
+Okay.
+
+Stefano Piccinno   15:18
+So, example about testing for a battery module.
+Can you say?
+Combustion engine, so here I go really quickly: injectors and so on pumps, patches, leak tests about housings.
+Dumbers.
+transmission assembly lines.
+This is an example of how our, for example, one session can appear. For example, here we have a screening process with the Bosch Rexor screwdriver with the redundant torque control. It's just an example.
+
+Raphael Franklim Oliveira Ferreira   16:05
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   16:07
+Mm.
+
+Stefano Piccinno   16:07
+Big the stations.
+Okay.
+Ohh.
+So, I don't know if you have a specific question about this presentation. Otherwise, I go directly to the presentation involved for the testing of inverters.
+
+Aluizio Augusto Kleine Kirschner   16:33
+You can go ahead.
+
+Stefano Piccinno   16:35
+Okay.
+
+Raphael Franklim Oliveira Ferreira   16:35
+It's clear.
+
+Aluizio Augusto Kleine Kirschner   16:35
+for me.
+
+Stefano Piccinno   16:36
+Key.
+Okay, here we have presentation about our inverter testing solutions.
+So, just an overview. Surely, for example, about the automatic connection to the DUT. So, for example, we have, as I said before, we have both manual connection, automatic connection, automatic connection. This is the case of this slide.
+And we have, in this case, automatic connection both for DC and AC power, communication connection and the low voltage DC power supply, coolant system connection, management with the filling and the draining, with solution with the liquid management up to extreme temperature condition.
+And also inverter handling via with pallet through a conveyor line that is really similar to what you included in the specification.
+
+Aluizio Augusto Kleine Kirschner   17:51
+Mhm.
+
+Stefano Piccinno   17:54
+Yeah, there are also other topics that are not included in your specification, but if needed, we may also provide. We are talking about visual inspection and physical inspection, so sort of cameras and to check for the effects.
+missing components, labels, codes, and so on.
+
+Aluizio Augusto Kleine Kirschner   18:19
+It's good, it's good.
+
+Stefano Piccinno   18:21
+Yeah.
+And, OK, here we come really near to the first session you included in your specification, so we are talking about the high pot. In this experience, we have, you know, to ensure the integrity of circuits, electrical circuits, and correct isolation.
+between high voltage circuits and electronics. And we use iPod tester, several events, we can implement several kind of devices also according the requirement of the customer. And here in this example, we had we measured the insulation resistance.
+leakage current, but we know that there are also other tests that can be performed within this iPod testing bench. So surely about iPod, we can implement, we have experience on it.
+So, we can implement the your the necessary for your specific product. You know, also, obviously, for this kind of measuring equipment, we we have also to look at 2 master cycles with the calibrated elements.
+And also we have some, we did routines for check about eventual machine faults in the way that when we judge a component to be okay, we need to be sure that about this judgment. So
+All what is needed to effectively ensure the machine capacity to make good testing, yeah, is obviously is on board, it is implemented.
+
+Aluizio Augusto Kleine Kirschner   20:18
+Okay.
+
+Stefano Piccinno   20:22
+This is, if I remember well, if maybe is not doing, I don't remember well if he's included in your specification. This is another topic about the continuity. So obviously this instead is to ensure that the equipotential
+the equipotential of surfaces where needed. Normally, we're talking about housings, so ensure that all parts that are to be at equal potential has to be really at equal potential and we perform this kind of testing also. So basically, we be sure the resistance
+at the C current and the C current and we expect obviously really low resistance during check.
+About functional test, here we have a look at what happened at the low voltage, let me say when there is low power on the drive. So we have the key agent, idle current, HBDC on consumption.
+So, we are the focus is to measure the performance of the on the low voltage power supply side to see that the absorption of current is is is the correct one, according to several.
+the several condition of use of the drive. So we are talking about the idle and other condition of driver where we need to check that the low voltage power supplies as the correct current consumption.
+After we have experience on the passive active discharge, so basically in our experience, we check the bus voltage trend during the discharge, and we use an acquisition system
+or other similar equipment with the Oechsler scope function to check what happened in terms of currents and terms of voltage during this test.
+Here we have the resolver verification, so we have experience of what happened when we have two in this for for this test, the the we if we.
+connect the driver in order to the device under test itself provides the carrier signal for the resolver. So let me say we take out from the duty this carrier signals, this carrier signal.
+after with an equipment that we have on our bench, we emulate what is the response of a solver. So the scene and cost signals, the modulation of amplitude and frequency.
+In a way that in a way that we after go back to the drive and and and and compare the speed reading via Ken.
+with the speed that has been emulated by the bench.
+
+Aluizio Augusto Kleine Kirschner   24:29
+Okay.
+
+Stefano Piccinno   24:30
+Please interrupt me if you would like to make some specific questions.
+
+Raphael Franklim Oliveira Ferreira   24:35
+Mhm.
+
+Julio Cesar Pedroso   24:35
+No, that's okay. Everything's clear.
+
+Aluizio Augusto Kleine Kirschner   24:36
+No, it's okay.
+
+Stefano Piccinno   24:38
+Okay. Here we talk about sensor calibration, temperature check. So we look at the temperature measurements and we compensate offset and slope about these kind of sensors.
+
+Raphael Franklim Oliveira Ferreira   24:38
+It's clear.
+
+Stefano Piccinno   25:00
+Eh.
+OK, this is here, there is the detail and this slide after we I will send, I will send you.
+
+Raphael Franklim Oliveira Ferreira   25:08
+Mhm.
+
+Stefano Piccinno   25:09
+Ahh.
+Here is the load, the load test.
+with the passive load. So what we do is to we connect an intuitive reactor to the AC side of the drive. The bench request to the device to go into third generation mode and after we check
+What is the current AC side to be the correct one, according to the requirement in terms of torque that have been asked on to the to the drive? So, obviously, we we have a...
+inductive reactor to their sea side and we check that with the torque set point that we give, the current in this reactor is the correct one. So just a few words, really few words.
+
+Julio Cesar Pedroso   26:14
+OK.
+M.
+No, that's OK. Perfect.
+
+Stefano Piccinno   26:21
+This is the same, but with the active load. So we have a connection with the load that can be emulated, or also can be the real one in some cases with effectively a motor, or otherwise it can be, as I said, emulated.
+So active load, the task is always to check that at a certain point given to the that the device under test, the current voltages are the correct one. Also with this more, let me say, more
+Complex load condition.
+
+Raphael Franklim Oliveira Ferreira   27:06
+M.
+
+Stefano Piccinno   27:06
+Uhh...
+
+Julio Cesar Pedroso   27:08
+Do you do you perform the both tests? The the this is active load and the other one is passive load. During the test, are you showing to us that you have these two solutions or usually you provide you performed both passive and active load?
+
+Stefano Piccinno   27:08
+OK, yeah.
+
+Julio Cesar Pedroso   27:27
+In our Indian products.
+
+Stefano Piccinno   27:28
+Okay.
+OK, OK, for OK, I for sure I have knowledge that we perform the passive load. About the active load, I need to cross-check in detail with our R&D department, because they have a really, you know, deeper information about it, so I can go give you information detail.
+
+Julio Cesar Pedroso   27:38
+Mm.
+Mm.
+Okay.
+But for active load, you usually normally use a AC motor. And also, do you already use it? Sorry, AC load.
+
+Stefano Piccinno   27:52
+Yeah.
+
+Julio Cesar Pedroso   28:06
+loads, do you have expertise about this using these solutions?
+
+Stefano Piccinno   28:07
+Regenerative log, yeah, yeah, we, we, yeah.
+I know that our ND department make several investigations about it. I have let me let me ask them to cross check in detail what we studied and what we effectively realized in order to give you the correct information.
+
+Julio Cesar Pedroso   28:19
+Mhm.
+Okay.
+Oh no, that's okay. Just for curiosity, so if you have the information now, that's okay. Maybe in the future of conversations, yeah.
+
+Stefano Piccinno   28:34
+And...
+Yeah, I have to, yeah, yeah, yeah, yeah, yeah, definitely, yeah, yeah, I will, I will let you know about this, I just let me take a note.
+
+Julio Cesar Pedroso   28:49
+No, that's okay.
+That's fine for me.
+
+Stefano Piccinno   28:55
+Yeah.
+Okay.
+Okay, this is just really an overview about what are the main things involved in this kind of testing. So we have power analysis, obviously we have PLC for automation signal exchange, and we have acquisition system for signals
+to be to be acquired and also analog signals to be acquired and also to be eventually given given us set point according to the drive features. And we have a regenerative power supply for the for the for the drive for the drive, you know, power supply.
+And we have the load, the passive or the emulator, as we said a few seconds ago, and we have a power analysis. For example, we use of a power analysis to implement several kind of oscilloscope, you know, case height, several brands, but also according to the specific requirements, because also according to the test,
+complexity, you know, there can be need of a high performance, high level power analyzer, or also if requirements are smaller, we can implement something simpler, obviously, with the cost efficiency.
+It depends on the requirements. Okay, coolant fluid connection and so on.
+
+Aluizio Augusto Kleine Kirschner   30:38
+And for you use the probe contacting the needles for power connections, it's okay. Do you have expertise doing this?
+
+Stefano Piccinno   30:47
+Yeah, yeah, yeah, yeah, we have a, for example.
+
+Aluizio Augusto Kleine Kirschner   30:50
+OK.
+
+Stefano Piccinno   30:56
+Here, at the really beginning here, there was some, yeah, some for some exams about the direct connections related. For example, this here is a AC, if I see where it should be AC related, it should be somewhere else, obviously also the DC related.
+
+Aluizio Augusto Kleine Kirschner   30:59
+Yeah, I saw, I saw.
+
+Stefano Piccinno   31:17
+in this picture.
+
+Aluizio Augusto Kleine Kirschner   31:19
+Do you build the bus bars and the needles, or do you buy them from another supplier?
+
+Stefano Piccinno   31:20
+M.
+Okay, okay. Also, in this case, it depends according to the specific project, because sometimes we have with our customer the development of, let me say, of the contacts, so we developed in a custom way the contacts we generated and tested.
+and after implemented on the bench. In other cases, we get in contact with external companies, like for example, Creatic, for the buildup of this kind of contacting devices in order to always ensure the proper.
+Connection towards the the the towards them the party in the way that we ensure the proper resistance of to to be that is smaller as possible, the resistance of, for example, the resistance of connection with the with the connector itself.
+in order to effectively achieve the level of impedance on the connection or the resistance according if we are talking about AC or DC. So several strategies to ensure that we have a good connection.
+So, let me say, when we are not confident or there is no, let me say, a really proven expertise of a connector, we prefer to go with the company that is that is that has his company scope is to develop this kind of contactors, so.
+
+Raphael Franklim Oliveira Ferreira   32:51
+****.
+
+Stefano Piccinno   33:07
+In order to be on the safe side, for example, critique.
+
+Aluizio Augusto Kleine Kirschner   33:08
+Okay.
+Okay.
+
+Stefano Piccinno   33:15
+That.
+Okay, so here, as I said before, yeah, yeah.
+
+Julio Cesar Pedroso   33:20
+Sorry, one more one question. This is information is important. I can see here that you showing about using label view, lab view for development. Do you have expertise in another other languages about this? Not lab view, like C Sharp, Java, Python, something like?
+
+Stefano Piccinno   33:25
+Yeah.
+Yeah, love you, yeah, yeah.
+Yeah, yeah, yeah, yeah, yeah, yeah. We have also expertise with, for example, G Sharp. We can, I can cross-check in detail with our, within our software department. We are, we have also other other kind of software languages that we that we can consider.
+
+Julio Cesar Pedroso   33:50
+Mhm.
+
+Stefano Piccinno   34:03
+So, OK, I give you also.
+
+Julio Cesar Pedroso   34:04
+Okay, just one question. This information maybe help us while deciding internally. That's okay.
+
+Stefano Piccinno   34:10
+Okay.
+So, what we normally are using to implement according to the needs, three-phase reactors, programmable DC power supply, for example, electro-automatic power supply, Delta, several, you know, several brands about this kind of power supply for testing scope.
+for the testing scope. So in order to ensure the high level of quality of power supply, this is side to the device under test. Also, other is for the low power supply, power analyzer like Yokogawa and other brands.
+current sensor like Lima and other brands, Duck. Obviously, if we are talking about the national instruments, you know, in terms of both hardware and software, so we have a national instrument solution. But if we look at, we extend also to other
+
+Raphael Franklim Oliveira Ferreira   35:14
+There they go.
+
+Stefano Piccinno   35:25
+programming languages, we can also extend also the hardware, surely, because obviously it can make less sense to obviously go with the national instruments, even if it's possible to have a national instrument and other software solution. Sure.
+
+Julio Cesar Pedroso   35:39
+Mm.
+Okay.
+
+Stefano Piccinno   35:44
+So, yeah.
+
+Aluizio Augusto Kleine Kirschner   35:45
+And for you guys, it's okay to work with back components like PLCs, contractors, or...
+
+Stefano Piccinno   35:53
+OK, about, yeah, about the PLC part, this was a question from our side. Normally, we can evaluate the use of other PLC. We can evaluate for this point of view, for this for this part.
+I have to say that we in Mass Mech developed machine using Siemens PLC. So also in consideration that the automation scope within this bench is really limited. Let me say if it would be possible to use a Siemens
+PFC would be would be good from from our side. I don't know if from your side there is opening or or not on this on this topic.
+
+Aluizio Augusto Kleine Kirschner   36:46
+It's kind of open. It depends off the solution by for us, like if the solution meets our needings, it's okay.
+
+Raphael Franklim Oliveira Ferreira   36:52
+Correa.
+But for us is critical because we produce drives, frequency inverters, PLC, so to use like Siemens is not correct for according to our directions, you know.
+
+Stefano Piccinno   37:07
+Yeah.
+You know, I know, I know, I know, so let me let me check internally. The good thing is that for this kind of device, for this kind of benches, according to our experience, you know, in automation and so on, the automation level is really low for this bench. So let me say the usage.
+
+Raphael Franklim Oliveira Ferreira   37:21
+Lucky.
+And...
+
+Stefano Piccinno   37:34
+PLC should be the same way, really low. So let me check internally. Let me check internally on it.
+
+Raphael Franklim Oliveira Ferreira   37:40
+Okay, okay.
+
+Aluizio Augusto Kleine Kirschner   37:43
+Okay.
+
+Raphael Franklim Oliveira Ferreira   37:47
+Just to complement the talk, probably we will send to you this drives, the frequency inverters, the PLC, the security hardwares.
+
+Stefano Piccinno   38:00
+Okay.
+
+Raphael Franklim Oliveira Ferreira   38:01
+because we have this product. Yes, we will provide it because we have this product in our portfolio.
+
+Aluizio Augusto Kleine Kirschner   38:02
+We will provide.
+
+Stefano Piccinno   38:09
+Okay, okay, okay.
+
+Aluizio Augusto Kleine Kirschner   38:13
+For the code, you can consider that you are going to buy everything, but later we can talk about providing the components to make a little discount on the code.
+
+Stefano Piccinno   38:14
+Ahh.
+OK, so in the quote, I consider to provide all also material from that other web material.
+
+Aluizio Augusto Kleine Kirschner   38:35
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   38:35
+Exactly, exactly. Perfect.
+
+Stefano Piccinno   38:36
+Get.
+K.
+Just taking a note.
+Okay.
+OK, if we're needed, and here we come to the last station of your specification, we can implement also a climatic chamber for the testing. Here, I think
+that probably this kind of solution is maybe is higher than the needed for your scope because I if I remember well I saw 50 degrees temperature as maximum temperature. We need to look at also at the humidity.
+
+Julio Cesar Pedroso   39:21
+Mhm.
+
+Stefano Piccinno   39:26
+levels to be eventually ensured because if we are talking just about temperature without taking really charge about the humidity levels, there can be simpler and more cost-effective also solution than the solution that is in here.
+It is a really high level, let me say, for high level scopes where needed. Maybe for your, I don't know, we need to check in detail also this part to understand what we need effectively to put in place for your need in terms of eating.
+
+Aluizio Augusto Kleine Kirschner   40:07
+Okay.
+
+Stefano Piccinno   40:07
+Ahh.
+
+Aluizio Augusto Kleine Kirschner   40:09
+For our needs, we don't measure the humidity of the chamber; actually, we just measure the temperature, and it's for us, it's OK to be 50 degrees Celsius.
+
+Stefano Piccinno   40:24
+Okay, okay, so you yeah.
+
+Aluizio Augusto Kleine Kirschner   40:25
+And just needs to be 50 degrees.
+
+Raphael Franklim Oliveira Ferreira   40:27
+It's fixed, right?
+
+Stefano Piccinno   40:28
+Fix, OK, fix temperature 50 degrees.
+
+Raphael Franklim Oliveira Ferreira   40:30
+Yes.
+Yeah.
+
+Stefano Piccinno   40:33
+Okay.
+Okay, got it. And okay, from my side, I think that I completed the...
+
+Aluizio Augusto Kleine Kirschner   40:45
+Okay.
+
+Stefano Piccinno   40:45
+the information in terms of presentation after I can send it to you. And if you have questions or otherwise I leave you to introduce the project.
+
+Raphael Franklim Oliveira Ferreira   40:52
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   41:00
+Okay, so I will share my screen to show you more detailed about the testing modules and talk about it.
+
+Stefano Piccinno   41:11
+Okay.
+
+Aluizio Augusto Kleine Kirschner   41:16
+Can you see my screen?
+
+Stefano Piccinno   41:19
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   41:21
+Okay, so here me and my colleagues, we work at the industrial engineer section in WEGS, and so we produce the inverter, the frequency inverters of BEG. So we develop test systems,
+Some of them are manual, some of them are automated, but any of them are...
+fully automated with electrical connections, with conveyors. So this is a new concept for us.
+The concept is to be modular, so you can test a lot of kinds of products, a lot of kinds of frequency inverters in the same module test, just changing the fixture, just changing the bench where the product is attached. So
+For us, it's a new concept, too, and also it needs to be...
+Scalable, I don't know. Scalable, yeah.
+
+Stefano Piccinno   42:29
+It's scalable, yeah, yeah, yeah, I understood in terms of capacity.
+
+Raphael Franklim Oliveira Ferreira   42:31
+Repeatable.
+
+Aluizio Augusto Kleine Kirschner   42:34
+Yeah, yeah, it needs to be scalable. So we are looking for produce these drives in many countries like China, Italy, Mexico. So these test system probably will be
+
+Raphael Franklim Oliveira Ferreira   42:34
+Yes, yes.
+
+Aluizio Augusto Kleine Kirschner   42:53
+repeated, repeatable along the world. So probably the main point is this module will be like a product and if we need to increase the line, we just buy a new module.
+
+Raphael Franklim Oliveira Ferreira   42:54
+Repeatable.
+
+Stefano Piccinno   43:09
+Understood.
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   43:12
+Oh, um...
+The main concept, I will talk about it now. And it starts with an assembly line, and then later, Alissonn and Franklim will talk to you about the assembly line, the fully automated assembly line for these drives. But now, let's talk just about the manual.
+Assembly, so the operator will assembly the drive, and then he will attach the drive to the fixture manually in the first moment, but ideally we want the drive to be attached to the fixture.
+automatically. So the electrical connections between the fixture and the drive needs to be automatically connected.
+Understood.
+
+Stefano Piccinno   44:08
+Yeah, I understood. So, you, if I understood well, you are talking about to have, okay, in first stage, there will be manual wiring connection between the driver and let me say a match plate that will be on pallet. It afterwards will be connected within the into the test bench, you know?
+Yes.
+
+Aluizio Augusto Kleine Kirschner   44:31
+Let me correct myself. We need the wiring between the drive and the fixture be automatically.
+Done, so we need the automation of the fixture and the drive connection, electrical connection.
+It needs to be automated.
+
+Stefano Piccinno   44:51
+What's it?
+OK, OK, we so if I understood well, OK, let me let me check if I understood well. We have in this module several benches now that perform several functions.
+Before to enter these benches, we have a loading session where the drive is loaded onto the pallet. The drive is loaded onto the pallet and we, let me check also this detail with you.
+
+Aluizio Augusto Kleine Kirschner   45:22
+Yes.
+
+Raphael Franklim Oliveira Ferreira   45:22
+Yes.
+
+Stefano Piccinno   45:29
+What I was understanding is that we have the drive on the pallet, we have some connectors on the drive and some connectors on the pallet. And I was considering to have a manual connection between the connectors of drive and connectors on pallet. This would be the first thing that you would like to have.
+But you are also asking to have an automatic connection between the connectors of drive and connectors on a pallet.
+
+Aluizio Augusto Kleine Kirschner   45:59
+Yeah, it's an option. If you can do the automated connection, will be awesome. This is the main point, but if you cannot, you can describe it in the quote and say to us that, okay, I cannot do the automated connection, it needs to be manual.
+
+Stefano Piccinno   46:12
+M mm.
+This, this specifically depends on, you know, when we have to automatically manage.
+Something the component, the component has to be some some way design it for the automation management. So let me say the surface that the component has to have some surfaces specific precise is precise at the machine.
+for the automatic handling. So if the connectors, the connectors you are talking about has this kind of features, why not? We can also consider. If connectors are not designed for automation, it is, it will be more difficult.
+
+Aluizio Augusto Kleine Kirschner   46:57
+Okay.
+No problem. Okay.
+
+Raphael Franklim Oliveira Ferreira   47:02
+Got it, got it. It's clear.
+
+Aluizio Augusto Kleine Kirschner   47:04
+Got it. Okay.
+
+Stefano Piccinno   47:06
+M.
+
+Aluizio Augusto Kleine Kirschner   47:07
+So the fixture, the bench, will have any standard connection about electrical connection between the module and the fixture. So all the fixtures will have the same pattern of connection between the fixture and the module.
+The connections between fixture and product will be different depending on the product, but the connection of the fixture with the module will always be the same.
+
+Stefano Piccinno   47:38
+Yeah, yeah.
+
+Aluizio Augusto Kleine Kirschner   47:39
+Okay, so let's move on. When the product is near to the module, then a door or a window will open up here, and then the product will enter in the module.
+
+Stefano Piccinno   47:40
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   47:56
+And when the products will be inside the module, we want the conveyor to be free if other products wants to move along the modules to another modules in the line. So in this time, we wanted the product to go.
+backwards or in another position that let the conveyor free. And when the product moves to another position, this will be the test position for us. So when it moves, it connects automatically to the.
+
+Raphael Franklim Oliveira Ferreira   48:20
+Go up.
+
+Stefano Piccinno   48:32
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   48:36
+Module, and then does the the test, the high pot test or the functional test depends, understood.
+
+Stefano Piccinno   48:39
+Yeah.
+Yeah, yeah, yeah, understood. Normally, we implement the conveyor solution for from Bosch. Bosch has several kind of conveying solution depending on the size and the weight of the parts to be moved for these kind of sizes, maybe.
+The TS2 model of conveyor should be fine, and in the in the in the catalogue of this kind of conveyor, there is also there is a the function that you are asking for, so there is a function that enable flow.
+
+Raphael Franklim Oliveira Ferreira   49:39
+Mhm.
+
+Stefano Piccinno   49:40
+the main flow free for palette movement. So that's clear and we can do it.
+
+Aluizio Augusto Kleine Kirschner   49:44
+Okay.
+
+Raphael Franklim Oliveira Ferreira   49:46
+Yeah, okay.
+
+Aluizio Augusto Kleine Kirschner   49:46
+Okay, okay, sounds good.
+And then when the product understand that under test, ends the test, finishes the test, then the product goes back to the conveyor and follows the line.
+
+Stefano Piccinno   49:58
+Go back.
+Yeah, yeah.
+
+Aluizio Augusto Kleine Kirschner   50:05
+Let me show you an example of the fully line like this. Imagine this is the assembly line, the operator is assembling the product and then fixing the product on the fixture, and then it follows the conveyor and go in each bench of test.
+independent and why we we don't have a time test for
+for each module, define it now, it's because we already know the time that it takes to do the testing each module. And then the needing of that the conveyor free is because the hypotest module takes about 3 seconds.
+
+Raphael Franklim Oliveira Ferreira   50:52
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   50:58
+Until 60 seconds to test a drive, it depends of the drive, and the functional test module takes about one minute and a half until 7 minutes, so depending of the drive, but the load test module.
+takes from 6 minutes to 20 minutes depending of the drive. So one high pot module and one functional module can support three, 4, 5 load test modules.
+
+Stefano Piccinno   51:32
+Yeah.
+
+Aluizio Augusto Kleine Kirschner   51:32
+That's why we need the conveyor free to the drives in production keep going forward the line.
+
+Stefano Piccinno   51:41
+Understood, understood.
+It's clear to me.
+
+Aluizio Augusto Kleine Kirschner   51:47
+Ah.
+Just the load test module needs to be heated. The other modules don't need to be heated. And like you showed us, the high pot module, I guess you have the knowledge, the know-how to do it. So it's clear for me.
+And about the functional test module, the details about the tests, we can talk later if we move on with the project because we have the know-how to do the tests and it will be needed to work
+together to make this functional module test, talking about the concepts of these drives tests. So to test the IOs, to test the measurements, to test the motors, all this stuff, we will talk later.
+in detail.
+
+Stefano Piccinno   52:52
+Okay.
+
+Aluizio Augusto Kleine Kirschner   52:52
+if we move forward with the project.
+
+Stefano Piccinno   52:55
+OKOK.
+
+Aluizio Augusto Kleine Kirschner   52:58
+Do you have any questions?
+
+Stefano Piccinno   53:00
+And yeah, first question is about the load of the test, the functional test module and the load test. I understood that you have already experienced about it. You use a passive load, active load, you have a standard on your on your plant about it.
+The.
+
+Aluizio Augusto Kleine Kirschner   53:26
+We were looking for using electronic loads on this project, actually, and I guess Julio can talk more about it, about the passive or active load.
+
+Julio Cesar Pedroso   53:38
+No, we are using, we are considering AC load for this solution, but for us, we are nowadays using a dynamometer system like motor against motor, using motor for loading test. This is your question, right, Mister? Sorry, your name is Stefano.
+
+Stefano Piccinno   53:57
+Stefan, yeah, yeah.
+
+Julio Cesar Pedroso   53:57
+Right, you are asking us about how we perform our testing here, right? So, we we use AC motor as a load for our load test, so we are using AC motor like a dynamometer.
+
+Stefano Piccinno   54:04
+Yeah, yeah.
+
+Julio Cesar Pedroso   54:17
+loads, and we can increase our current using this dynamometer. But for this project in specific, we are considering maybe electronic AC load, but we also can use an AC motor and a dynamometer like this.
+Do you know about dynamometers using AC motor for dynamometers?
+
+Stefano Piccinno   54:41
+Yeah, yeah.
+Yeah, yeah, yeah, we we implemented the several test benches with the, you know, with the brushless motor, driver, torque meter, and so on, yeah.
+
+Julio Cesar Pedroso   54:50
+M.
+Excellent. This is an idea. So we are not using the brushless motors. We use AC motor against AC motors. ACC. Our solution is ACC, right? But this is the idea is interesting. We are not, you don't use passive loads like you mentioned in the beginning.
+
+Stefano Piccinno   55:03
+Asim.
+A CS.
+Okay.
+
+Julio Cesar Pedroso   55:15
+Like inductors, something like that, you're usually using AC motors for functional tests for checking, like this, the motor is running with no, no, no, no, no, no problems. You're checking the first test is checking the the the motor.
+running, spinning, something like that. So after that, you have a load test with a dynamometer with nominal Koerich and nominal temperature, something like that, using both for solution in different stations.
+
+Stefano Piccinno   55:39
+Yeah.
+Okay, okay, okay, okay, so if...
+
+Julio Cesar Pedroso   55:57
+But we can consider, you can consider for this moment AC loads, electronic AC loads, generative AC loads, then can you increase our efficiency and have a better control of about the current and the loads, something like that.
+
+Stefano Piccinno   56:15
+Okay, okay, okay.
+So, if I understand well, if I understand well, you have testing with the AC motor, you do not have testing at your site with electronic AC load, but you are open to implement it.
+
+Julio Cesar Pedroso   56:23
+He.
+Yeah, you have studying using AC load electronic AC load. We bought our own solution about this, and we're studying to applying our test system. So, maybe I hope in this year we can we can use this AC load in a new system.
+But then, then, then this is why.
+Aluizio is asking you for our solution, your expertise about this. If you are going to use this electronic AC load or dynamometers or perceived activity solution like this will be important for us. This is maybe open for your decisions.
+
+Stefano Piccinno   57:14
+Okay, okay, okay, okay. Yeah, basically, yeah, I share, you know, in obviously here, what we are doing right now is an introduction call. As I was introducing before, we have a department, is an R&D department specifically involved in the development of this kind of solution.
+
+Julio Cesar Pedroso   57:27
+Of course.
+
+Stefano Piccinno   57:37
+Job by job, so according to the needs, so I will share these technical details with with them in probably they will come into the loop and we'll go into detail for questions to to understand exactly what we have to to consider in our technical in our technical solution, the way that.
+
+Julio Cesar Pedroso   57:37
+Mhm.
+Mhm.
+Perfect.
+
+Stefano Piccinno   58:02
+we go into detail and we don't not miss, let me say, information or some aspects. So I ask, I will ask them to go to come into the loop, to go into this kind of details.
+
+Julio Cesar Pedroso   58:18
+Of course, no, no problem. As Aluizio told you, if you proceed for the next steps, next loops, and you have a deep discussion about this test solution, of course, we can help you to define, share our knowledge about this testing. Maybe you can find the better solution for...
+
+Stefano Piccinno   58:18
+Okay.
+
+Julio Cesar Pedroso   58:39
+for us in the future.
+
+Stefano Piccinno   58:40
+Okay, okay, okay, okay, good, good.
+Okay, I understood from from my side.
+
+Aluizio Augusto Kleine Kirschner   58:50
+Luigi, do you have any questions?
+
+Julio Cesar Pedroso   58:50
+And.
+
+Luigi Di Leo   58:55
+No, no, no. Thank you.
+
+Aluizio Augusto Kleine Kirschner   58:59
+Okay.
+So, that's it. I guess the concept was explained well, and we can talk later in more detail if you have any questions to make, and I appreciate your time and I appreciate your presentations. It was...
+Really good to us to see what MazMac can do, and I'm looking forward to keep.
+
+Raphael Franklim Oliveira Ferreira   59:29
+Ohh.
+
+Aluizio Augusto Kleine Kirschner   59:31
+keep this conversation and for the quotes to. Franklim and Alissonn, do you want to talk about the assembly line?
+
+Stefano Piccinno   59:36
+Okay.
+
+Raphael Franklim Oliveira Ferreira   59:39
+Yes, I just first want to do one question to Stefano. I really saw you have knowledge about the testing area, but for the assembling area, do you have any machine that do it using
+PCBs electronic boards.
+
+Stefano Piccinno   1:00:03
+We do not have.
+You knowledge about about it, about driver assembly. We have been involved in several quotes. We did not add the...
+Uhh...
+specific solutions for inverter assembly. We have experimented in the past in some assembly lines solution anyway that take charge about a single, let me say, boards to be assembled.
+
+Raphael Franklim Oliveira Ferreira   1:00:25
+Mhm.
+
+Stefano Piccinno   1:00:42
+but not let me say the board itself, assembly connection. So on the board itself, this is not not yet in our, we are open, but is not yet in our to be on, be fair.
+
+Raphael Franklim Oliveira Ferreira   1:00:51
+Mhm.
+
+Stefano Piccinno   1:01:01
+On our portfolio.
+
+Raphael Franklim Oliveira Ferreira   1:01:03
+Now, okay, but because probably to manipulate this kind of PCBs or electronic boards, all materials that is going to contact with these PCBs want to be ESD materials.
+
+Stefano Piccinno   1:01:22
+Yeah, yeah, oh yeah, from that there. Sorry, maybe I misunderstood your question. You were talking about, because...
+
+Raphael Franklim Oliveira Ferreira   1:01:22
+You know?
+To manipulating the the parts.
+
+Stefano Piccinno   1:01:30
+Yeah, for the money, maybe I misunderstood your question. About the manipulation, obviously, we have, yeah, sure, we have experience in terms of ESD requirements, because, you know, in the electrification segment, we use it to have parts that up to the end of the assembly process.
+
+Raphael Franklim Oliveira Ferreira   1:01:35
+Mhm.
+Mhm.
+Okay.
+
+Stefano Piccinno   1:01:51
+Are in some stages open, so are sensible to the to the to the the electromagnetic disturbance, so we are used already in from several years to put in place ESD proof solutions.
+
+Raphael Franklim Oliveira Ferreira   1:01:51
+Mhm.
+Yes.
+Mmh.
+
+Stefano Piccinno   1:02:12
+So from this side is not, what I understood, what I was understanding before is that you were asking me if we have knowledge about the buildup of the electronic board that is inside the driver. Sorry, I misunderstood your question.
+
+Raphael Franklim Oliveira Ferreira   1:02:20
+Mhm.
+Ah, no, no, no, okay.
+It's clear. It's clear. You answered my doubt. Thank you. Thank you so much.
+
+Stefano Piccinno   1:02:34
+Okay, okay, okay.
+You're welcome.
+
+Alissonn Felippe Bebber   1:02:40
+Hi Stefan, now I will show some of my Martins about our product, our driver. How Aluizio said earlier, our proposal is to make an automatic line, automatic test, and automatic picture about our product.
+
+Stefano Piccinno   1:02:57
+Yeah.
+
+Alissonn Felippe Bebber   1:02:59
+So, why you show some parts?
+Here is what we imagining about the line, so the robots or Cartesian method make the...
+
+Raphael Franklim Oliveira Ferreira   1:03:07
+Action about.
+Pockets over reason me.
+That's all that make you believe.
+
+Alissonn Felippe Bebber   1:03:17
+And manufacture the product assembly, so the product manufacturer pass to the test after test the pass to package.
+
+Raphael Franklim Oliveira Ferreira   1:03:18
+Like, respond.
+I don't.
+
+Alissonn Felippe Bebber   1:03:27
+So here I can show to you our product exploded. Here I can show to you all parts that will need to be manufactured.
+
+Raphael Franklim Oliveira Ferreira   1:03:27
+So.
+Show.
+Okay.
+Hopefully.
+
+Stefano Piccinno   1:03:41
+Yeah.
+
+Alissonn Felippe Bebber   1:03:41
+By steps.
+
+Raphael Franklim Oliveira Ferreira   1:03:41
+Snips.
+So, scope, I show.
+
+Alissonn Felippe Bebber   1:03:43
+So, in the scope, I can show the parts and details about the manufacturer, more the tailored.
+But we have a lot of PCBs.
+
+Raphael Franklim Oliveira Ferreira   1:03:53
+It has a lot of.
+
+Stefano Piccinno   1:03:58
+Yeah.
+
+Raphael Franklim Oliveira Ferreira   1:03:59
+In this.
+
+Alissonn Felippe Bebber   1:03:59
+Imagine that the PCBs have a lot of components needed to be need to be care to connect and don't work any any components.
+
+Stefano Piccinno   1:04:06
+Yeah.
+And this is the, yeah, hey.
+
+Raphael Franklim Oliveira Ferreira   1:04:13
+In this, oh, sorry, Stefano, in this concept, we have the steps splitted in areas. So, example, before we assembly the four and 30
+Uh, parts, and after in next station, another step, you know.
+
+Stefano Piccinno   1:04:36
+Yeah, yeah, understood.
+
+Alissonn Felippe Bebber   1:04:37
+Yes.
+
+Raphael Franklim Oliveira Ferreira   1:04:38
+Okay.
+
+Stefano Piccinno   1:04:39
+Understood.
+So.
+
+Alissonn Felippe Bebber   1:04:42
+So I will send to you the scope, the complete, our project, and I will talk to you about the mail to make this project separated to Aluizio project about test. These 2 parts separated about one.
+
+Stefano Piccinno   1:04:58
+Okay.
+
+Raphael Franklim Oliveira Ferreira   1:04:58
+Two parts.
+
+Alissonn Felippe Bebber   1:05:01
+Final project.
+
+Raphael Franklim Oliveira Ferreira   1:05:01
+Rangel.
+
+Stefano Piccinno   1:05:04
+OKOK.
+
+Aluizio Augusto Kleine Kirschner   1:05:04
+Yeah, you can you can do a code for the testing line, a code for the assembly line, and a code for the whole pack, you know, for the for the fully fully line.
+
+Stefano Piccinno   1:05:14
+Yeah.
+
+Alissonn Felippe Bebber   1:05:14
+Andy, Andy, if yes, yes.
+
+Raphael Franklim Oliveira Ferreira   1:05:14
+Andy, Andy.
+
+Stefano Piccinno   1:05:18
+Yeah, yeah, yeah, we are, we are really open to support you for this kind of job. Usually, we, we, when there is the possibility, we prefer not to.
+to build up with our customer as some kind of partnership in the early phase in the way that we can support customer in developing his needs in terms of assembly and test. And so for us, it's really nice to cooperate with you already in this.
+
+Raphael Franklim Oliveira Ferreira   1:05:54
+Mhm.
+
+Stefano Piccinno   1:06:01
+In this phase, so we are really open. We normally, during our during our proposal phase, if we have time, we can also build up some kind of 3D concept of the line in the way that you can have a first.
+experience also from a 3D point of view of what should happen now, what would appear the line once built is already in the line of their phase, but if obviously this depends also on the time available for the quotes.
+
+Raphael Franklim Oliveira Ferreira   1:06:39
+Okay.
+
+Aluizio Augusto Kleine Kirschner   1:06:39
+Yeah, the quote for us needs to be as soon as possible, but we can work on, like you said, some 3D modules to see like how the assembly line will look. And then we can schedule more meetings if you need to.
+technical information or to show us some some 3D modules models.
+And we want this testing line and assembly line here in Brazil by the end of 2027.
+2027.
+
+Stefano Piccinno   1:07:19
+Okay.
+
+Aluizio Augusto Kleine Kirschner   1:07:22
+This, this is a good deadline for you.
+
+Stefano Piccinno   1:07:27
+Yeah, if as well, both assembly and testing by end of 2027.
+
+Aluizio Augusto Kleine Kirschner   1:07:33
+Yes.
+
+Raphael Franklim Oliveira Ferreira   1:07:33
+Yes.
+
+Stefano Piccinno   1:07:34
+Yeah, I think we are on the on the still on the correct time window to to perform it.
+
+Aluizio Augusto Kleine Kirschner   1:07:41
+Okay.
+
+Raphael Franklim Oliveira Ferreira   1:07:43
+Mhm, Okay.
+
+Aluizio Augusto Kleine Kirschner   1:07:44
+And how is the support from Mass Mech here in Brazil? Do you think that Mass Mech will commission the testing modules here in Brazil? What about the support after the commissioning?
+
+Stefano Piccinno   1:07:52
+In.
+Be.
+Yeah.
+Yeah.
+Okay, okay.
+Okay, normally, what we, as I said before, we already performed installation in Mexico, if I remember well also in Brazil, yes, surely also in Brazil. And what we do is that MassMech
+
+Raphael Franklim Oliveira Ferreira   1:08:15
+Mhm.
+
+Stefano Piccinno   1:08:22
+take charge of the role project up to the installation, final acceptance. So we will come, our team will come there, MASMEC team will come there and we'll give the necessary job.
+up until we reach the final acceptance. Afterwards, according to the typology of the job, we can also decide afterwards to build up a partnership with the local company for, you know, more immediate
+
+Aluizio Augusto Kleine Kirschner   1:08:46
+Okay.
+
+Stefano Piccinno   1:09:01
+more immediate support if needed on your site. But this depends, let me say, this depends on the on the on the complexity level of the job. So, what I can say is that in the past we already performed something like this. We also would get in touch with a local company.
+
+Raphael Franklim Oliveira Ferreira   1:09:02
+Mhm.
+
+Stefano Piccinno   1:09:25
+to ensure local immediate support for, you know, for the things that are, let me say, quite normal things. Obviously, if there is needed specialized support and so on, we come from Italy.
+To, you know, there are, yeah, there are warranty conditions and so on, obviously, that are enclosed in our in our with our machine, so we need to comply with, and we we have to satisfy all the warranty terms, so if there is new, our scope is to give you machine available.
+
+Aluizio Augusto Kleine Kirschner   1:09:45
+Sounds great, sounds great.
+
+Raphael Franklim Oliveira Ferreira   1:09:47
+OK, da.
+
+Stefano Piccinno   1:10:05
+and to to ensure mass make presence both remote and on-site to obviously on all the warranty terms to for for you to be to be to be in a in a good condition, let me say.
+With with our machinery.
+
+Raphael Franklim Oliveira Ferreira   1:10:27
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   1:10:27
+Okay.
+Okay.
+
+Raphael Franklim Oliveira Ferreira   1:10:29
+And Stefano, all of your machines are produced in Italy. I don't remember you showed some images in the start of the meeting, but I don't remember.
+
+Stefano Piccinno   1:10:43
+Sorry, the question is about where we are or...
+
+Raphael Franklim Oliveira Ferreira   1:10:46
+Where you produce your machines, all of them in Italy?
+
+Stefano Piccinno   1:10:49
+Okay, okay, okay, okay.
+Yeah, yeah, we produce, we produce a machine in Italy, yeah, all of them in Italy. We have a construction site here in, sorry, yeah, manufacturing site here in Italy, in the south part of Italy. And
+
+Raphael Franklim Oliveira Ferreira   1:10:58
+Okay.
+Mhm.
+
+Stefano Piccinno   1:11:11
+Let me show just really quickly the Italy map, so in order to show you where we are.
+
+Raphael Franklim Oliveira Ferreira   1:11:24
+I'm asking you because we have some suppliers that have representatives in Germany as example, but produce the machines in China, you know.
+
+Stefano Piccinno   1:11:35
+Yeah.
+OK, this is Italy and we are, let me.
+
+Raphael Franklim Oliveira Ferreira   1:11:39
+Okay.
+Body.
+
+Stefano Piccinno   1:11:44
+And we are here, here.
+
+Aluizio Augusto Kleine Kirschner   1:11:47
+Near your body.
+
+Stefano Piccinno   1:11:48
+Bari, yeah, in this part of Italy, the Southeast of Italy, yeah.
+
+Raphael Franklim Oliveira Ferreira   1:11:48
+Okay.
+Mhm.
+
+Aluizio Augusto Kleine Kirschner   1:11:54
+Okay.
+
+Raphael Franklim Oliveira Ferreira   1:11:55
+Ohh, it's clear.
+
+Stefano Piccinno   1:11:56
+Yeah, that is, that is the, let me say, the most, I don't know if you can say in English, is the most important city of this region here.
+
+Raphael Franklim Oliveira Ferreira   1:12:08
+Mhm.
+
+Stefano Piccinno   1:12:09
+So, we are already at Baierle, and here there is the most important industrial area of this region, but also most important of the south of Italy. So, yeah.
+
+Raphael Franklim Oliveira Ferreira   1:12:19
+Mm mhm.
+****.
+Okay, thank you, Stefano.
+
+Aluizio Augusto Kleine Kirschner   1:12:26
+Cool.
+Thank you.
+
+Stefano Piccinno   1:12:32
+Pavin.
+
+Aluizio Augusto Kleine Kirschner   1:12:33
+So...
+For me, it's clear that MASME can do it, and I appreciate your time, Stefano. I appreciate your questions, and we were looking forward to your quotes as soon as possible. And if you have any questions to make,
+Feel free to send an email, and Alissonn and Franklim will send you the code for the scope for the assembly line, and for me, that's it.
+
+Stefano Piccinno   1:12:56
+Souza.
+Yeah.
+Okay, okay, okay. As I said, I will introduce in our loop also our R&D guy that is specialized within the LED drives and so on scope in the way that we will address you the good question to make a try to make a good job since the beginning.
+Okay.
+
+Aluizio Augusto Kleine Kirschner   1:13:31
+Okay.
+
+Raphael Franklim Oliveira Ferreira   1:13:32
+Okay, it's clear for us. Thank you, Stefano, for our presentation.
+
+Stefano Piccinno   1:13:35
+Thank you very much.
+
+Raphael Franklim Oliveira Ferreira   1:13:38
+And see you guys. Bye-bye.
+
+Stefano Piccinno   1:13:40
+Bye bye. Bye. Bye bye. Thank you.
+
+Aluizio Augusto Kleine Kirschner   1:13:40
+See you, thank you, bye.
+
+Alissonn Felippe Bebber   1:13:41
+Have a nice week. Bye bye.
+
+Luigi Di Leo   1:13:42
+Thank you. Bye-bye.
+
+Stefano Piccinno   1:13:43
+Bye.
+
+Raphael Franklim Oliveira Ferreira parou a transcrição

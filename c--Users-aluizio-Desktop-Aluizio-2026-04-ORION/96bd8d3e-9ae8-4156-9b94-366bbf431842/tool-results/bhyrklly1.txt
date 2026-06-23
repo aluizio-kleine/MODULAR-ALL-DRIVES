@@ -1,0 +1,500 @@
+/c/Projetos/PROJETOS/ats-f03/Development
+/c/Projetos/PROJETOS/ats-f03/Development/ATS_F03.sln
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/FindInfofromItem.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/My Project
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/My Project/Application.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/My Project/Application.myapp
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/My Project/AssemblyInfo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/My Project/Resources.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/My Project/Resources.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/My Project/Settings.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/My Project/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/src
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/BuscaInfo/src/BuscaInfofromItem.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/CFW09.ini
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/CFW09_CFW11MainProject.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/CFW11.ini
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/DAQ_Profile
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/DAQ_Profile/PCI_1716.xml
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/DAQ_Profile/PCI_1720.xml
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/DAQ_Profile/PCI_1751.xml
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/files
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/files/equipamentos.json
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/files/STF.ini
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/AxInterop.AdvAILib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/AxInterop.AdvAOLib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/AxInterop.AdvDIOLib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/BuscaInfofromItem.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/CommLib_RS232.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/CommunicationLib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/Interop.AdvAILib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/Interop.AdvAOLib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/Interop.AdvDIOLib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/RS232Dll.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/TestSystemAuxiliaryLib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/lib/USBDll.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/My Project
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/My Project/Application.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/My Project/Application.myapp
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/My Project/AssemblyInfo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/My Project/Resources.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/My Project/Resources.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/My Project/Settings.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/My Project/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/RegistrosSistema
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/RegistrosSistema/Fontes.txt
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/104.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/131.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/94.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Alpha Dista Icon 17.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Alpha Dista Icon 20.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Alpha Dista Icon 96-0.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Alpha Dista Icon 96-1.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Alpha Dista Icon 96-2.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Alpha Dista Icon 96-3.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Alpha Dista Icon 96-4.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/aqua-sphere.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Attention.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/button_cancel.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/button_ok.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/sphere-48.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/sphere.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/spheregreen-48.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/spherephotodrawrn3.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Symbol-Check.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Symbol-Delete.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/Symbol-Stop.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/Resources/user.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/Device
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/Device/Product.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/Geral.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/INI_File.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/JsonFileManagement.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/mRotinaCFW09.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/mRotinaCFW11.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/TestScripts
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/TestScripts/ExternalSupplyTest.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/TestScripts/InputDisconnectionTestClass.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/TestScripts/ITestClass.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/TestScripts/ProductPowerOnControl.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/TestScripts/SafetyStopTestClass.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/TestScripts/TestClassBase.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/TestScripts/TestExecutionException.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/TestScripts/TiristorTestClass.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/types
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/types/DadosEns.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/CoverAssemblyConfirmation.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/CoverAssemblyConfirmation.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/CoverAssemblyConfirmation.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmAbout.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmAbout.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmAbout.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmConfig.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmConfig.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmConfig.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmConfigDAQ.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmConfigDAQ.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmConfigDAQ.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmLogin.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmLogin.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmLogin.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmRelatorio.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmRelatorio.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmRelatorio.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmTelaTeste.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmTelaTeste.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmTelaTeste.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmTesteManual.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmTesteManual.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/frmTesteManual.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/MDIPrincipal.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/MDIPrincipal.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/src/View/MDIPrincipal.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/WORK
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/WORK/softplc_cfw11.bin
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/WORK/SOFTPLC_CFW11_prop.ppx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/WORK/SOFTPLC_CFW11_range.ppx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/WORK/SOFTPLC_CFW11_tag.ppx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/CFW09_CFW11MainProject/WORK/SOFTPLC_CFW11_unit.ppx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/SapServiceTest
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/SapServiceTest/App.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/SapServiceTest/MaterialSearchServiceTest.cs
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/SapServiceTest/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/SapServiceTest/Properties
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/SapServiceTest/Properties/AssemblyInfo.cs
+/c/Projetos/PROJETOS/ats-f03/Development/CFW09_CFW11/SapServiceTest/SapServiceTest.csproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/CFW70xMainProject.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/DAQ_Profile
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/DAQ_Profile/PCI_1716.xml
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/DAQ_Profile/PCI_1720.xml
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/DAQ_Profile/PCI_1751.xml
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/files
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/files/CFW09.ini
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/files/CFW11.ini
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/files/CFW700.ini
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/files/STF.ini
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/lib
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/lib/Interop.AdvAILib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/lib/Interop.AdvAOLib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/lib/Interop.AdvDIOLib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/lib/Interop.USBIOCOMLib.dll
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/My Project
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/My Project/Application.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/My Project/Application.myapp
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/My Project/AssemblyInfo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/My Project/Resources.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/My Project/Resources.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/My Project/Settings.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/My Project/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/OF0182.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/RegistrosSistema
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/RegistrosSistema/Fontes.txt
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/104.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/131.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/94.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Alpha Dista Icon 17.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Alpha Dista Icon 20.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Alpha Dista Icon 96-0.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Alpha Dista Icon 96-1.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Alpha Dista Icon 96-2.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Alpha Dista Icon 96-3.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Alpha Dista Icon 96-4.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/aqua-sphere.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Attention.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/button_cancel.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/button_ok.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/sphere-48.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/sphere.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/spheregreen-48.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/spherephotodrawrn3.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Symbol-Check.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Symbol-Delete.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/Symbol-Stop.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/Resources/user.png
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Device
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Device/Product.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmAbout.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmAbout.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmAbout.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmConfig.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmConfig.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmConfig.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmConfigDAQ.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmConfigDAQ.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmConfigDAQ.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmLogin.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmLogin.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmLogin.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmRelatorio.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmRelatorio.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmRelatorio.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmTelaTeste.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmTelaTeste.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmTelaTeste.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmTesteManual.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmTesteManual.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/frmTesteManual.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/MDIPrincipal.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/MDIPrincipal.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Formularios/MDIPrincipal.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Controladora.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Entity
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Entity/DadosMotor.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Entity/frmLogin.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Entity/frmLogin.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Entity/frmLogin.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Entity/Usuario.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Scripts
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Scripts/IScriptTeste.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Scripts/mRotinaCFW09.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Scripts/mRotinaCFW11.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Scripts/RotinaTesteFactory.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Scripts/ScriptTesteBase.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Scripts/ScriptTesteCFW09.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Scripts/ScriptTesteCFW11.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Scripts/ScriptTesteCFW700.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/AutoAjuste.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/Comunicacao.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/CurtoEntreFases.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/CurtoFaseTerra.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/Entradas_Analogicas.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/Entradas_Digitais.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/ExternalSupplyTest.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/Fontes.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/IdentificacaoAcessorios.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/IdentificacaoHardware.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/IndicacaoCorrente.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/IndicacaoLinkCC.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/InputDisconnectionTestClass.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/ITestClass.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/ParadaSeguranca.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/SafetyStopTestClass.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/Saidas_Analogicas.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/Saidas_Digitais.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/TestClassBase.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/TesteBase.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/TestExecutionException.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Testes/Ventiladores.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Types
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Types/EstadoType.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/FrameWork.Teste/Types/TensaoType.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Geral.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Util
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Util/CodigoBarrasConverter.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/CFW70xMainProject/src/Util/INI_File.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/My Project
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/My Project/Application.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/My Project/Application.myapp
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/My Project/AssemblyInfo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/My Project/Resources.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/My Project/Resources.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/My Project/Settings.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/My Project/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/ProductManager.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Core
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Core/MaterialImplementation.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/Caracteristica.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/CFW09.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/CFW11.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/CFW70x.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/Material.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/Produto.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/ProdutoBase.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/types
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/types/CFW09CharacteristicsType.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/types/CFW11CharacteristicsType.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/types/CFW70xCharacteristicsType.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Entity/types/CharacteristicsTypeBase.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Facade
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Facade/ProductManager.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Factory
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager/src/Factory/ProductFactory.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager.test
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager.test/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager.test/My Project
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager.test/My Project/AssemblyInfo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager.test/ProductManager.test.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ProductManager.test/ProductManagerTest.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager/My Project
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager/My Project/Application.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager/My Project/Application.myapp
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager/My Project/AssemblyInfo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager/My Project/Resources.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager/My Project/Resources.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager/My Project/Settings.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager/My Project/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/ReportManager/ReportManager.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/My Project
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/My Project/Application.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/My Project/Application.myapp
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/My Project/AssemblyInfo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/My Project/Resources.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/My Project/Resources.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/My Project/Settings.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/My Project/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/SapService.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/src
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/src/BuscaInfofromItem.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/src/InterfacesNames.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/src/Manager
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/src/Manager/CharacteristicManager.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/src/Manager/MaterialManager.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/src/Manager/MaterialSerialNumberManager.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService/src/Manager/SoaManager.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/My Project
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/My Project/AssemblyInfo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/My Project/Settings.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/My Project/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/SapService-Test.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/src
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/src/Product.Test.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CFW700/SapService-Test/src/ProductFinder-test.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/CommunicationLib.vbproj
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/My Project
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/My Project/Application.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/My Project/Application.myapp
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/My Project/AssemblyInfo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/My Project/Resources.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/My Project/Resources.resx
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/My Project/Settings.Designer.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/My Project/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/src
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/src/Protocolo.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/src/Rs232.vb
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/src/util
+/c/Projetos/PROJETOS/ats-f03/Development/CommunicationLib/src/util/CRC.vb
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/ATS.sln
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Common
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Common/WdcException.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Extension
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Extension/EnumerableExtension.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Model
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Model/ICommunicationSettings.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Model/IRegister.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Model/ITestResult.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Model/IUser.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/ModelImplementation
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/ModelImplementation/CommunicationSettings.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/ModelImplementation/Register.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/ModelImplementation/TestResult.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/ModelImplementation/User.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Properties
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Properties/AssemblyInfo.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Types
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Types/TestStatus.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core/Weg.Wdc.Ats.Core.csproj
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/app.config
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Model
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Model/IPositionControl.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Model/ITestPosition.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/ModelImplementation
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/ModelImplementation/DAQControlMappingIO.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/ModelImplementation/Multimeter.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/ModelImplementation/PositionControl.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/ModelImplementation/TestPosition.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Properties
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Properties/AssemblyInfo.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Properties/Settings.Designer.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Properties/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Settings.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Types
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Types/DigitalInputTypes.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Types/MotorType.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Types/MotorVoltageType.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Core.F03/Weg.Wdc.Ats.Core.F03.csproj
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/Model
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/Model/IModbusComunicationInterface.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/Model/IMultimeter.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/Model/ISpeedMeter.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/ModelImplementation
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/ModelImplementation/ModbusCommunicationInterface.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/ModelImplementation/SpeedMeterPLC300.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/Properties
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/Properties/AssemblyInfo.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.Equipment.Library/Weg.Wdc.Ats.Equipment.csproj
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Entity
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Entity/AnalogInput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Entity/AnalogIO.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Entity/AnalogOutput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Entity/DigitalIO.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Model
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Model/IDAQAnalogInput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Model/IDAQAnalogOutput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Model/IDAQDigitalInput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Model/IDAQDigitalOutput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/ModelImplementation
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/ModelImplementation/DAQAnalogInput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/ModelImplementation/DAQAnalogOutput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/ModelImplementation/DAQDigitalInput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/ModelImplementation/DAQDigitalOutput.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/packages.config
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Properties
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Properties/AssemblyInfo.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Properties/Settings.Designer.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Properties/Settings.settings
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Settings.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.DAQControl/Weg.Wdc.Ats.F03.DAQControl.csproj
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/App.config
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/business_gear_process_idea_design_development_creative_icon_231923.ico
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/ExecutionSimulator.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/files
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/files/STF.ini
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/files/Users.json
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/App.xaml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/App.xaml.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/BindingTest.xaml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/BindingTest.xaml.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/11291_64x64.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/1334_128x128.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/1334_16x16.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/1334_64x64.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/1339780346_lock.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/2129_128x128.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/2129_16x16.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/2129_64x64.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/7674_64x64.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Aprovado.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Atencao.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Automatico_128.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Automatico_16.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Automatico_64.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/brain.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Desligado.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/EmTeste.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Falha.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/logo.gif
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Manual_128.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Manual_16.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Manual_64.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/onboarding1.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/padlock.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Places-folder-downloads-icon.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Scan_Icon.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/Search_Icon.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Images/user.png
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Login.xaml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Login.xaml.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/MainWindow.xaml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/MainWindow.xaml.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Manual.xaml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/Manual.xaml.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/MaterialPreview.xaml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/MaterialPreview.xaml.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/TestMaterialInputDialog.xaml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/TestMaterialInputDialog.xaml.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/TestReceipt.xaml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/TestReceipt.xaml.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/TestScreen.xaml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/Forms/TestScreen.xaml.cs
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/log4net.config
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/modelos
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/modelos/15034305.xml
+/c/Projetos/PROJETOS/ats-f03/Development/DotNet/src/Weg.Wdc.Ats.F03.View/MyData.cs
