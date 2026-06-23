@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modular All Drives — Supplier Selection Process | Manager Briefing</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface2: #21262d;
+    --border: #30363d;
+    --txt: #e6edf3;
+    --muted: #8b949e;
+    --accent: #2f81f7;
+    --accent-dim: #1f4d8f;
+    --green: #3fb950;
+    --green-dim: #1a4a21;
+    --amber: #d29922;
+    --amber-dim: #4d3800;
+    --red: #f85149;
+    --red-dim: #4d1515;
+    --purple: #a371f7;
+    --purple-dim: #3d1f6e;
+    --cyan: #39d3f2;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--txt);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* NAV */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(13,17,23,.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px;
+    display: flex; align-items: center; gap: 24px; height: 56px;
+  }
+  .nav-logo { font-weight: 700; font-size: 14px; color: var(--accent); letter-spacing: .03em; white-space: nowrap; }
+  .nav-links { display: flex; gap: 4px; flex-wrap: wrap; }
+  .nav-links a {
+    color: var(--muted); text-decoration: none; font-size: 12px;
+    padding: 5px 10px; border-radius: 6px; white-space: nowrap;
+    transition: background .15s, color .15s;
+  }
+  .nav-links a:hover { background: var(--surface2); color: var(--txt); }
+  .nav-date { margin-left: auto; font-size: 11px; color: var(--muted); white-space: nowrap; }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0d1117 0%, #0d1f3c 50%, #0d1117 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 80px 32px 64px;
+    text-align: center;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: rgba(47,129,247,.12); border: 1px solid rgba(47,129,247,.3);
+    color: var(--accent); font-size: 11px; font-weight: 600;
+    letter-spacing: .08em; text-transform: uppercase;
+    padding: 4px 14px; border-radius: 20px; margin-bottom: 20px;
+  }
+  .hero h1 { font-size: clamp(28px, 4vw, 48px); font-weight: 800; line-height: 1.2; margin-bottom: 16px; }
+  .hero h1 span { color: var(--accent); }
+  .hero-sub { font-size: 16px; color: var(--muted); max-width: 640px; margin: 0 auto 32px; }
+  .hero-chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+  .chip {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 14px; font-size: 12px; color: var(--muted);
+  }
+  .chip b { color: var(--txt); }
+
+  /* SECTIONS */
+  .section { max-width: 1080px; margin: 0 auto; padding: 64px 32px; }
+  .section + .section { border-top: 1px solid var(--border); }
+  .sec-label {
+    font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 8px;
+  }
+  h2 { font-size: clamp(20px, 3vw, 30px); font-weight: 700; margin-bottom: 12px; }
+  h3 { font-size: 17px; font-weight: 650; margin-bottom: 8px; }
+  .lead { font-size: 15px; color: var(--muted); max-width: 720px; margin-bottom: 32px; }
+
+  /* CARDS GRID */
+  .grid { display: grid; gap: 16px; }
+  .grid-2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .grid-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 22px;
+  }
+  .card-icon { font-size: 28px; margin-bottom: 12px; }
+  .card p { font-size: 13.5px; color: var(--muted); margin-top: 6px; }
+
+  /* KPI ROW */
+  .kpi-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 40px; }
+  .kpi {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 18px 24px; flex: 1; min-width: 130px;
+  }
+  .kpi-val { font-size: 32px; font-weight: 800; color: var(--accent); }
+  .kpi-lbl { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  /* TIMELINE */
+  .timeline { position: relative; padding-left: 28px; }
+  .timeline::before {
+    content: ''; position: absolute; left: 7px; top: 6px; bottom: 6px;
+    width: 2px; background: var(--border);
+  }
+  .tl-item { position: relative; margin-bottom: 24px; }
+  .tl-dot {
+    position: absolute; left: -28px; top: 4px;
+    width: 14px; height: 14px; border-radius: 50%;
+    border: 2px solid var(--accent); background: var(--bg);
+  }
+  .tl-dot.done { background: var(--green); border-color: var(--green); }
+  .tl-dot.active { background: var(--accent); }
+  .tl-dot.out { background: var(--red-dim); border-color: var(--red); }
+  .tl-dot.future { border-style: dashed; }
+  .tl-date { font-size: 11px; color: var(--accent); font-weight: 600; margin-bottom: 2px; }
+  .tl-title { font-size: 14px; font-weight: 650; }
+  .tl-body { font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+
+  /* SUPPLIER TABLE */
+  .stbl-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead tr { background: var(--surface2); }
+  th { padding: 12px 14px; text-align: left; font-size: 11px; font-weight: 600; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; }
+  td { padding: 11px 14px; border-top: 1px solid var(--border); vertical-align: top; }
+  tr:hover td { background: var(--surface); }
+  .badge {
+    display: inline-block; font-size: 10px; font-weight: 600;
+    padding: 2px 8px; border-radius: 20px; white-space: nowrap;
+  }
+  .b-green { background: var(--green-dim); color: var(--green); border: 1px solid rgba(63,185,80,.25); }
+  .b-red { background: var(--red-dim); color: var(--red); border: 1px solid rgba(248,81,73,.25); }
+  .b-amber { background: var(--amber-dim); color: var(--amber); border: 1px solid rgba(210,153,34,.25); }
+  .b-blue { background: rgba(47,129,247,.12); color: var(--accent); border: 1px solid rgba(47,129,247,.3); }
+  .b-purple { background: var(--purple-dim); color: var(--purple); border: 1px solid rgba(163,113,247,.25); }
+  .b-grey { background: var(--surface2); color: var(--muted); border: 1px solid var(--border); }
+
+  .rank-1 { color: #ffd700; font-weight: 700; }
+  .rank-2 { color: #c0c0c0; font-weight: 700; }
+  .rank-3 { color: #cd7f32; font-weight: 700; }
+
+  /* PUGH MATRIX BARS */
+  .pugh-bar-wrap { display: flex; align-items: center; gap: 10px; }
+  .pugh-bar-bg {
+    flex: 1; height: 8px; border-radius: 4px;
+    background: var(--surface2); overflow: hidden;
+  }
+  .pugh-bar { height: 100%; border-radius: 4px; }
+  .pugh-num { font-size: 12px; font-weight: 700; min-width: 32px; text-align: right; }
+
+  /* QUOTE SECTION */
+  .quote-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 20px; }
+  .quote-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; overflow: hidden;
+  }
+  .qc-header {
+    padding: 18px 22px 14px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: flex-start; gap: 14px;
+  }
+  .qc-logo {
+    width: 44px; height: 44px; border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 16px; flex-shrink: 0;
+  }
+  .qc-name { font-size: 16px; font-weight: 700; }
+  .qc-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .qc-body { padding: 16px 22px; }
+  .quote-row { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--border); gap: 12px; }
+  .quote-row:last-child { border-bottom: none; }
+  .qr-label { font-size: 13px; color: var(--muted); }
+  .qr-val { font-size: 14px; font-weight: 700; white-space: nowrap; }
+  .qc-total {
+    background: var(--surface2); padding: 14px 22px;
+    display: flex; justify-content: space-between; align-items: center;
+    border-top: 1px solid var(--border);
+  }
+  .qt-label { font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+  .qt-val { font-size: 22px; font-weight: 800; color: var(--accent); }
+
+  /* COMPARISON BARS */
+  .cmp-section { margin-top: 28px; }
+  .cmp-row { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .cmp-lbl { font-size: 12px; width: 180px; flex-shrink: 0; color: var(--muted); }
+  .cmp-bars { flex: 1; display: flex; flex-direction: column; gap: 5px; }
+  .cmp-bar-row { display: flex; align-items: center; gap: 8px; }
+  .cmp-bar-name { font-size: 10px; width: 42px; flex-shrink: 0; color: var(--muted); }
+  .cmp-bar-bg { flex: 1; height: 16px; border-radius: 4px; background: var(--surface2); overflow: hidden; }
+  .cmp-bar-fill { height: 100%; border-radius: 4px; }
+  .cmp-bar-val { font-size: 11px; font-weight: 700; min-width: 190px; white-space: nowrap; }
+
+  /* BENEFITS */
+  .benefit-list { display: flex; flex-direction: column; gap: 14px; }
+  .benefit-item {
+    display: flex; gap: 16px; align-items: flex-start;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px 18px;
+  }
+  .benefit-icon { font-size: 22px; flex-shrink: 0; margin-top: 1px; }
+  .benefit-title { font-size: 14px; font-weight: 650; margin-bottom: 3px; }
+  .benefit-desc { font-size: 13px; color: var(--muted); }
+  .benefit-tag { font-size: 10px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--green); margin-top: 6px; }
+
+  /* CALLOUT */
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: rgba(47,129,247,.07);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px; margin: 20px 0;
+    font-size: 13.5px;
+  }
+  .callout.green { border-color: var(--green); background: rgba(63,185,80,.07); }
+  .callout.amber { border-color: var(--amber); background: rgba(210,153,34,.07); }
+
+  /* NEXT STEPS */
+  .next-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+  .next-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px 18px;
+  }
+  .next-phase { font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .next-title { font-size: 14px; font-weight: 650; margin-bottom: 6px; }
+  .next-items { font-size: 12.5px; color: var(--muted); }
+  .next-items li { margin-top: 4px; list-style: disc; margin-left: 16px; }
+
+  /* FOOTER */
+  footer {
+    text-align: center; padding: 40px 32px;
+    border-top: 1px solid var(--border);
+    font-size: 12px; color: var(--muted);
+  }
+
+  @media (max-width: 640px) {
+    nav { padding: 0 16px; }
+    .section { padding: 40px 16px; }
+    .hero { padding: 48px 16px 40px; }
+    .cmp-lbl { width: 100px; }
+    .cmp-bar-val { min-width: 130px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">WEG &middot; Modular All Drives</div>
+  <div class="nav-links">
+    <a href="#why">Why this process?</a>
+    <a href="#suppliers">Suppliers</a>
+    <a href="#pugh">Evaluation</a>
+    <a href="#quotes">First Quotes</a>
+    <a href="#next">Next Steps</a>
+  </div>
+  <div class="nav-date">June 2026 &middot; Manager Briefing</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-eyebrow">Industrial Engineering &middot; EOL Test System</div>
+  <h1>Supplier Selection Process<br><span>Modular All Drives Test System</span></h1>
+  <p class="hero-sub">A structured multi-supplier market evaluation for the End-of-Line test system covering Hipot, Functional, and Load testing of WEG VFDs &mdash; with first quotations now in hand.</p>
+  <div class="hero-chips">
+    <div class="chip"><b>10</b> suppliers contacted</div>
+    <div class="chip"><b>9</b> technical meetings held</div>
+    <div class="chip"><b>3</b> test modules scoped</div>
+    <div class="chip"><b>2</b> first quotations received</div>
+    <div class="chip"><b>4</b> geographies covered</div>
+    <div class="chip"><b>~900</b> drives/day target throughput</div>
+  </div>
+</div>
+
+<!-- WHY -->
+<div class="section" id="why">
+  <div class="sec-label">Section 01</div>
+  <h2>Why conduct structured supplier meetings?</h2>
+  <p class="lead">Rather than issuing a generic RFQ to unknown vendors, WEG adopted a structured engagement model &mdash; holding individual technical meetings with each supplier before pricing. This approach generates concrete, measurable value.</p>
+
+  <div class="benefit-list">
+    <div class="benefit-item">
+      <div class="benefit-icon">&#127919;</div>
+      <div>
+        <div class="benefit-title">Technical fit verified before money is spent</div>
+        <div class="benefit-desc">Each supplier had to demonstrate real capability for the specific requirements: hipot (up to 4 kV), functional test via RS-485/Modbus, load test in a fixed 50&nbsp;&deg;C cabin, and automated electrical contacting. Gaps &mdash; like active load capability or LabVIEW-only software stacks &mdash; were surfaced in the meeting, not after contract signature.</div>
+        <div class="benefit-tag">&#10003; Risk reduction</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">&#127758;</div>
+      <div>
+        <div class="benefit-title">Brazil commissioning requirement enforced early &mdash; saving months</div>
+        <div class="benefit-desc">Brazil on-site commissioning and post-sale support is a hard requirement. Two suppliers (JR Automation &mdash; Hitachi, and Develop LLC &mdash; USA) were disqualified before any commercial effort was invested. This saved both parties significant time and preserved the shortlist integrity. Finding this constraint after full quotations would have cost 3&ndash;4 months.</div>
+        <div class="benefit-tag">&#10003; Process efficiency</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">&#128208;</div>
+      <div>
+        <div class="benefit-title">Scope clarifications that prevent costly rework</div>
+        <div class="benefit-desc">Key technical decisions were locked in through supplier dialogue: HMI test is <b>not</b> required (PLC communicates via RS-485/Modbus directly); load cabin is temperature-only at fixed 50&nbsp;&deg;C with no humidity; rheostatic load (no regen to grid) is sufficient; hipot contacts only power terminals, not control terminals. These four clarifications alone prevent scope creep that would add weeks of revision to any received quotation.</div>
+        <div class="benefit-tag">&#10003; Scope control</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">&#128300;</div>
+      <div>
+        <div class="benefit-title">Market intelligence unavailable from a datasheet</div>
+        <div class="benefit-desc">Meetings revealed that BBS Automation (Germany/China) has 18-station inverter EOL test + 10-station assembly lines in production; MASMEC (Italy) has delivered direct automotive inverter hipot + functional + load test benches; Bosch Manufacturing Innovation already built 5 projects for WEG teams and their first external WEG line dates to 2014. This intelligence is unavailable from websites or brochures.</div>
+        <div class="benefit-tag">&#10003; Market intelligence</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">&#128176;</div>
+      <div>
+        <div class="benefit-title">Competitive pressure and a meaningful price spread already visible</div>
+        <div class="benefit-desc">With only the first two quotations received, there is already a significant price differential between suppliers (detailed in Section 04). Having multiple qualified suppliers in parallel creates negotiating leverage and allows WEG to benchmark pricing against the European, Brazilian, and Chinese markets simultaneously.</div>
+        <div class="benefit-tag">&#10003; Commercial leverage</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">&#129309;</div>
+      <div>
+        <div class="benefit-title">WEG component integration confirmed supplier by supplier</div>
+        <div class="benefit-desc">Every supplier was explicitly asked about WEG PLCs, drives, contactors, and relays &mdash; a strategic requirement. Results ranged from confirmed compatibility (Bosch MFI, who buys more than 1 million WEG products per year) to open items under investigation (BBS: CODESYS-based WEG PLC; MASMEC: Siemens default being evaluated). This cannot be assessed without direct technical dialogue.</div>
+        <div class="benefit-tag">&#10003; Strategic alignment</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">&#128197;</div>
+      <div>
+        <div class="benefit-title">Timeline realism confirmed from multiple independent sources</div>
+        <div class="benefit-desc">The target of supplier selection in July&ndash;August 2026, PO by end-2026, and commissioning in Brazil by end-2027 was shared with every supplier. Capacity constraints (BBS flagged this as their primary concern), local visa and travel logistics (BBS needs WEG invitation letters), and FAT/SAT timelines were all scoped in real conversations.</div>
+        <div class="benefit-tag">&#10003; Schedule confidence</div>
+      </div>
+    </div>
+    <div class="benefit-item">
+      <div class="benefit-icon">&#128202;</div>
+      <div>
+        <div class="benefit-title">Inbound interest &mdash; FFT Produktionssysteme proactively reached out</div>
+        <div class="benefit-desc">FFT (Fulda, Germany) reviewed WEG&rsquo;s published specifications, prepared a formal Q&amp;A Excel document, attached an NDA, and requested a meeting &mdash; all without being contacted first. This demonstrates the quality of WEG&rsquo;s technical package and adds a strong European candidate to the shortlist at no outreach cost.</div>
+        <div class="benefit-tag">&#10003; Brand &amp; technical credibility</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SUPPLIER OVERVIEW -->
+<div class="section" id="suppliers">
+  <div class="sec-label">Section 02</div>
+  <h2>Supplier landscape</h2>
+  <p class="lead">10 suppliers were engaged across Europe, the Americas, and Asia. 9 technical meetings were held between 11 June and 22 June 2026. All active suppliers received the same technical scope and were asked for 3 separate budget quotations: test system only, assembly+packaging line, and full integrated line.</p>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-val">3</div><div class="kpi-lbl">Europe (IT, DE, ES)</div></div>
+    <div class="kpi"><div class="kpi-val">2</div><div class="kpi-lbl">Brazil (local)</div></div>
+    <div class="kpi"><div class="kpi-val">3</div><div class="kpi-lbl">China</div></div>
+    <div class="kpi"><div class="kpi-val">2</div><div class="kpi-lbl">USA</div></div>
+    <div class="kpi"><div class="kpi-val">2</div><div class="kpi-lbl">Disqualified / Out</div></div>
+    <div class="kpi"><div class="kpi-val">2</div><div class="kpi-lbl">Quotes in hand</div></div>
+  </div>
+
+  <div class="stbl-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Supplier</th>
+          <th>Origin</th>
+          <th>Meeting</th>
+          <th>Brazil Support</th>
+          <th>Test Reference</th>
+          <th>Pugh Score</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rank-1">1st</span></td>
+          <td><b>BBS Automation</b><br><span style="color:var(--muted);font-size:11px">Suzhou, China / Munich, DE (Dual Group)</span></td>
+          <td>China / Europe</td>
+          <td>17 Jun</td>
+          <td><span class="badge b-amber">Confirmed &mdash; visa required</span></td>
+          <td>18-station inverter EOL + 10-station assembly lines</td>
+          <td><b style="color:var(--accent)">+8</b></td>
+          <td><span class="badge b-blue">Quote received</span></td>
+        </tr>
+        <tr>
+          <td><span class="rank-2">2nd</span></td>
+          <td><b>Comau</b><br><span style="color:var(--muted);font-size:11px">Italy / Betim MG, Brazil</span></td>
+          <td>Italy</td>
+          <td>11 Jun</td>
+          <td><span class="badge b-green">Brazil plant (Betim/MG)</span></td>
+          <td>Large machine builder &mdash; EOL electrical test is not core</td>
+          <td><b>+1</b></td>
+          <td><span class="badge b-amber">Awaiting quote</span></td>
+        </tr>
+        <tr>
+          <td><span class="rank-3">3rd (datum)</span></td>
+          <td><b>Bosch Mfg. Innovation</b><br><span style="color:var(--muted);font-size:11px">Campinas / Curitiba, Brazil</span></td>
+          <td>Brazil</td>
+          <td>17 Jun</td>
+          <td><span class="badge b-green">24/7 &mdash; Best in class</span></td>
+          <td>ECU test (functional + load), WEG Linhares 2014, WEG Manaus ongoing</td>
+          <td><b>0</b></td>
+          <td><span class="badge b-blue">Quote received</span></td>
+        </tr>
+        <tr>
+          <td>4th (tied)</td>
+          <td><b>MASMEC</b><br><span style="color:var(--muted);font-size:11px">Bari, Italy</span></td>
+          <td>Italy</td>
+          <td>16 Jun</td>
+          <td><span class="badge b-amber">Italy travel + local partner</span></td>
+          <td>Automotive inverter: hipot + functional + load (closest reference in pool)</td>
+          <td><b>&minus;11</b></td>
+          <td><span class="badge b-amber">Awaiting quote</span></td>
+        </tr>
+        <tr>
+          <td>4th (tied)</td>
+          <td><b>Autec</b><br><span style="color:var(--muted);font-size:11px">Joinville, SC, Brazil</span></td>
+          <td>Brazil</td>
+          <td>15 Jun</td>
+          <td><span class="badge b-green">Local &mdash; Jaragu&aacute; do Sul area</span></td>
+          <td>HV test competence needs verification</td>
+          <td><b>&minus;11</b></td>
+          <td><span class="badge b-amber">Awaiting quote</span></td>
+        </tr>
+        <tr>
+          <td>6th</td>
+          <td><b>Mondragon Assembly</b><br><span style="color:var(--muted);font-size:11px">Spain / Brazil unit</span></td>
+          <td>Spain</td>
+          <td>16 Jun</td>
+          <td><span class="badge b-green">Brazilian operation</span></td>
+          <td>Electronics assembly + test lines</td>
+          <td><em style="color:var(--muted)">TBD</em></td>
+          <td><span class="badge b-amber">Awaiting quote</span></td>
+        </tr>
+        <tr>
+          <td>7th</td>
+          <td><b>PIA Automation</b><br><span style="color:var(--muted);font-size:11px">Suzhou, China</span></td>
+          <td>China</td>
+          <td>18 Jun</td>
+          <td><span class="badge b-green">Brazil project confirmed</span></td>
+          <td>Robotics + assembly automation; limited EOL test evidence</td>
+          <td><b>&minus;15</b></td>
+          <td><span class="badge b-amber">Quote expected this week</span></td>
+        </tr>
+        <tr>
+          <td>8th</td>
+          <td><b>DMC</b><br><span style="color:var(--muted);font-size:11px">Chicago, USA</span></td>
+          <td>USA</td>
+          <td>17 Jun</td>
+          <td><span class="badge b-amber">Engineers fly globally</span></td>
+          <td>Test &amp; measurement specialists &mdash; hipot, functional experience strong</td>
+          <td><b>&minus;20</b></td>
+          <td><span class="badge b-amber">Quote pending (post Jul 4)</span></td>
+        </tr>
+        <tr>
+          <td>&mdash;</td>
+          <td><b>FFT Produktionssysteme</b><br><span style="color:var(--muted);font-size:11px">Fulda, Germany</span></td>
+          <td>Germany</td>
+          <td>Inbound 22 Jun</td>
+          <td><em style="color:var(--muted)">TBD</em></td>
+          <td>Proactively reached out; Q&amp;A Excel + NDA submitted by them</td>
+          <td><em style="color:var(--muted)">Not yet scored</em></td>
+          <td><span class="badge b-purple">NDA &mdash; meeting 29&ndash;30 Jun</span></td>
+        </tr>
+        <tr style="opacity:.5">
+          <td>&mdash;</td>
+          <td><b>Develop LLC</b><br><span style="color:var(--muted);font-size:11px">Wisconsin, USA</span></td>
+          <td>USA</td>
+          <td>15 Jun</td>
+          <td><span class="badge b-red">Cannot &mdash; USA only</span></td>
+          <td>Strong technical fit &mdash; assembly + test experience (lighting sector)</td>
+          <td>&minus;10</td>
+          <td><span class="badge b-red">Disqualified &mdash; Brazil constraint</span></td>
+        </tr>
+        <tr style="opacity:.5">
+          <td>&mdash;</td>
+          <td><b>JR Automation (Hitachi)</b></td>
+          <td>USA</td>
+          <td>&mdash;</td>
+          <td>&mdash;</td>
+          <td>&mdash;</td>
+          <td>&mdash;</td>
+          <td><span class="badge b-red">Declined &mdash; not quoting</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout" style="margin-top:24px">
+    <b>Key insight:</b> The two suppliers with the strongest technical references for inverter EOL test (BBS Automation and MASMEC) are European-origin. The two strongest for Brazil local support (Bosch MFI and Autec) are Brazilian. This creates a natural trade-off the evaluation matrix must balance &mdash; and makes a structured scoring framework essential.
+  </div>
+
+  <h3 style="margin-top:40px;margin-bottom:16px">Meeting timeline</h3>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot done"></div>
+      <div class="tl-date">11 Jun 2026</div>
+      <div class="tl-title">Comau (Italy / Betim, Brazil)</div>
+      <div class="tl-body">First meeting &mdash; quotation phase initiated.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot done"></div>
+      <div class="tl-date">15 Jun 2026</div>
+      <div class="tl-title">Autec (Joinville, BR) &amp; Develop LLC (USA)</div>
+      <div class="tl-body">Develop LLC disqualified same day &mdash; Brazil commissioning not possible. Decision made in days, not months.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot done"></div>
+      <div class="tl-date">16 Jun 2026</div>
+      <div class="tl-title">MASMEC (Bari, Italy) &amp; Mondragon Assembly (Spain)</div>
+      <div class="tl-body">MASMEC showed the closest automotive inverter test reference in the entire pool. Mondragon in quotation phase.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot done"></div>
+      <div class="tl-date">17 Jun 2026</div>
+      <div class="tl-title">BBS Automation (China) &middot; DMC (USA) &middot; Bosch MFI (Brazil)</div>
+      <div class="tl-body">Most intensive day &mdash; 3 back-to-back meetings. BBS and Bosch both rose to top of shortlist based on technical depth and Brazil support respectively.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot done"></div>
+      <div class="tl-date">18 Jun 2026</div>
+      <div class="tl-title">PIA Automation (Suzhou, China)</div>
+      <div class="tl-body">Brazil commissioning confirmed with prior in-country project. Quote expected within one week.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot done"></div>
+      <div class="tl-date">22 Jun 2026</div>
+      <div class="tl-title">FFT Produktionssysteme (Fulda, Germany) &mdash; inbound</div>
+      <div class="tl-body">Proactive reach-out from FFT. They reviewed WEG specs independently, submitted a Q&amp;A Excel and NDA. Meeting scheduled 29&ndash;30 Jun.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot active"></div>
+      <div class="tl-date">Late Jun 2026 &mdash; NOW</div>
+      <div class="tl-title">First quotations received: BBS Automation &amp; Bosch MFI</div>
+      <div class="tl-body">Two commercial offers in hand. Analysis underway. Remaining suppliers quoting.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot future"></div>
+      <div class="tl-date">July &ndash; August 2026</div>
+      <div class="tl-title">Target: full shortlist consolidated &rarr; management down-select</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot future"></div>
+      <div class="tl-date">End of 2026</div>
+      <div class="tl-title">Target: Purchase Order issued</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot future"></div>
+      <div class="tl-date">End of 2027</div>
+      <div class="tl-title">Target: Full line commissioned in Brazil (FAT + SAT)</div>
+      <div class="tl-body">Production target: ~900 drives/day at cruising speed (year 5).</div>
+    </div>
+  </div>
+</div>
+
+<!-- PUGH MATRIX -->
+<div class="section" id="pugh">
+  <div class="sec-label">Section 03</div>
+  <h2>Technical evaluation &mdash; Pugh matrix</h2>
+  <p class="lead">Each supplier was scored using a weighted Pugh matrix with Bosch Manufacturing Innovation as the datum (score = 0). The WEG-specific weighting prioritises: Brazil support &amp; service, inverter/VFD EOL test reference, WEG PLC and software compatibility, and timeline capacity.</p>
+
+  <div class="card" style="margin-bottom:24px">
+    <div style="display:flex;flex-direction:column;gap:18px">
+
+      <div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:6px">
+          <span style="font-size:13px;font-weight:700">&#127947; 1st &mdash; BBS Automation</span>
+          <span style="font-size:12px;color:var(--muted)">China / Germany</span>
+        </div>
+        <div class="pugh-bar-wrap">
+          <div class="pugh-bar-bg"><div class="pugh-bar" style="width:100%;background:var(--accent)"></div></div>
+          <div class="pugh-num" style="color:var(--accent)">+8</div>
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin-top:5px">Best technical depth for inverter EOL test + PCB assembly. Gap: LabVIEW default; WEG PLC under investigation; Brazil via travel (visa needed).</div>
+      </div>
+
+      <div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:6px">
+          <span style="font-size:13px;font-weight:700">&#129352; 2nd &mdash; Comau</span>
+          <span style="font-size:12px;color:var(--muted)">Italy / Brazil</span>
+        </div>
+        <div class="pugh-bar-wrap">
+          <div class="pugh-bar-bg"><div class="pugh-bar" style="width:47%;background:#c0c0c0"></div></div>
+          <div class="pugh-num" style="color:#c0c0c0">+1</div>
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin-top:5px">Brazil plant in Betim/MG. Strong mechanically; EOL electrical test for power electronics is not their core business. Quote pending.</div>
+      </div>
+
+      <div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:6px">
+          <span style="font-size:13px;font-weight:700">&#129353; 3rd &mdash; Bosch MFI <span style="font-size:10px;opacity:.7">(datum = 0)</span></span>
+          <span style="font-size:12px;color:var(--muted)">Brazil</span>
+        </div>
+        <div class="pugh-bar-wrap">
+          <div class="pugh-bar-bg"><div class="pugh-bar" style="width:44%;background:#cd7f32"></div></div>
+          <div class="pugh-num" style="color:#cd7f32">0</div>
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin-top:5px">Best Brazil support (24/7, dispatched technicians). WEG relationship since 2014. ECU assembly + test is the closest reference to VFD. Buys &gt;1M WEG products/year.</div>
+      </div>
+
+      <div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:6px">
+          <span style="font-size:13px">4th (tied) &mdash; MASMEC / Autec</span>
+          <span style="font-size:12px;color:var(--muted)">Italy / Brazil</span>
+        </div>
+        <div class="pugh-bar-wrap">
+          <div class="pugh-bar-bg"><div class="pugh-bar" style="width:30%;background:var(--border)"></div></div>
+          <div class="pugh-num" style="color:var(--muted)">&minus;11</div>
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin-top:5px">MASMEC: best inverter test match in pool but Siemens/LabVIEW default. Autec: strong local advantage, test competence to verify. Quotes pending.</div>
+      </div>
+
+      <div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:6px">
+          <span style="font-size:13px">7th &mdash; PIA Automation</span>
+          <span style="font-size:12px;color:var(--muted)">China</span>
+        </div>
+        <div class="pugh-bar-wrap">
+          <div class="pugh-bar-bg"><div class="pugh-bar" style="width:22%;background:var(--border)"></div></div>
+          <div class="pugh-num" style="color:var(--muted)">&minus;15</div>
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin-top:5px">Brazil commissioning confirmed. Automation references strong. Limited EOL test evidence shown. Quote incoming.</div>
+      </div>
+
+      <div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:6px">
+          <span style="font-size:13px">8th &mdash; DMC</span>
+          <span style="font-size:12px;color:var(--muted)">USA</span>
+        </div>
+        <div class="pugh-bar-wrap">
+          <div class="pugh-bar-bg"><div class="pugh-bar" style="width:9%;background:var(--border)"></div></div>
+          <div class="pugh-num" style="color:var(--muted)">&minus;20</div>
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin-top:5px">Strong test &amp; measurement specialist. No Brazil base &mdash; engineers travel globally but it adds cost and logistical risk. Quote pending.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="callout green">
+    <b>Note:</b> FFT Produktionssysteme (Germany) has not yet been scored &mdash; their first meeting is scheduled for 29&ndash;30 Jun. Given they proactively reviewed WEG specs and prepared formal Q&amp;A documentation, they are a strong additional European candidate that could significantly change the ranking.
+  </div>
+
+  <h3 style="margin-top:40px;margin-bottom:14px">Key technical criteria &mdash; head-to-head comparison</h3>
+  <div class="stbl-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Criterion</th>
+          <th>BBS Auto.</th>
+          <th>Bosch MFI</th>
+          <th>MASMEC</th>
+          <th>Comau</th>
+          <th>Autec</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>Inverter/VFD EOL test reference</b></td>
+          <td><span class="badge b-green">Strong</span></td>
+          <td><span class="badge b-green">ECU analog</span></td>
+          <td><span class="badge b-green">Direct match</span></td>
+          <td><span class="badge b-amber">Indirect</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+        </tr>
+        <tr>
+          <td><b>Hipot capability (&le;4 kV)</b></td>
+          <td><span class="badge b-green">Confirmed</span></td>
+          <td><span class="badge b-green">Confirmed</span></td>
+          <td><span class="badge b-green">Confirmed</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+        </tr>
+        <tr>
+          <td><b>Functional test (RS-485/Modbus)</b></td>
+          <td><span class="badge b-green">Confirmed</span></td>
+          <td><span class="badge b-green">Confirmed</span></td>
+          <td><span class="badge b-green">Confirmed</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+        </tr>
+        <tr>
+          <td><b>Load test (thermal cabin 50&nbsp;&deg;C)</b></td>
+          <td><span class="badge b-green">Confirmed</span></td>
+          <td><span class="badge b-green">Confirmed</span></td>
+          <td><span class="badge b-green">Confirmed</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+        </tr>
+        <tr>
+          <td><b>Brazil commissioning &amp; support</b></td>
+          <td><span class="badge b-amber">Travel &mdash; visa needed</span></td>
+          <td><span class="badge b-green">24/7 local</span></td>
+          <td><span class="badge b-amber">Travel + local partner</span></td>
+          <td><span class="badge b-green">Brazil plant (Betim)</span></td>
+          <td><span class="badge b-green">Local (Joinville)</span></td>
+        </tr>
+        <tr>
+          <td><b>WEG PLC compatibility</b></td>
+          <td><span class="badge b-amber">Under investigation</span></td>
+          <td><span class="badge b-green">Deep WEG knowledge</span></td>
+          <td><span class="badge b-amber">Siemens default &mdash; TBD</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+        </tr>
+        <tr>
+          <td><b>Software (C#/Java/Python &mdash; no LabVIEW)</b></td>
+          <td><span class="badge b-amber">LabVIEW default; C# via Team Soft (extra cost)</span></td>
+          <td><span class="badge b-amber">Platform TBD</span></td>
+          <td><span class="badge b-amber">LabVIEW default; C# TBD</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+        </tr>
+        <tr>
+          <td><b>PCB / inverter assembly reference</b></td>
+          <td><span class="badge b-green">Strong (PCB press-fit, IGBT)</span></td>
+          <td><span class="badge b-green">ECU 23-station line</span></td>
+          <td><span class="badge b-red">No inverter PCB assembly</span></td>
+          <td><span class="badge b-amber">Automotive general</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+        </tr>
+        <tr>
+          <td><b>Bosch Rexroth TS2 conveyor</b></td>
+          <td><span class="badge b-green">Z-Card system (parallel)</span></td>
+          <td><span class="badge b-green">Rexroth (volume discount)</span></td>
+          <td><span class="badge b-green">Standard TS2</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+        </tr>
+        <tr>
+          <td><b>Timeline capacity (end-2027)</b></td>
+          <td><span class="badge b-amber">Open concern &mdash; checking</span></td>
+          <td><span class="badge b-green">Confirmed feasible</span></td>
+          <td><span class="badge b-green">Likely feasible</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+          <td><span class="badge b-amber">TBD</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- QUOTATIONS -->
+<div class="section" id="quotes">
+  <div class="sec-label">Section 04</div>
+  <h2>First quotations received</h2>
+  <p class="lead">Two suppliers have delivered initial budget figures as of late June 2026. These are first-round budget numbers only &mdash; rough target prices without detailed breakdowns or layouts, as requested from all suppliers for this round. Remaining suppliers are expected to quote through July 2026.</p>
+
+  <div class="callout amber">
+    <b>Currency note:</b> BBS Automation quoted in EUR (European/Chinese supplier). Bosch MFI quoted in BRL net, taxes not included (Brazilian supplier). For indicative comparison, approximate exchange rate: 1 EUR &asymp; R$ 6.20 (mid-2026). A full comparison must also account for Brazilian import duties and taxes on EUR-denominated equipment, which can add 25&ndash;40% to the landed cost.
+  </div>
+
+  <div class="quote-grid" style="margin-top:28px">
+
+    <!-- BBS -->
+    <div class="quote-card">
+      <div class="qc-header">
+        <div class="qc-logo" style="background:rgba(47,129,247,.15);color:var(--accent);font-size:13px">BBS</div>
+        <div>
+          <div class="qc-name">BBS Automation</div>
+          <div class="qc-sub">Suzhou, China &middot; Dual Group &middot; Pugh rank #1</div>
+        </div>
+      </div>
+      <div class="qc-body">
+        <div class="quote-row">
+          <div class="qr-label">&#9889; Hipot test module</div>
+          <div class="qr-val">&euro; 163,780</div>
+        </div>
+        <div class="quote-row">
+          <div class="qr-label">&#128268; Functional test module</div>
+          <div class="qr-val">&euro; 236,699</div>
+        </div>
+        <div class="quote-row">
+          <div class="qr-label">&#127777;&#65039; Load test module</div>
+          <div class="qr-val">&euro; 278,950</div>
+        </div>
+        <div class="quote-row">
+          <div class="qr-label">&#128421;&#65039; System / infrastructure</div>
+          <div class="qr-val">&euro; 48,649</div>
+        </div>
+      </div>
+      <div class="qc-total">
+        <div>
+          <div class="qt-label">Total &mdash; test system</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:2px">&asymp; R$ 4,514,000 indicative (before import duties)</div>
+        </div>
+        <div class="qt-val">&euro; 728,078</div>
+      </div>
+    </div>
+
+    <!-- BOSCH -->
+    <div class="quote-card">
+      <div class="qc-header">
+        <div class="qc-logo" style="background:rgba(63,185,80,.12);color:var(--green);font-size:13px">BSH</div>
+        <div>
+          <div class="qc-name">Bosch Mfg. Innovation</div>
+          <div class="qc-sub">Campinas / Curitiba, Brazil &middot; Pugh rank #3 (datum)</div>
+        </div>
+      </div>
+      <div class="qc-body">
+        <div class="quote-row">
+          <div class="qr-label">&#9889; High-voltage test equipment (hipot)</div>
+          <div class="qr-val">R$ 1,710,000</div>
+        </div>
+        <div class="quote-row">
+          <div class="qr-label">&#128268; Functional test equipment</div>
+          <div class="qr-val">R$ 1,980,000</div>
+        </div>
+        <div class="quote-row">
+          <div class="qr-label">&#127777;&#65039; Load test equipment</div>
+          <div class="qr-val">R$ 2,345,000</div>
+        </div>
+        <div class="quote-row">
+          <div class="qr-label" style="font-style:italic;font-size:12px;color:var(--muted)">All prices NET &mdash; taxes not included in this quote</div>
+          <div class="qr-val"></div>
+        </div>
+      </div>
+      <div class="qc-total">
+        <div>
+          <div class="qt-label">Total &mdash; test system (net)</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:2px">&asymp; &euro; 973,000 indicative (no import duties &mdash; local supplier)</div>
+        </div>
+        <div class="qt-val">R$ 6,035,000</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPARISON BARS -->
+  <div class="cmp-section">
+    <h3 style="margin-bottom:6px">Module-by-module comparison (EUR equivalent)</h3>
+    <div style="font-size:12px;color:var(--muted);margin-bottom:22px">BBS prices as quoted in EUR. Bosch prices converted at 1 EUR = R$ 6.20 (indicative). Does not yet include taxes, import duties, or commissioning costs.</div>
+
+    <div class="cmp-row">
+      <div class="cmp-lbl">&#9889; Hipot module</div>
+      <div class="cmp-bars">
+        <div class="cmp-bar-row">
+          <div class="cmp-bar-name">BBS</div>
+          <div class="cmp-bar-bg"><div class="cmp-bar-fill" style="width:59%;background:var(--accent)"></div></div>
+          <div class="cmp-bar-val" style="color:var(--accent)">&euro; 163,780</div>
+        </div>
+        <div class="cmp-bar-row">
+          <div class="cmp-bar-name">Bosch</div>
+          <div class="cmp-bar-bg"><div class="cmp-bar-fill" style="width:100%;background:var(--green)"></div></div>
+          <div class="cmp-bar-val" style="color:var(--green)">&asymp; &euro; 275,806 (R$ 1,710,000)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cmp-row">
+      <div class="cmp-lbl">&#128268; Functional module</div>
+      <div class="cmp-bars">
+        <div class="cmp-bar-row">
+          <div class="cmp-bar-name">BBS</div>
+          <div class="cmp-bar-bg"><div class="cmp-bar-fill" style="width:74%;background:var(--accent)"></div></div>
+          <div class="cmp-bar-val" style="color:var(--accent)">&euro; 236,699</div>
+        </div>
+        <div class="cmp-bar-row">
+          <div class="cmp-bar-name">Bosch</div>
+          <div class="cmp-bar-bg"><div class="cmp-bar-fill" style="width:100%;background:var(--green)"></div></div>
+          <div class="cmp-bar-val" style="color:var(--green)">&asymp; &euro; 319,355 (R$ 1,980,000)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cmp-row">
+      <div class="cmp-lbl">&#127777;&#65039; Load module</div>
+      <div class="cmp-bars">
+        <div class="cmp-bar-row">
+          <div class="cmp-bar-name">BBS</div>
+          <div class="cmp-bar-bg"><div class="cmp-bar-fill" style="width:74%;background:var(--accent)"></div></div>
+          <div class="cmp-bar-val" style="color:var(--accent)">&euro; 278,950</div>
+        </div>
+        <div class="cmp-bar-row">
+          <div class="cmp-bar-name">Bosch</div>
+          <div class="cmp-bar-bg"><div class="cmp-bar-fill" style="width:100%;background:var(--green)"></div></div>
+          <div class="cmp-bar-val" style="color:var(--green)">&asymp; &euro; 378,226 (R$ 2,345,000)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cmp-row">
+      <div class="cmp-lbl" style="font-weight:700;color:var(--txt)">TOTAL &mdash; test system</div>
+      <div class="cmp-bars">
+        <div class="cmp-bar-row">
+          <div class="cmp-bar-name">BBS</div>
+          <div class="cmp-bar-bg"><div class="cmp-bar-fill" style="width:75%;background:var(--accent)"></div></div>
+          <div class="cmp-bar-val" style="color:var(--accent);font-weight:700">&euro; 728,078</div>
+        </div>
+        <div class="cmp-bar-row">
+          <div class="cmp-bar-name">Bosch</div>
+          <div class="cmp-bar-bg"><div class="cmp-bar-fill" style="width:100%;background:var(--green)"></div></div>
+          <div class="cmp-bar-val" style="color:var(--green);font-weight:700">&asymp; &euro; 973,387 (R$ 6,035,000)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout" style="margin-top:28px">
+    <b>Reading the numbers:</b> BBS Automation is approximately <b>25% lower</b> than Bosch MFI on a EUR-equivalent basis for the test system. However, this does not yet account for Brazilian import duties and taxes on European equipment (which can add 25&ndash;40% to landed cost), commissioning travel costs, or ongoing support logistics. Bosch&rsquo;s net quote has no import burden. A complete Total Cost of Ownership (TCO) analysis is required before a final price comparison is valid.
+  </div>
+
+  <div class="callout amber" style="margin-top:12px">
+    <b>Scope reminder:</b> Assembly line and full integrated line quotations from both suppliers are still pending. The test system prices above cover only one of three project scopes. 6&ndash;7 additional supplier quotes are still incoming.
+  </div>
+</div>
+
+<!-- GAINS SUMMARY -->
+<div class="section">
+  <div class="sec-label">Section 05</div>
+  <h2>Gains &amp; potential gains from this process</h2>
+  <p class="lead">A summary of value already generated and value expected from the structured supplier engagement model.</p>
+  <div class="grid grid-2">
+    <div class="card">
+      <div class="card-icon">&#128161;</div>
+      <h3>Early disqualifications saved 3&ndash;4 months</h3>
+      <p>Develop LLC (USA) and JR Automation were removed from the process before any commercial effort was invested. Finding this constraint post-quotation would have added months of wasted cycle time for both parties.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">&#128208;</div>
+      <h3>Scope locked &mdash; zero design rework risk on 4 key points</h3>
+      <p>HMI test not required. Hipot contacts power terminals only. Load cabin is 50&nbsp;&deg;C fixed, no humidity. No regen to grid. These four clarifications alone prevent scope creep that would add weeks of revision to any quote.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">&#128202;</div>
+      <h3>~25% price spread already visible with just 2 quotes</h3>
+      <p>BBS &euro; 728K vs Bosch &asymp; &euro; 973K equivalent. With 6&ndash;7 more quotes incoming, competitive benchmarking will enable well-founded budget definition and a stronger negotiating position.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">&#127758;</div>
+      <h3>Global market coverage &mdash; 4 geographies simultaneously</h3>
+      <p>Parallel evaluation of Europe (3 suppliers), Brazil (2), China (3), and USA (2) ensures WEG is not limited to regional pricing or capabilities. A China-origin supplier may deliver the best technical reference at the lowest cost.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">&#128737;&#65039;</div>
+      <h3>Risk catalogue built for the contracting phase</h3>
+      <p>Known risks documented: WEG PLC compatibility (BBS, MASMEC), software language (LabVIEW default at 2 suppliers), Brazil visa logistics (BBS), capacity risk (BBS). These become explicit contract clauses rather than surprises during execution.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">&#129309;</div>
+      <h3>WEG reciprocity advantage identified with Bosch</h3>
+      <p>Bosch MFI holds an exclusive supply contract with WEG Auta&ccedil;&atilde;o, purchasing &gt;1 million WEG products per year. Choosing Bosch reinforces this strategic commercial relationship beyond the scope of this project.</p>
+    </div>
+  </div>
+</div>
+
+<!-- NEXT STEPS -->
+<div class="section" id="next">
+  <div class="sec-label">Section 06</div>
+  <h2>Next steps &amp; decision timeline</h2>
+  <p class="lead">The process is on track for a supplier down-select in July&ndash;August 2026, leading to a PO by end-2026 and commissioning in Brazil by end-2027.</p>
+  <div class="next-grid">
+    <div class="next-card">
+      <div class="next-phase" style="color:var(--accent)">Immediate &middot; Jun&ndash;Jul 2026</div>
+      <div class="next-title">Complete quotation collection</div>
+      <div class="next-items"><ul>
+        <li>FFT meeting 29&ndash;30 Jun (NDA + Q&amp;A review)</li>
+        <li>PIA Automation quote expected within days</li>
+        <li>DMC quote post Jul 4 US holiday</li>
+        <li>Mondragon, MASMEC, Comau, Autec in progress</li>
+        <li>Alissonn to send assembly scope to all suppliers</li>
+      </ul></div>
+    </div>
+    <div class="next-card">
+      <div class="next-phase" style="color:var(--amber)">Short-term &middot; July 2026</div>
+      <div class="next-title">Full evaluation &amp; TCO analysis</div>
+      <div class="next-items"><ul>
+        <li>Consolidate all quotes on a common basis</li>
+        <li>Add Brazilian import duties &amp; taxes to EUR quotes</li>
+        <li>Add commissioning travel cost estimates</li>
+        <li>Update Pugh matrix (include FFT + full set)</li>
+        <li>Prepare management shortlist recommendation</li>
+      </ul></div>
+    </div>
+    <div class="next-card">
+      <div class="next-phase" style="color:var(--green)">Decision &middot; Jul&ndash;Aug 2026</div>
+      <div class="next-title">Management down-select</div>
+      <div class="next-items"><ul>
+        <li>Present full shortlist to management</li>
+        <li>Select 1&ndash;2 suppliers for deep commercial negotiation</li>
+        <li>Optional: site visit to Bosch Campinas plant (invited)</li>
+        <li>Align WEG component strategy with chosen supplier</li>
+      </ul></div>
+    </div>
+    <div class="next-card">
+      <div class="next-phase" style="color:var(--purple)">Commercial &middot; End-2026</div>
+      <div class="next-title">Contract &amp; Purchase Order</div>
+      <div class="next-items"><ul>
+        <li>Finalize technical specification</li>
+        <li>Contract negotiation and signature</li>
+        <li>PO issued by end-2026</li>
+        <li>FAT planning at supplier plant</li>
+        <li>SAT / startup planning in Brazil</li>
+      </ul></div>
+    </div>
+  </div>
+
+  <div class="callout green" style="margin-top:32px">
+    <b>Summary for management:</b> The Modular All Drives supplier process is well-structured, on schedule, and already delivering concrete results. 9 technical meetings were held across 4 geographies in 12 days. 2 quotations are in hand with a ~25% price differential. A clear evaluation framework (Pugh matrix, Brazil support weighting, WEG component strategy) is in place. The process is on track to deliver a well-founded supplier recommendation in July&ndash;August 2026, leading to end-of-2027 line commissioning at 900 drives/day.
+  </div>
+</div>
+
+<footer>
+  Modular All Drives EOL Test System &middot; Industrial Engineering &middot; Aluizio Kleine &middot; June 2026
+  <br>Manager briefing &mdash; based on supplier meetings 11&ndash;22 Jun 2026 and first quotations received.
+</footer>
+
+</body>
+</html>
