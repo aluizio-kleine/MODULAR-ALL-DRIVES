@@ -20,7 +20,7 @@ Gostaria de convidá-los para uma reunião de alinhamento técnico sobre o **Des
 
 **Evolução com os fornecedores (semana de 11 a 18/06):**
 
-- **7 fornecedores ativos** em fase de cotação: BBS Automation, Bosch, Mondragon Assembly, MASMEC, Autec, PIA Automation e DMC. A cada um foi solicitada cotação em três configurações — somente linha de testes / somente linha de montagem / linha integrada completa.
+- **8 fornecedores ativos** em fase de cotação: BBS Automation, Bosch, Mondragon Assembly, MASMEC, Autec, PIA Automation, DMC e FFT. A cada um foi solicitada cotação em três configurações — somente linha de testes / somente linha de montagem / linha integrada completa.
 - **Cotações previstas para jul–ago/2026** (PIA já na próxima semana; DMC após 04/07).
 - **Fora do processo:** JR Automation (declinou) e Develop LLC (sem estrutura de suporte no Brasil). A Comau declinou em 23/06 e a Tamadic (Japão) em 24/06.
 
