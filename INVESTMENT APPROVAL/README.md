@@ -29,9 +29,11 @@ inputs above it:
   volume (02) sizes the throughput requirement, LIM analysis (03) sizes/
   justifies the load-test time reduction, and 04 quantifies the space saving.
 - **05** is the synthesis: one investment architecture, split into the two
-  systems — **Modular All Drives A/B/C** (small, current scope: Orion/CFW600,
-  CFW900, CFW11, CFW500 mechanics A–C) and **Modular All Drives D/E/F**
-  (medium/large drives — higher power, current, size; scope to follow).
+  systems (confirmed 01/07/2026) — **Modular All Drives Small**: Orion
+  (CFW600) A/B/C, CFW900 A/B/C, CFW11 A/B/C, CFW500 D/E; and **Modular All
+  Drives Medium**: Orion (CFW600) D/E/F, CFW900 C/D/E, CFW11 C/D/E (higher
+  power, current, size — scope to follow). CFW900/CFW11 size C is shared
+  between the two systems.
 - **06** turns 05 into the two gate decks.
 - **07** gets 06 in front of the managers/team.
 

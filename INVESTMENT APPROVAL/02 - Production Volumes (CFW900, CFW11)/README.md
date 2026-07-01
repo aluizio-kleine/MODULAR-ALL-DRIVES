@@ -6,6 +6,12 @@ Get the **yearly production volume** of CFW900 and CFW11, broken down by
 mechanical size (A, B, C, D, E), to help justify the Modular All Drives
 investment.
 
+Confirmed scope split (01/07/2026): CFW900 and CFW11 sizes **A, B, C** belong
+to the **Small system**, sizes **C, D, E** belong to the **Medium system**
+(size C is shared/boundary between the two). So this workstream should
+produce volume by size A–E for both families, then let workstream 05 slice it
+per system.
+
 ## Why it matters for the investment case
 
 Volume is the throughput requirement that sizes the whole line: number of
@@ -16,10 +22,6 @@ uses a **~900 drives/day at year-5 cruising speed** figure (source: Alissonn,
 Bosch meeting 2026-06-17) for the combined portfolio — this workstream should
 confirm/refine that figure specifically for CFW900 + CFW11, by mechanical
 size, since size drives which fixture types and how many of each are needed.
-
-Note: the project's product-scope memory currently lists CFW900 and CFW11 as
-**mechanics A–D** (not A–E) — flagged for confirmation, see the open question
-below.
 
 ## What's needed (blocked — data, not in this repo)
 

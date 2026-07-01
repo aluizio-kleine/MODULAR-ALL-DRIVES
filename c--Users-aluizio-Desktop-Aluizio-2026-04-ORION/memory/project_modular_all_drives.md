@@ -23,13 +23,23 @@ metadata:
 
 ## Products to be tested (all families)
 
-| Family | Mechanical sizes |
-|--------|-----------------|
-| **Orion (CFW600)** | A, B, C |
-| **CFW900** | A, B, C, D |
-| **CFW11** | A, B, C, D |
-| **CFW500** | D, E |
-| Similars | TBD |
+There are **two Modular All Drives systems** planned, split by mechanical
+size/power range (confirmed by Aluizio 01/07/2026):
+
+| Family | Modular All Drives **Small** (A/B/C system) | Modular All Drives **Medium** (D/E/F system) |
+|--------|---------------------------------------------|-----------------------------------------------|
+| **Orion (CFW600)** | A, B, C | D, E, F |
+| **CFW900** | A, B, C | C, D, E |
+| **CFW11** | A, B, C | C, D, E |
+| **CFW500** | D, E | — |
+| Similars | TBD | TBD |
+
+Note the overlap at mechanical size **C** for CFW900 and CFW11 — size C units
+can be tested on either system (boundary size). The Small system is the
+current in-progress scope (all supplier outreach/quotes so far target this
+one). The Medium system covers higher power, current, and physical size —
+its detailed scope will be sent by Aluizio separately, then used as the
+requirements input for that system's investment case.
 
 - **Current range:** 2.2A to 60A+
 - **Voltages:** 220V, 440V, 575V

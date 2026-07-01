@@ -5,11 +5,13 @@
 Build the architecture that justifies the investment in Modular All Drives,
 covering **all requirements, production, and budget**, split into the two
 system scopes:
-- **Modular All Drives A/B/C** — the current, in-progress scope (Orion/
-  CFW600, CFW900, CFW11, CFW500 — mechanical sizes A–C, per the existing
-  scope docs and supplier quotes already in progress).
-- **Modular All Drives D/E/F** — the medium/large-drives system (higher
-  power, current, and physical size). Scope to be sent by Aluizio.
+- **Modular All Drives Small (A/B/C system)** — the current, in-progress
+  scope: Orion (CFW600) A/B/C, CFW900 A/B/C, CFW11 A/B/C, CFW500 D/E. Existing
+  scope docs and supplier quotes so far all target this system.
+- **Modular All Drives Medium (D/E/F system)** — the "Medium Drives" system:
+  Orion (CFW600) D/E/F, CFW900 C/D/E, CFW11 C/D/E — higher power, current,
+  and physical size. Note the overlap at size C for CFW900/CFW11 (boundary
+  size, testable on either system). Scope to be sent by Aluizio.
 
 ## Why it matters
 
@@ -17,14 +19,20 @@ This is the synthesis document/deck that a Gate committee actually reads. It
 pulls together everything else in this folder into one coherent case, per
 system:
 
-| Section | Small system (A/B/C) | Medium/Large system (D/E/F) |
+| Section | Small system (Orion A/B/C, CFW900 A/B/C, CFW11 A/B/C, CFW500 D/E) | Medium system (Orion D/E/F, CFW900 C/D/E, CFW11 C/D/E) |
 |---|---|---|
 | Requirements | `Modular All Drives Test System Definitions .docx` (updated) | Pending scope from Aluizio |
 | Production volume | Workstream 02 | Pending — new scope, own volume data needed |
 | Technical risk | Workstream 01 (firmware) | To reassess once D/E/F scope known — likely still applies |
 | Space savings | Workstream 04 | Pending — likely larger footprint reduction given bigger current stations |
-| Budget | `QUOTATIONS/` (MASMEC quote received; others pending) | Pending — no quotes yet at D/E/F scale |
-| Alternative comparison | `PRESENTATIONS/investment-justification-lim-vs-modular.html` (LIM can't cover this anyway — reinforces the case) | LIM even less applicable at D/E/F scale (lower current ceiling) |
+| Budget | `QUOTATIONS/` (MASMEC quote received; others pending) | Pending — no quotes yet at medium-system scale |
+| Alternative comparison | `PRESENTATIONS/investment-justification-lim-vs-modular.html` (LIM can't cover this anyway — reinforces the case) | LIM even less applicable at medium-system scale (lower current ceiling) |
+
+Note the CFW900/CFW11 size-**C** overlap between the two systems — the
+volume analysis in workstream 02 should be able to split size-C volume
+between the two systems if/when needed (e.g. by whichever criteria WEG uses
+to route a size-C order to one line or the other), or treat it as shared
+capacity if no such routing exists.
 
 ## Proposed architecture for the document/deck
 
